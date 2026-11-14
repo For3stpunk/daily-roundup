@@ -18,6 +18,7 @@ ol.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 ol.items li{padding:12px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:28px 1fr;gap:8px}
 .n{font:12px/1.9 var(--mono);color:var(--accent)}.t{font-weight:600;line-height:1.35;text-decoration:none}
 .s{font:12px var(--mono);color:var(--muted);margin-top:3px}.s .multi{color:var(--accent)}
+.grp{color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
 .sum{font-size:14px;color:var(--muted);margin:4px 0 0}
 .archive li{padding:6px 0;border-bottom:1px solid var(--rule);list-style:none}.archive{padding:0}
 footer{margin-top:40px;font:12px var(--mono);color:var(--muted)}

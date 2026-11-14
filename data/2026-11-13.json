@@ -1,11 +1,24 @@
 {
  "date": "2026-11-13",
- "generated": "2026-11-14T07:35:40.072015+00:00",
+ "generated": "2026-11-14T07:39:37.148568+00:00",
  "topics": [
   {
    "slug": "graphic-design",
    "title": "Graphic Design",
    "items": [
+    {
+     "title": "MEGA Cuts 20% of Workforce Days After MegaETH Rebrand and AI Pivot",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLU1uZjR4UFNSTFZIRE1PWHZ3WldjRTZ6c1pLUFVqal9hV2FEV3JoNU8tZzdDaTVzSXlIYi1MOG1jWHpNZUxlWF9XS1dndVNvckNpR3BmQWY3SkJTcW14dlI4S0VSYlIyYXlTTEx1Sy02czY5dmxXMzF6ZElYYncxenlmSEN5dHpndEZULTNMZ2p1SEJNd1R3?oc=5",
+     "source": "Yahoo Finance",
+     "sources": [
+      "Yahoo Finance",
+      "Coin Edition",
+      "CryptoRank"
+     ],
+     "published": "2026-11-13T20:13:00+00:00",
+     "summary": "",
+     "score": 1.709
+    },
     {
      "title": "Mamdani to announce ‘rebrand’ of NYPD protest response unit after lefty attacks: sources",
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdFpHUlQ4NGJMQXJaamliX19iSm1jSHdYbnlJTlZBaG9fUndhd1VRRkF2MExzX1ZOSW9KYnE1TWU3dGFFS192TkZ4SXViUFBGYW96SF9Cd0pNYVN4SW14RVM3aG1QU0Nxb3U0VXRHS2ZWdU1qa21rUE40Y0h0c0sweHNnajE3RTZ6enVXSnhQYXdmcjJsdVpRTUM5eFZNZnVyOFM0b2dLVHhGMmZqc0dreExETkhmbWJKODN1dTRsZGNWQ3VSM3U2ZENR?oc=5",
@@ -16,19 +29,7 @@
      ],
      "published": "2026-11-13T23:25:00+00:00",
      "summary": "",
-     "score": 1.414
-    },
-    {
-     "title": "MEGA Cuts 20% of Workforce Days After MegaETH Rebrand and AI Pivot",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLU1uZjR4UFNSTFZIRE1PWHZ3WldjRTZ6c1pLUFVqal9hV2FEV3JoNU8tZzdDaTVzSXlIYi1MOG1jWHpNZUxlWF9XS1dndVNvckNpR3BmQWY3SkJTcW14dlI4S0VSYlIyYXlTTEx1Sy02czY5dmxXMzF6ZElYYncxenlmSEN5dHpndEZULTNMZ2p1SEJNd1R3?oc=5",
-     "source": "Yahoo Finance",
-     "sources": [
-      "Yahoo Finance",
-      "Coin Edition"
-     ],
-     "published": "2026-11-13T20:13:00+00:00",
-     "summary": "",
-     "score": 1.36
+     "score": 1.413
     },
     {
      "title": "Circuit: Civic Shuttle Brand Identity by The Collected Works",
@@ -39,7 +40,7 @@
      ],
      "published": "2026-11-13T23:09:47+00:00",
      "summary": "The Collected Works shapes a civic brand identity for electric shuttle service Circuit with Stadt type, transit arrows, and fleet wraps. Fifty cities meant fifty slightly different versions of Circuit...",
-     "score": 1.359
+     "score": 1.358
     },
     {
      "title": "Maybelline Just Ruined Their Tagline. No Maybes About it.",
@@ -50,7 +51,7 @@
      ],
      "published": "2026-11-13T22:42:12+00:00",
      "summary": "The 110-year-old makeup brand launched a retooled version of their iconic slogan with new punctuation and pronouns, inexplicably tanking it. The post Maybelline Just Ruined Their Tagline. No Maybes About it. appeared first on DIELINE .",
-     "score": 1.352
+     "score": 1.351
     },
     {
      "title": "Test Your Auditioning Skills With A24’s Latest Fisk-Designed Card Game",
@@ -61,7 +62,7 @@
      ],
      "published": "2026-11-13T21:10:22+00:00",
      "summary": "Designed by creative studio Fisk, A24’s Audition is a card game where players take turns as the “casting director,” selecting movie lines for the “actors” to deliver using funny, surprising, and sometimes bizarre prompts. The post Test Your Auditioning Skills With A24’s Latest…",
-     "score": 1.326
+     "score": 1.325
     },
     {
      "title": "Inside Ardor Retro Computer’s Phosphor CRT UI/UX Design",
@@ -72,7 +73,7 @@
      ],
      "published": "2026-11-13T20:14:19+00:00",
      "summary": "Viacheslav Sheikin’s UI/UX design for Ardor Retro Computer stages an AI cloud agent on an 8-color phosphor CRT, featured on Minimal Gallery. Pressing Escape skips the ASCII boot sequence. Designed and...",
-     "score": 1.311
+     "score": 1.31
     },
     {
      "title": "Porto Rocha Unveils Almeida & Dale Brand Identity",
@@ -83,7 +84,7 @@
      ],
      "published": "2026-11-13T20:11:40+00:00",
      "summary": "Porto Rocha builds the Almeida & Dale brand identity on Diakritik AD, a custom typeface, and one strong blue for Brazil's biggest gallery. The blue arrives before anything else. Porto Rocha paints...",
-     "score": 1.31
+     "score": 1.309
     },
     {
      "title": "How to Make a Rotating 3D Cube Text Animation in ascente.design",
@@ -94,7 +95,7 @@
      ],
      "published": "2026-11-13T16:34:18+00:00",
      "summary": "Learn how to build a looping Instagram Story where lines of text rotate around a 3D cube, one row at a time, using Drum wrap in ascente.design. Reading time: about 10 minutes · Level: beginner-friendl...",
-     "score": 1.25
+     "score": 1.249
     },
     {
      "title": "Godawari Power & Ispat Ltd unveils new brand identity and growth strategy",
@@ -106,7 +107,7 @@
      ],
      "published": "2026-11-13T13:26:25+00:00",
      "summary": "",
-     "score": 1.247
+     "score": 1.246
     },
     {
      "title": "These IEMs get the Most Beautiful Earphones Award for 2026, but will their crowd-pleasing tuning win you over?",
@@ -117,7 +118,7 @@
      ],
      "published": "2026-11-13T16:20:50+00:00",
      "summary": "The $259 ZiiGaat Seraphim pairs standout looks with serious sub-bass slam, even if a lean lower midrange holds it back from perfection.",
-     "score": 1.246
+     "score": 1.245
     },
     {
      "title": "Inside the Craft of the Nubank Brand Refresh by Koto",
@@ -128,7 +129,7 @@
      ],
      "published": "2026-11-13T16:17:20+00:00",
      "summary": "Koto's Nubank brand refresh turns a 140-million-customer bank into one flexible system: purple, modular, and unmistakably Nu. Nubank started in Brazil with a simple idea, that banking did not need to ...",
-     "score": 1.245
+     "score": 1.244
     },
     {
      "title": "Adobe's Black Friday deal is its biggest in years, with 57% off Creative Cloud Pro",
@@ -139,7 +140,7 @@
      ],
      "published": "2026-11-13T15:25:23+00:00",
      "summary": "You can also save big on Firefly Pro for a limited time.",
-     "score": 1.23
+     "score": 1.229
     },
     {
      "title": "Twice Shy’s Tactile Soap Packaging Design for Tula Louise",
@@ -150,7 +151,7 @@
      ],
      "published": "2026-11-13T14:24:13+00:00",
      "summary": "Twice Shy’s packaging design for London soap atelier Tula Louise pairs translucent vellum wraps, metal clips, and 12 apothecary outlines. Opaque cartons hide the best part of a natural soap bar. Jowan...",
-     "score": 1.213
+     "score": 1.212
     },
     {
      "title": "Dayly Drops A Banger Diwali Gift Set",
@@ -161,7 +162,7 @@
      ],
      "published": "2026-11-13T14:19:07+00:00",
      "summary": "Body care brand Dayly is commemorating Diwali this year with a special gift pack called “Dhamaka,” which is Hindi for “bang,” that includes a bottle of its Vanilla Sponge Cake body wash and wash-and-shave foam, as well as a bottle of its SPF 50 Hot Stuff Protection body…",
-     "score": 1.212
+     "score": 1.211
     },
     {
      "title": "Every DIELINE Awards Winner Is Featured on DIELINE and in the DIELINE Annual",
@@ -172,7 +173,7 @@
      ],
      "published": "2026-11-13T14:00:00+00:00",
      "summary": "What a DIELINE Awards win carries: a feature on DIELINE and a place in the DIELINE Annual. The Holiday rate runs through Monday, Nov 30. The post Every DIELINE Awards Winner Is Featured on DIELINE and in the DIELINE Annual appeared first on DIELINE .",
-     "score": 1.207
+     "score": 1.206
     },
     {
      "title": "ASRY and Priya Blue unveil brand identity for Bahrain ship recycling joint venture",
@@ -181,9 +182,9 @@
      "sources": [
       "Prop News Time"
      ],
-     "published": "2026-11-14T07:30:53+00:00",
+     "published": "2026-11-14T07:30:56+00:00",
      "summary": "",
-     "score": 1.199
+     "score": 1.198
     },
     {
      "title": "OurCreative Gives Asda’s Asquith Beers Seven Personalities and One Family Name",
@@ -194,7 +195,7 @@
      ],
      "published": "2026-11-13T13:22:14+00:00",
      "summary": "As UK brewers cut strength to save on duty, Asda’s Asquith 1965 range goes the other way, and OurCreative gives each of its seven higher strength beers and ciders a personality of its own. The post OurCreative Gives Asda’s Asquith Beers Seven Personalities and One Family Name…",
-     "score": 1.196
+     "score": 1.195
     },
     {
      "title": "You know that butter bot from Rick and Morty? You can buy that now",
@@ -205,7 +206,7 @@
      ],
      "published": "2026-11-13T13:00:00+00:00",
      "summary": "This may be the best stoopid idea for a Christmas gift I’ve seen.",
-     "score": 1.19
+     "score": 1.189
     },
     {
      "title": "design/leader: Roly Grant, co-founder and creative director of Without",
@@ -216,7 +217,7 @@
      ],
      "published": "2026-11-14T06:00:48+00:00",
      "summary": "",
-     "score": 1.174
+     "score": 1.173
     },
     {
      "title": "How do you redesign a cult kids’ product? I asked Yoto’s new designers",
@@ -227,7 +228,7 @@
      ],
      "published": "2026-11-13T11:00:00+00:00",
      "summary": "Yoto is winning the low-screen moment by holding back. Its designers explain how they balanced a vocal community with a clear mission.",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "UEFA Women’s Champions League zine collaborates with art duo Swedish Girls to bring fandom to the streets of Gothenburg",
@@ -238,7 +239,7 @@
      ],
      "published": "2026-11-13T11:00:00+00:00",
      "summary": "Queenzine is a fanzine that celebrates iconic figures in the UEFA Women’s Champions League and the fans that add fuel to their fire. To mark it’s most recent issue, physical copies of the mag sat in various cultural spots in Gothenburg, on custom stands made by one of Sweden’s…",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "Nvidia chaos and why the AI industry is suddenly on the back foot",
@@ -249,7 +250,7 @@
      ],
      "published": "2026-11-13T10:00:00+00:00",
      "summary": "Voters have rejected data centres, and Nvidia’s CEO has resigned. If the AI honeymoon is over, what happens to creatives?",
-     "score": 1.14
+     "score": 1.139
     },
     {
      "title": "Prusa CORE One+ review: Built to last and grow with you",
@@ -260,7 +261,7 @@
      ],
      "published": "2026-11-13T09:30:00+00:00",
      "summary": "A sturdy old school workhorse for makers who value fuss-free precision.",
-     "score": 1.132
+     "score": 1.131
     },
     {
      "title": "Gen Z apps inform approachable wayfinding for V&A East Storehouse",
@@ -271,7 +272,7 @@
      ],
      "published": "2026-11-13T09:00:00+00:00",
      "summary": "On a mission to draw in museum sceptics, Hackney design studio Fieldwork Facility looked to an unexpected source of inspiration when creating the Dezeen Award-shortlisted wayfinding for London's V&A East Storehouse. The post Gen Z apps inform approachable wayfinding for V&A East…",
-     "score": 1.123
+     "score": 1.122
     },
     {
      "title": "Adedayo’s Vision to Rebrand Nigeria’s Tourism Through Photography",
@@ -282,7 +283,7 @@
      ],
      "published": "2026-11-14T01:05:52+00:00",
      "summary": "",
-     "score": 1.092
+     "score": 1.091
     }
    ]
   },
@@ -299,7 +300,7 @@
      ],
      "published": "2026-11-14T07:00:00+00:00",
      "summary": "Jaime Hayon and RS Barcelona create ‘the Ferrari of football tables', featuring motifs that are recurring across the Spanish designer's work",
-     "score": 1.49
+     "score": 1.489
     },
     {
      "title": "This week Sony revived its classic Walkman headphones",
@@ -310,7 +311,7 @@
      ],
      "published": "2026-11-14T06:00:00+00:00",
      "summary": "This week on Dezeen, Japanese electronics company Sony launched a remake of its original Walkman headphones, which feature colourful foam pads and lean into 1980s nostalgia. The post This week Sony revived its classic Walkman headphones appeared first on Dezeen .",
-     "score": 1.473
+     "score": 1.472
     },
     {
      "title": "Core77 Weekly Roundup (11-9-26 to 11-13-26)",
@@ -321,7 +322,7 @@
      ],
      "published": "2026-11-13T16:00:00+00:00",
      "summary": "Here's what we looked at this week: Firemill , by industrial design firm Propellor, is a food-safe, residue-free fire extinguisher for the kitchen.  These ascender gadgets let you walk up a vertical rope. A chemical-free anti-mosquito solution: Wearing fake dragonflies. Chris…",
-     "score": 1.44
+     "score": 1.439
     },
     {
      "title": "Polestar's New Concept Features User-Configurable Physical Buttons",
@@ -332,7 +333,7 @@
      ],
      "published": "2026-11-13T15:00:00+00:00",
      "summary": "This week Polestar unveiled their new concept car, the Formula 2030 . It's their first concept under new-ish design chief Philipp Römers, who took over last year; Römers calls the 2030 \"a bold evolution of our already well-established design DNA\" rather than an entirely new…",
-     "score": 1.423
+     "score": 1.422
     },
     {
      "title": "7 Black Friday EDC knife picks that range from genuinely practical to delightfully unnecessary",
@@ -343,7 +344,7 @@
      ],
      "published": "2026-11-14T02:45:22+00:00",
      "summary": "7 Black Friday EDC knife picks that range from genuinely practical to delightfully unnecessary Every Black Friday I tell myself I’m shopping for other people, and every Black Friday a knife somehow ends up in my own pocket. This...",
-     "score": 1.419
+     "score": 1.418
     },
     {
      "title": "The Peralta D Supercar Is Literally Sculpted From Copper",
@@ -354,7 +355,7 @@
      ],
      "published": "2026-11-14T02:23:44+00:00",
      "summary": "Designed by Fabrizio Giugiaro, the one-off grand tourer pairs hand-hammered copper bodywork with a sculptural silhouette",
-     "score": 1.413
+     "score": 1.412
     },
     {
      "title": "Best (Belated) Halloween Costume: Artist Shows You How He Built a Giant Dynamic Egret",
@@ -365,18 +366,7 @@
      ],
      "published": "2026-11-13T14:00:00+00:00",
      "summary": "\"This is a little late,\" writes Hawai'i-based artist Pepe , \"but I had to share the 18 foot tall egret I made for Halloween. It was super fun waking around Kilauea town because it made so many kids smile.\"  Pepe breaks down how he made it: The egret frame is a wire cage…",
-     "score": 1.407
-    },
-    {
-     "title": "A Metal Cloud Frames the Desert Without Hiding It",
-     "link": "https://www.yankodesign.com/2026/11/13/a-metal-cloud-frames-the-desert-without-hiding-it/?utm_source=rss&utm_medium=rss&utm_campaign=a-metal-cloud-frames-the-desert-without-hiding-it",
-     "source": "Yanko Design",
-     "sources": [
-      "Yanko Design"
-     ],
-     "published": "2026-11-14T01:30:20+00:00",
-     "summary": "A Metal Cloud Frames the Desert Without Hiding It The desert is something that I really don’t want to visit, as someone who is not fond of arid or humid weather (although I live...",
-     "score": 1.399
+     "score": 1.406
     },
     {
      "title": "Friday Five With Shaina Tabak: Art, Architecture, and the Spaces Between",
@@ -387,7 +377,18 @@
      ],
      "published": "2026-11-14T01:31:47+00:00",
      "summary": "The Brooklyn-based artist shares the exhibitions, architectural theories, and artworks that inspired her curatorial debut at '260 Madison'",
-     "score": 1.399
+     "score": 1.398
+    },
+    {
+     "title": "A Metal Cloud Frames the Desert Without Hiding It",
+     "link": "https://www.yankodesign.com/2026/11/13/a-metal-cloud-frames-the-desert-without-hiding-it/?utm_source=rss&utm_medium=rss&utm_campaign=a-metal-cloud-frames-the-desert-without-hiding-it",
+     "source": "Yanko Design",
+     "sources": [
+      "Yanko Design"
+     ],
+     "published": "2026-11-14T01:30:20+00:00",
+     "summary": "A Metal Cloud Frames the Desert Without Hiding It The desert is something that I really don’t want to visit, as someone who is not fond of arid or humid weather (although I live...",
+     "score": 1.397
     },
     {
      "title": "Deck Açucena Turns a Steep Forest Slope Into a Poolside Retreat",
@@ -398,7 +399,7 @@
      ],
      "published": "2026-11-14T00:30:26+00:00",
      "summary": "Deck Açucena Turns a Steep Forest Slope Into a Poolside Retreat A slim black frame, timber decking, and a glass enclosure occupy a clearing among the trees at Deck Açucena. Designed by TETRO Arquitetura in Nova...",
-     "score": 1.382
+     "score": 1.381
     },
     {
      "title": "Infinix’s $145 Android tablet is a reminder that cheap tablets were never impossible",
@@ -409,7 +410,7 @@
      ],
      "published": "2026-11-13T23:30:55+00:00",
      "summary": "Infinix’s $145 Android tablet is a reminder that cheap tablets were never impossible Walk into any Best Buy this holiday season and try to buy a decent tablet without spending a car payment. I’ll wait. The base iPad...",
-     "score": 1.365
+     "score": 1.364
     },
     {
      "title": "This 3D-Printed Chair Turns Its Base Into a Bookshelf",
@@ -420,7 +421,7 @@
      ],
      "published": "2026-11-13T22:30:25+00:00",
      "summary": "This 3D-Printed Chair Turns Its Base Into a Bookshelf The Kino Chair has a useful surprise below its seat: a shelf built into the structure. Designed by Barcelona-based Pablo Castillo and produced by Decibel...",
-     "score": 1.349
+     "score": 1.347
     },
     {
      "title": "Cold Plunges Are Finding a New Place in Residential Design",
@@ -431,7 +432,7 @@
      ],
      "published": "2026-11-13T21:29:49+00:00",
      "summary": "As homeowners increasingly prioritize wellness, new hydrotherapy systems allow cold plunging to be incorporated into homes without separate equipment",
-     "score": 1.332
+     "score": 1.331
     },
     {
      "title": "URWERK UR-101 Green Mamba gives its wandering-hour watch an emerald makeover",
@@ -442,7 +443,7 @@
      ],
      "published": "2026-11-13T21:30:53+00:00",
      "summary": "URWERK UR-101 Green Mamba gives its wandering-hour watch an emerald makeover Most watches ask you to read time at a glance, but URWERK prefers to make you follow the process. Its wandering-hours display replaces familiar hands...",
-     "score": 1.332
+     "score": 1.331
     },
     {
      "title": "Six quietening acoustic products that instil calm in interiors",
@@ -453,7 +454,7 @@
      ],
      "published": "2026-11-13T19:00:00+00:00",
      "summary": "The following products, ranging from work pods to solid panels, are among recent sound-dampening items published on our Showroom section. Products with acoustic features are specified by designers in order to maintain calm and quiet in busy environments. They are especially…",
-     "score": 1.29
+     "score": 1.289
     },
     {
      "title": "Theon Design celebrates ten years of transforming the classic air-cooled Porsche 911",
@@ -464,7 +465,7 @@
      ],
      "published": "2026-11-13T17:00:00+00:00",
      "summary": "UK-based specialist Theon Design has been in the restomod business for a decade, bringing a raft of enhancements both subtle and overt to this evergreen classic",
-     "score": 1.257
+     "score": 1.256
     },
     {
      "title": "Molteni icons are radically transformed in this new exhibition",
@@ -475,7 +476,7 @@
      ],
      "published": "2026-11-13T15:31:32+00:00",
      "summary": "For 'Materialized: Ideas in Matter' at the Molteni Museum in Giussano, Italy, some of the design industry’s biggest names took their own well-known designs in unexpected directions, curated by Ron Gilad",
-     "score": 1.232
+     "score": 1.231
     },
     {
      "title": "Sky-Blue Advances Bespoke Inflight Product Design With Sustainable, Airline-Focused Innovation",
@@ -486,7 +487,7 @@
      ],
      "published": "2026-11-14T06:22:04+00:00",
      "summary": "",
-     "score": 1.18
+     "score": 1.178
     },
     {
      "title": "Polestar Formula 2030 concept car \"screams performance\"",
@@ -497,7 +498,7 @@
      ],
      "published": "2026-11-13T11:00:00+00:00",
      "summary": "Polestar's new concept car signals its design strategy for thecoming years. The post Polestar Formula 2030 concept car \"screams performance\" appeared first on Dezeen .",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "Was the Cybertruck a flop, or a design success?",
@@ -508,18 +509,7 @@
      ],
      "published": "2026-11-13T10:00:00+00:00",
      "summary": "Plus: what do we know about the fire that ravaged an award-tipped new building? And why have wired headphones made a comeback? Listen to the latest episode of Dezeen Weekly now. The post Was the Cybertruck a flop, or a design success? appeared first on Dezeen .",
-     "score": 1.14
-    },
-    {
-     "title": "Mintoo for mainstreaming waste management into climate action",
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Rd3JUVUVJSm5HT2dFNFVjMFphc2I0TWgyd2xMVURNZE1ySVpqUmRIUlVlNGsyXzhHSFExWE9yczB0YXhYSUxDX2JyOFZLMFExeV9J?oc=5",
-     "source": "Bangladesh Sangbad Sangstha (BSS)",
-     "sources": [
-      "Bangladesh Sangbad Sangstha (BSS)"
-     ],
-     "published": "2026-11-14T04:00:45+00:00",
-     "summary": "",
-     "score": 1.14
+     "score": 1.139
     },
     {
      "title": "UNICROSS Students to Acquire Modern Production Skills with New Laser Technology",
@@ -530,7 +520,7 @@
      ],
      "published": "2026-11-14T02:47:25+00:00",
      "summary": "",
-     "score": 1.12
+     "score": 1.119
     },
     {
      "title": "Texas antique and design show unveils new exhibition building made from salvaged materials",
@@ -541,7 +531,7 @@
      ],
      "published": "2026-11-13T08:00:00+00:00",
      "summary": "Marburger Farm has unveiled an exhibition building made partly from salvaged materials sourced directly from across the 43-acre property, as shown in this video produced by Dezeen. The post Texas antique and design show unveils new exhibition building made from salvaged…",
-     "score": 1.107
+     "score": 1.106
     },
     {
      "title": "Break a sweat in Technogym and Crosby Studios’ new creative space",
@@ -552,7 +542,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "Technogym works with studio founder Harry Nuriev on an installation that unites living, wellness, and design (on view until February 2027)",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "Tactile books: the new publishing frontier for digital natives",
@@ -563,7 +553,18 @@
      ],
      "published": "2026-11-13T23:01:09+00:00",
      "summary": "",
-     "score": 1.057
+     "score": 1.056
+    },
+    {
+     "title": "Gashapon turns 50 and celebrates with a machine that transforms into a robot",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQamRQeThkVjhxNExxWUNVWkxNcDVhbkk3NVRNM1RpLXUxajV5TUQ1ZF9PQy15enUyRFpQdFoyUUNJUFNCOFFTWEtJNUI2cWxkUjFzSjlHeVEzM2s3ZHRGYjU1NHFVSFNXbHJCczJvRS1FOHhiaDdCUXBMOElBMUxpeVlEODl3QzZPYjVmQ19icElBd0tLV0RiRWhGVUZoUGNObXpxS040YjVXVG5LX0prQ3dR?oc=5",
+     "source": "Foro3D",
+     "sources": [
+      "Foro3D"
+     ],
+     "published": "2026-11-13T23:01:12+00:00",
+     "summary": "",
+     "score": 1.056
     }
    ]
   },
@@ -574,38 +575,38 @@
     {
      "title": "FAA issues national ground stop – lifted 4.5 hours later",
      "link": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-     "source": "Hacker News (1493 pts)",
+     "source": "Hacker News (1496 pts)",
      "sources": [
-      "Hacker News (1493 pts)"
+      "Hacker News (1496 pts)"
      ],
      "published": "2026-11-13T21:05:53Z",
      "summary": "",
-     "score": 2.625,
+     "score": 2.624,
      "discussion": "https://news.ycombinator.com/item?id=50489641"
     },
     {
      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
      "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-     "source": "Hacker News (399 pts)",
+     "source": "Hacker News (405 pts)",
      "sources": [
-      "Hacker News (399 pts)"
+      "Hacker News (405 pts)"
      ],
      "published": "2026-11-14T02:52:59Z",
      "summary": "",
-     "score": 2.519,
+     "score": 2.53,
      "discussion": "https://news.ycombinator.com/item?id=50493251"
     },
     {
      "title": "Terminal borders that don't cost a cell",
      "link": "https://www.joshka.net/cell-borders/",
-     "source": "Hacker News (200 pts)",
+     "source": "Hacker News (202 pts)",
      "sources": [
-      "Hacker News (200 pts)",
+      "Hacker News (202 pts)",
       "Lobsters"
      ],
      "published": "2026-11-13T23:06:40Z",
      "summary": "Comments",
-     "score": 2.409,
+     "score": 2.412,
      "discussion": "https://news.ycombinator.com/item?id=50491423"
     },
     {
@@ -618,7 +619,7 @@
      ],
      "published": "2026-11-13T14:43:12Z",
      "summary": "Comments",
-     "score": 2.263,
+     "score": 2.262,
      "discussion": "https://news.ycombinator.com/item?id=50484235"
     },
     {
@@ -631,20 +632,20 @@
      ],
      "published": "2026-11-13T23:48:59Z",
      "summary": "Comments",
-     "score": 2.254,
+     "score": 2.253,
      "discussion": "https://news.ycombinator.com/item?id=50491830"
     },
     {
      "title": "How Not to Build a Music Player",
      "link": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
-     "source": "Hacker News (82 pts)",
+     "source": "Hacker News (83 pts)",
      "sources": [
-      "Hacker News (82 pts)",
+      "Hacker News (83 pts)",
       "Lobsters"
      ],
      "published": "2026-11-13T23:04:30Z",
      "summary": "Comments",
-     "score": 2.172,
+     "score": 2.173,
      "discussion": "https://news.ycombinator.com/item?id=50491400"
     },
     {
@@ -656,19 +657,19 @@
      ],
      "published": "2026-11-13T22:04:24Z",
      "summary": "",
-     "score": 2.149,
+     "score": 2.148,
      "discussion": "https://news.ycombinator.com/item?id=50490593"
     },
     {
      "title": "Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal",
      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-director-sold-nearly-1b-160000846.html",
-     "source": "Hacker News (195 pts)",
+     "source": "Hacker News (197 pts)",
      "sources": [
-      "Hacker News (195 pts)"
+      "Hacker News (197 pts)"
      ],
      "published": "2026-11-14T02:21:36Z",
      "summary": "",
-     "score": 2.103,
+     "score": 2.106,
      "discussion": "https://news.ycombinator.com/item?id=50492993"
     },
     {
@@ -681,7 +682,7 @@
      ],
      "published": "2026-11-14T06:37:00+00:00",
      "summary": "DocumentDB 1.0 is the first generally available release of the open source, MIT-licensed document database built on PostgreSQL, with compatibility for the MongoDB wire protocol. Most MongoDB drivers, tools, and queries work without changes. By Renato Losio",
-     "score": 1.834
+     "score": 1.833
     },
     {
      "title": "Siri AI Developer Preview Lets iOS, iPadOS, and macOS Apps Integrate with Siri",
@@ -693,7 +694,7 @@
      ],
      "published": "2026-11-13T16:00:00+00:00",
      "summary": "Apple released the Siri AI Developer Preview in the 27.3 beta releases of its operating systems, enabling developers and apps to integrate with the assistant and hand off actions to it. During the Preview, access to Siri AI is restricted to developer builds and internal…",
-     "score": 1.59
+     "score": 1.589
     },
     {
      "title": "You could have invented transformers from memory",
@@ -704,7 +705,7 @@
      ],
      "published": "2026-11-14T04:49:47+00:00",
      "summary": "Comments",
-     "score": 1.554
+     "score": 1.553
     },
     {
      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
@@ -715,7 +716,7 @@
      ],
      "published": "2026-11-14T04:51:14+00:00",
      "summary": "Comments",
-     "score": 1.554
+     "score": 1.553
     },
     {
      "title": "Writing a DSL for high performance parallel programming in OxCaml",
@@ -726,73 +727,73 @@
      ],
      "published": "2026-11-14T02:57:49+00:00",
      "summary": "Comments",
-     "score": 1.523
+     "score": 1.522
     },
     {
-     "title": "An MCP Tool Schema Is Not an Authorization Check: A Laravel Design Pattern",
-     "link": "https://dev.to/larwelltechnologies/an-mcp-tool-schema-is-not-an-authorization-check-a-laravel-design-pattern-12ma",
+     "title": "Why I'm building Lab to Prod in public",
+     "link": "https://dev.to/nghiep_phamquoc_568df0fe/why-im-building-lab-to-prod-in-public-1pcl",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:23:11+00:00",
-     "summary": "An MCP tool can be wonderfully easy to call. That is exactly why a write-capable tool deserves more scrutiny than a read-only one. Imagine an assistant with a refund_invoice tool. Its input schema says it accepts an invoice ID and a reason. The schema helps a client construct a…",
-     "score": 1.497
+     "published": "2026-11-14T07:34:40+00:00",
+     "summary": "20 posts, 8 short videos and 4 long articles in 4 weeks, with at most 30 minutes of my own time per week. That is the target of the experiment that starts on Monday 16 November 2026. This article explains why I am running it, why the whole thing is public, and what would make me…",
+     "score": 1.499
     },
     {
-     "title": "How I Built Lazarus: Autonomous Legacy Resurrection with Kiro Specs, Custom MCP, and Differential Fuzzing",
-     "link": "https://dev.to/ashlesha_anjarkar_25/how-i-built-lazarus-autonomous-legacy-resurrection-with-kiro-specs-custom-mcp-and-differential-25m5",
+     "title": "A inside an attribute — the bug that only fired when a number changed",
+     "link": "https://dev.to/minia2a/a-inside-an-attribute-the-bug-that-only-fired-when-a-number-changed-154i",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:23:42+00:00",
-     "summary": "Engineering teams sit on unmaintained legacy JavaScript modules they are afraid to touch because manual rewrites introduce silent edge-case regressions. For Kiroween 2026 (Frankenstein category), I built Lazarus — an autonomous legacy resurrection engine that stitches an…",
-     "score": 1.497
+     "published": "2026-11-14T07:35:48+00:00",
+     "summary": "A inside an attribute — the bug that only fired when a number changed November 14, 2026 · incident window 06:29Z–07:18Z Our homepage has a search box. For 49 minutes this morning, it showed visitors this: Search <span data-stat = 1,890 services — e.g. gas price, ssl, captcha…",
+     "score": 1.499
     },
     {
-     "title": "Stop Re-Explaining Project Decisions to Your AI Coding Assistant",
-     "link": "https://dev.to/plur9/stop-re-explaining-project-decisions-to-your-ai-coding-assistant-2l9j",
+     "title": "I built a free spreadsheet that tells freelancers exactly how much to set aside for taxes",
+     "link": "https://dev.to/ledgerlinehq/i-built-a-free-spreadsheet-that-tells-freelancers-exactly-how-much-to-set-aside-for-taxes-3bnm",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:25:30+00:00",
-     "summary": "To stop re-explaining a project decision to an AI coding assistant, preserve more than the answer. Write down the decision, the project it applies to, the reason behind it, and the source that authorizes it. Then check that a new session can retrieve and apply that record…",
-     "score": 1.497
+     "published": "2026-11-14T07:36:17+00:00",
+     "summary": "Freelancing has a tax problem nobody warns you about: no employer withholds anything. Your whole invoice lands in your account, it feels like yours, and then April (or a quarterly deadline) shows up with a bill for 25-30% of it. I got tired of watching freelancers learn this the…",
+     "score": 1.499
     },
     {
-     "title": "Sentry Error Tracking: Catch Bugs Before Your Users Do",
-     "link": "https://dev.to/practicaldevblog/sentry-error-tracking-catch-bugs-before-your-users-do-1j3b",
+     "title": "Shopify Speed Fixes That Lift Conversion Rate Before You Touch Ads",
+     "link": "https://dev.to/gohndsolutions/shopify-speed-fixes-that-lift-conversion-rate-before-you-touch-ads-jk1",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:19:29+00:00",
-     "summary": "Quick answer Sentry error tracking collects the exceptions your Python app raises in production and groups them into issues you can triage, with the stack trace and how many users were hit. Install sentry-sdk, call sentry_sdk.init() with your project DSN as early as possible…",
-     "score": 1.496
+     "published": "2026-11-14T07:36:20+00:00",
+     "summary": "If your Shopify store is slow on a mid-range phone, paid traffic will waste a slice of every rupee you spend. This article is for developers and technical founders who want practical speed fixes that can lift conversion rate before a new ad campaign starts. You'll see what to…",
+     "score": 1.499
     },
     {
-     "title": "openat2 Path Confinement Still Needs a Trusted Directory Descriptor",
-     "link": "https://dev.to/sorrelthorncroft/openat2-path-confinement-still-needs-a-trusted-directory-descriptor-4c9f",
+     "title": "Python in 2026: Why uv, Free Threaded GIL Removal, and Lean Code Are Beating Agent Hype",
+     "link": "https://dev.to/namanjain077/python-in-2026-why-uv-free-threaded-gil-removal-and-lean-code-are-beating-agent-hype-2pap",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:21:05+00:00",
-     "summary": "openat2 Path Confinement Still Needs a Trusted Directory Descriptor A service that accepts a user-supplied filename has two problems to solve. It must keep the resolved path inside an intended directory, and it must avoid a race in which an attacker swaps a path component…",
-     "score": 1.496
+     "published": "2026-11-14T07:30:58+00:00",
+     "summary": "honestly looking at where python is heading this year feels pretty different from what people were hyping up twelve months ago well back then everyone kept saying autonomous multi agent swarms would write all our software by now. turns out in production most of those massive…",
+     "score": 1.498
     },
     {
-     "title": "A tiny Python helper for source-grounded content repurposing",
-     "link": "https://dev.to/didyouseethis212sys/a-tiny-python-helper-for-source-grounded-content-repurposing-2aaj",
+     "title": "I Built a Free Google Ads Generator with AI (ReadyAd)",
+     "link": "https://dev.to/ritika_rajput/i-built-a-free-google-ads-generator-with-ai-readyad-c40",
      "source": "DEV Community — top",
      "sources": [
       "DEV Community — top"
      ],
-     "published": "2026-11-14T07:21:54+00:00",
-     "summary": "A content-repurposing workflow has two different jobs: assembling a consistent draft pack, and deciding whether the draft actually says what the source supports. A script can help with the first job. JSON validation cannot do the second. I put together a small Python helper and…",
-     "score": 1.496
+     "published": "2026-11-14T07:31:18+00:00",
+     "summary": "Writing Google Ads copy is slow and boring. For every product you need short ad titles, clear descriptions, and keywords people actually search for. I kept rewriting the same thing again and again, so I built a tool to do it for me. Meet ReadyAd , a free Google Ads generator…",
+     "score": 1.498
     },
     {
      "title": "Someone's impersonating this blog",
@@ -803,7 +804,7 @@
      ],
      "published": "2026-11-13T20:39:53+00:00",
      "summary": "Comments",
-     "score": 1.418
+     "score": 1.417
     },
     {
      "title": "Don't bother patching: multiple remote code execution vulnerabilities in Danfoss AK-SM800A",
@@ -814,7 +815,7 @@
      ],
      "published": "2026-11-13T20:26:34+00:00",
      "summary": "Comments",
-     "score": 1.414
+     "score": 1.413
     },
     {
      "title": "Kildall's algorithm",
@@ -825,7 +826,7 @@
      ],
      "published": "2026-11-13T19:34:28+00:00",
      "summary": "I work on a new [Common] Lisp compiler called Cleavir. Cleavir is the compiler part of Dr. Robert Strandh’s project, SICL Comments",
-     "score": 1.4
+     "score": 1.399
     },
     {
      "title": "Your coding agent shouldn't grade its own homework",
@@ -836,7 +837,7 @@
      ],
      "published": "2026-11-13T17:27:39+00:00",
      "summary": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
-     "score": 1.264
+     "score": 1.263
     },
     {
      "title": "Mozilla leaves Solo website owners to go it alone as hosting shuts down",
@@ -847,7 +848,7 @@
      ],
      "published": "2026-11-13T16:59:00+00:00",
      "summary": "If you have one of these AI-generated homepages, you'd better download and save it quick",
-     "score": 1.256
+     "score": 1.255
     },
     {
      "title": "Anthropic and Google Make Their Best AI Models Cheaper",
@@ -858,7 +859,7 @@
      ],
      "published": "2026-11-13T14:00:00+00:00",
      "summary": "Real Python's weekly AI news for November 7–13, 2026, explained in plain language: Cheaper Claude, Google's Strongest Gemini, and a Faster Gemini.",
-     "score": 1.207
+     "score": 1.206
     }
    ]
   },
@@ -875,7 +876,7 @@
      ],
      "published": "2026-11-13T18:00:39+00:00",
      "summary": "",
-     "score": 1.274
+     "score": 1.273
     },
     {
      "title": "XYBench: Helping with the problem behind the question",
@@ -886,7 +887,7 @@
      ],
      "published": "2026-11-13T17:02:35+00:00",
      "summary": "",
-     "score": 1.257
+     "score": 1.256
     },
     {
      "title": "Keyword Search Tied an 8B Embedding Model at Picking Agent Tools",
@@ -897,7 +898,7 @@
      ],
      "published": "2026-11-13T16:30:00+00:00",
      "summary": "On 200 ToolRet questions and up to 3,794 tools, BM25 ran about 40x faster than BGE-large on just a CPU, and full tool docs made it the best setup tested. The post Keyword Search Tied an 8B Embedding Model at Picking Agent Tools appeared first on Towards Data Science .",
-     "score": 1.248
+     "score": 1.247
     },
     {
      "title": "Getting Started with DuckLake: Build a Lakehouse on DuckDB in Under an Hour",
@@ -908,7 +909,7 @@
      ],
      "published": "2026-11-13T15:00:00+00:00",
      "summary": "DuckLake is an open lakehouse table format from the DuckDB team. It keeps table metadata in a SQL database and the data in Parquet files. DuckLake 1.0 shipped in April 2026 with a stable specification and guaranteed backward compatibility.",
-     "score": 1.223
+     "score": 1.222
     },
     {
      "title": "How Jev Makes Decisions About Images, With 4 Python Examples",
@@ -919,7 +920,7 @@
      ],
      "published": "2026-11-13T15:00:00+00:00",
      "summary": "Practical code for classifying fabric against reference photos, scoring product sharpness, cropping shipping labels, and spotting subtle car damage. The post How Jev Makes Decisions About Images, With 4 Python Examples appeared first on Towards Data Science .",
-     "score": 1.223
+     "score": 1.222
     },
     {
      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
@@ -930,7 +931,7 @@
      ],
      "published": "2026-11-13T14:05:22+00:00",
      "summary": "",
-     "score": 1.208
+     "score": 1.207
     },
     {
      "title": "How to Evaluate AI Agents For Enterprise",
@@ -941,7 +942,7 @@
      ],
      "published": "2026-11-13T13:42:09+00:00",
      "summary": "Most agents demo look great. You type a request, the agent calls a few tools, and a clean answer comes back. Then real users show up with a real data, and things break in ways you never tested. The agent picks the wrong tool, loops on a failling API, leak data it should not see…",
-     "score": 1.202
+     "score": 1.201
     },
     {
      "title": "What AI Agents Speed Up in PhD Research, and What They Can't",
@@ -952,7 +953,7 @@
      ],
      "published": "2026-11-13T13:30:00+00:00",
      "summary": "A PhD student in ML and ecology on why faster code, experiments, and drafts don't fix data with a backstory, and three predictions for how labs will change. The post What AI Agents Speed Up in PhD Research, and What They Can't appeared first on Towards Data Science .",
-     "score": 1.198
+     "score": 1.197
     },
     {
      "title": "Gemini 4 Hydrogen: Hands-On Review",
@@ -963,7 +964,7 @@
      ],
      "published": "2026-11-13T13:17:14+00:00",
      "summary": "Google has introduced Gemini 4 Hydrogen, its latest AI model designed for faster execution, coding, and agentic workflows. Released on November 12, 2026, the model is rolling out across Google Search, the Gemini app, and developer tools. Alongside it, Google introduced…",
-     "score": 1.195
+     "score": 1.194
     },
     {
      "title": "Machine Learning Predicts Employment Tenure for Indian Tech Workers Using LinkedIn Data",
@@ -974,7 +975,7 @@
      ],
      "published": "2026-11-14T07:09:24+00:00",
      "summary": "",
-     "score": 1.193
+     "score": 1.192
     },
     {
      "title": "5 FREE Open-Source Alternatives to Jev",
@@ -985,7 +986,7 @@
      ],
      "published": "2026-11-13T13:00:00+00:00",
      "summary": "Looking for a free alternative to Jev? Here are 5 open-source decision models you can run locally, from high-accuracy options to lightweight models for AI agents.",
-     "score": 1.19
+     "score": 1.189
     },
     {
      "title": "How to Check Local LLM Output with Ollama, Gemma 4, and Nimble",
@@ -996,7 +997,7 @@
      ],
      "published": "2026-11-13T12:00:00+00:00",
      "summary": "Gemma 4 E2B drafts the replies, Bespoke Labs' Nimble 9B picks accept, revise, or human review, and only flagged questions get a focused retry. The post How to Check Local LLM Output with Ollama, Gemma 4, and Nimble appeared first on Towards Data Science .",
-     "score": 1.173
+     "score": 1.172
     },
     {
      "title": "Top 5 Artificial Intelligence and Machine Learning Development Companies (2026)",
@@ -1007,7 +1008,7 @@
      ],
      "published": "2026-11-14T05:49:02+00:00",
      "summary": "",
-     "score": 1.17
+     "score": 1.169
     },
     {
      "title": "Decentralized AI Accurately Identifies Student Dropout Risks While Preserving Data Locality",
@@ -1018,7 +1019,7 @@
      ],
      "published": "2026-11-14T05:43:51+00:00",
      "summary": "",
-     "score": 1.169
+     "score": 1.168
     },
     {
      "title": "The Complete Guide to LLM Evaluation",
@@ -1029,7 +1030,7 @@
      ],
      "published": "2026-11-13T11:00:00+00:00",
      "summary": "In this article, you will learn how to evaluate LLM applications systematically, from choosing scorers and designing reliable LLM judges to evaluating RAG systems and...",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "Your AI Agents Don’t Understand Your Business: Why Enterprise AI Needs Semantics",
@@ -1040,7 +1041,7 @@
      ],
      "published": "2026-11-13T23:22:05+00:00",
      "summary": "",
-     "score": 1.063
+     "score": 1.062
     },
     {
      "title": "South West Water and Uni of Exeter publish new research on how machine learning can tackle lead pipe challenges",
@@ -1051,7 +1052,7 @@
      ],
      "published": "2026-11-13T22:22:36+00:00",
      "summary": "",
-     "score": 1.046
+     "score": 1.045
     },
     {
      "title": "Fivetran Finds 39% of Companies Spend at Least 25% of AI Budgets Fixing Data Problems",
@@ -1062,7 +1063,7 @@
      ],
      "published": "2026-11-13T22:13:14+00:00",
      "summary": "",
-     "score": 1.044
+     "score": 1.043
     },
     {
      "title": "Spotfire 15.1 Brings AI Into the Flow of Industrial Investigations",
@@ -1073,7 +1074,7 @@
      ],
      "published": "2026-11-13T22:00:09+00:00",
      "summary": "",
-     "score": 1.04
+     "score": 1.039
     },
     {
      "title": "Hood College Partners With Workforce Group for AI Analytics Training",
@@ -1084,7 +1085,7 @@
      ],
      "published": "2026-11-13T21:29:44+00:00",
      "summary": "",
-     "score": 1.032
+     "score": 1.031
     },
     {
      "title": "What’s New in Oracle AI? November 2026 Edition",
@@ -1095,7 +1096,7 @@
      ],
      "published": "2026-11-13T21:12:40+00:00",
      "summary": "",
-     "score": 1.027
+     "score": 1.026
     },
     {
      "title": "Sensors preventing wastewater overflows",
@@ -1106,7 +1107,7 @@
      ],
      "published": "2026-11-13T20:40:36+00:00",
      "summary": "",
-     "score": 1.018
+     "score": 1.017
     },
     {
      "title": "Davidson County Register of Deeds Welcomes Victoria Love Franklin as Data Analytics and Technology Fellow",
@@ -1117,7 +1118,7 @@
      ],
      "published": "2026-11-13T19:16:01+00:00",
      "summary": "",
-     "score": 0.995
+     "score": 0.993
     },
     {
      "title": "Analytics and Data Science News for the Week of November 13; Updates from Alteryx, Databricks, Edelbyte & More",
@@ -1128,7 +1129,7 @@
      ],
      "published": "2026-11-13T19:04:35+00:00",
      "summary": "",
-     "score": 0.991
+     "score": 0.99
     },
     {
      "title": "Supply Chain Management Market Size, Forecast, Demand, Opportunities, 2034",
@@ -1139,7 +1140,7 @@
      ],
      "published": "2026-11-13T18:48:12+00:00",
      "summary": "",
-     "score": 0.987
+     "score": 0.986
     }
    ]
   },
@@ -1156,7 +1157,7 @@
      ],
      "published": "2026-11-13T11:37:20+00:00",
      "summary": "Using anonymized credit card data, Bloomberg illustrated a three-year timeline of online gambling.… Tags: Bloomberg , gambling , prediction market , sports , timeline",
-     "score": 1.741
+     "score": 1.74
     },
     {
      "title": "✚ Annotating line charts for presentation",
@@ -1211,7 +1212,7 @@
      ],
      "published": "2026-11-10T10:02:16+00:00",
      "summary": "Apparently inaudible background noise from airplanes in a blurry video clip is enough… Tags: airplane , Colsto , geolocation , OSINT",
-     "score": 1.522
+     "score": 1.521
     },
     {
      "title": "Should we design streets for human mistakes?",
@@ -1376,7 +1377,7 @@
      ],
      "published": "2026-11-13T16:00:00+00:00",
      "summary": "",
-     "score": 1.154
+     "score": 1.153
     },
     {
      "title": "Infographic: SJC gold prices plunge for fourth consecutive session on November 13",
@@ -1438,7 +1439,7 @@
      ],
      "published": "2026-11-13T16:29:24+00:00",
      "summary": "The Paramore singer and Life Aquatic star also duetted on “Zissou” in São Paulo",
-     "score": 1.798
+     "score": 1.797
     },
     {
      "title": "Violet Grohl shares “dystopian” new song ‘Metal Birds’ from ‘The Hunger Games: Sunrise On The Reaping’",
@@ -1450,7 +1451,7 @@
      ],
      "published": "2026-11-13T15:17:38+00:00",
      "summary": "\"It was a total honour to be asked to write a song about a story that I feel so connected to\" The post Violet Grohl shares “dystopian” new song ‘Metal Birds’ from ‘The Hunger Games: Sunrise On The Reaping’ appeared first on NME .",
-     "score": 1.578
+     "score": 1.577
     },
     {
      "title": "‘KPop Demon Hunters’ announces 2027 ‘GOLDEN’ world tour – including UK dates",
@@ -1462,7 +1463,7 @@
      ],
      "published": "2026-11-13T14:36:32+00:00",
      "summary": "The animated HUNTR/X stars will be brought to life for seven UK arena performances next October The post ‘KPop Demon Hunters’ announces 2027 ‘GOLDEN’ world tour – including UK dates appeared first on NME .",
-     "score": 1.567
+     "score": 1.566
     },
     {
      "title": "Muse debut new songs live and premiere ambitious new stage show as they kick off ‘The Wow! Signal’ 2026 UK arena tour in Manchester",
@@ -1474,7 +1475,7 @@
      ],
      "published": "2026-11-13T11:51:41+00:00",
      "summary": "They broke out ‘The Sickness In You & I’ and ‘The Dark Forest’ for the first time, and also unveiled a massive UFO-themed stage design The post Muse debut new songs live and premiere ambitious new stage show as they kick off ‘The Wow! Signal’ 2026 UK arena tour in Manchester…",
-     "score": 1.521
+     "score": 1.52
     },
     {
      "title": "camp flog gnaw stream",
@@ -1485,7 +1486,7 @@
      ],
      "published": "2026-11-13T19:58:27+00:00",
      "summary": "Turnstile, Don Toliver, Syd, Gena, and more artists will be available to watch",
-     "score": 1.506
+     "score": 1.505
     },
     {
      "title": "Journey Drummer Deen Castronovo Exits Mid-Tour to Focus on His Health",
@@ -1496,7 +1497,7 @@
      ],
      "published": "2026-11-14T06:59:25+00:00",
      "summary": "Steve Murphy will fill in for the rest of November, weeks after Castronovo suffered an onstage medical emergency in Tulsa.",
-     "score": 1.49
+     "score": 1.489
     },
     {
      "title": "Panda Bear Remixes Grace Ives’ “Stupid Bitches”",
@@ -1507,7 +1508,7 @@
      ],
      "published": "2026-11-13T18:14:46+00:00",
      "summary": "Noah Lennox gives Girlfriend’s standout closer a near-total overhaul",
-     "score": 1.478
+     "score": 1.476
     },
     {
      "title": "Shygirl, Brutalismus 3000, Nirosta Steel Feature on Club Kid Companion EP",
@@ -1518,7 +1519,7 @@
      ],
      "published": "2026-11-13T16:59:26+00:00",
      "summary": "Out now, the record includes two covers of Arthur Russell’s “Boy With a Smile”",
-     "score": 1.457
+     "score": 1.456
     },
     {
      "title": "Drake Updates Take Care With New Song “Hate Sleeping Alone”",
@@ -1529,7 +1530,7 @@
      ],
      "published": "2026-11-13T15:53:48+00:00",
      "summary": "Get your brood on with an unearthed cut from the 2011 album",
-     "score": 1.438
+     "score": 1.437
     },
     {
      "title": "9 New Albums You Should Listen to Now: 2hollis, Armand Hammer, and More",
@@ -1540,7 +1541,7 @@
      ],
      "published": "2026-11-13T14:59:02+00:00",
      "summary": "Stream new releases from 2hollis, Ecco2k, Armand Hammer, and U2",
-     "score": 1.423
+     "score": 1.422
     },
     {
      "title": "Rock & Roll Hall of Fame Induction Ceremony to Kick Off as Planned Amid FAA Grounding Flights Debacle",
@@ -1551,7 +1552,7 @@
      ],
      "published": "2026-11-14T02:49:03+00:00",
      "summary": "There will be no changes to the artists set to appear and perform",
-     "score": 1.42
+     "score": 1.419
     },
     {
      "title": "B2K’s Label Reports 138,000 ECLIPSE Tour-Album Bundles",
@@ -1563,7 +1564,7 @@
      ],
      "published": "2026-11-13T22:54:09+00:00",
      "summary": "",
-     "score": 1.405
+     "score": 1.404
     },
     {
      "title": "Kanye West Settles Lawsuit Over Sample Blocked by Descendant of Holocaust Survivors",
@@ -1574,7 +1575,7 @@
      ],
      "published": "2026-11-14T00:59:53+00:00",
      "summary": "The German singer-songwriter said she refused to let West, nown known as Ye, sample her song because of his antisemitic remarks",
-     "score": 1.39
+     "score": 1.389
     },
     {
      "title": "Billboard’s Music Industry Events Calendar",
@@ -1585,7 +1586,7 @@
      ],
      "published": "2026-11-14T01:00:00+00:00",
      "summary": "A complete rundown of the most important events across the music business.",
-     "score": 1.39
+     "score": 1.389
     },
     {
      "title": "Drummer Deen Castronovo Steps Away from Journey",
@@ -1596,7 +1597,7 @@
      ],
      "published": "2026-11-14T00:25:37+00:00",
      "summary": "The drummer is exiting the band's tour to \"focus on personal health matters.\" Drummer Deen Castronovo Steps Away from Journey Spencer Kaufman",
-     "score": 1.381
+     "score": 1.379
     },
     {
      "title": "In Canada: Canada Music Fund to Receive $67M Boost; Women in Music Executive Award Winners Share Their Wisdom",
@@ -1607,18 +1608,7 @@
      ],
      "published": "2026-11-14T00:10:09+00:00",
      "summary": "Also this week: Sean Paul appears on the first episode of Billboard Canada News .",
-     "score": 1.376
-    },
-    {
-     "title": "Young Thug Responds to Quavo’s Attempt to Have Him Reconcile With Gunna: ‘How Uma Fix Some Sh– I Didn’t Break Qua?’",
-     "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-quavo-gunna-offset-reconciliation-ysl-trial-1236382064/",
-     "source": "Billboard",
-     "sources": [
-      "Billboard"
-     ],
-     "published": "2026-11-13T23:13:43+00:00",
-     "summary": "Offset detailed why he stood by Gunna following the YSL RICO trial during a Popcast appearance.",
-     "score": 1.361
+     "score": 1.375
     },
     {
      "title": "John Summit, David Guetta, Alison Wonderland & More to Play College Football Playoff National Championship Weekend",
@@ -1629,7 +1619,18 @@
      ],
      "published": "2026-11-13T23:16:54+00:00",
      "summary": "The free AT&T Playoff Playlist Live festival happens Jan. 23-24 in Las Vegas.",
-     "score": 1.361
+     "score": 1.36
+    },
+    {
+     "title": "Young Thug Responds to Quavo’s Attempt to Have Him Reconcile With Gunna: ‘How Uma Fix Some Sh– I Didn’t Break Qua?’",
+     "link": "https://www.billboard.com/music/rb-hip-hop/young-thug-quavo-gunna-offset-reconciliation-ysl-trial-1236382064/",
+     "source": "Billboard",
+     "sources": [
+      "Billboard"
+     ],
+     "published": "2026-11-13T23:13:43+00:00",
+     "summary": "Offset detailed why he stood by Gunna following the YSL RICO trial during a Popcast appearance.",
+     "score": 1.359
     },
     {
      "title": "Who Is Sara Schell, The Newcomer Who Won Songwriter of the Year at the 2026 Latin Grammys?",
@@ -1640,7 +1641,7 @@
      ],
      "published": "2026-11-13T23:00:00+00:00",
      "summary": "Meet the Venezuelan behind hits by KATSEYE, Becky G, J Balvin & other major stars.",
-     "score": 1.357
+     "score": 1.356
     },
     {
      "title": "Journey Go Their Separate Ways With Longtime Drummer",
@@ -1651,7 +1652,7 @@
      ],
      "published": "2026-11-13T22:42:06+00:00",
      "summary": "Deen Castronovo has left Journey's stage mid-show at two recent stops due to a medical issue, and now is handing off his drum sticks to veteran musician Steve Murphy",
-     "score": 1.352
+     "score": 1.351
     },
     {
      "title": "Megan Moroney, Teddy Swims, Ejae to Perform at 100th Macy’s Thanksgiving Parade",
@@ -1662,7 +1663,7 @@
      ],
      "published": "2026-11-13T21:49:29+00:00",
      "summary": "Queen Latifah, Devo, the Roots, and Keke Palmer are among the star-studded lineup for this year's edition of the annual event",
-     "score": 1.337
+     "score": 1.336
     },
     {
      "title": "Coachella 2027 Passes Are Sold Out",
@@ -1673,7 +1674,7 @@
      ],
      "published": "2026-11-13T21:14:49+00:00",
      "summary": "Passes have sold out, but a ticket waitlist is available for both weekends. Coachella 2027 Passes Are Sold Out Paolo Ragusa",
-     "score": 1.328
+     "score": 1.326
     },
     {
      "title": "The 5 Best Songs Of The Week",
@@ -1684,7 +1685,7 @@
      ],
      "published": "2026-11-13T20:14:30+00:00",
      "summary": "The post The 5 Best Songs Of The Week appeared first on Stereogum .",
-     "score": 1.311
+     "score": 1.31
     },
     {
      "title": "Dicky Barrett Appears To Be Relaunching The Mighty Mighty Bosstones With New Bandmates",
@@ -1695,7 +1696,7 @@
      ],
      "published": "2026-11-13T19:42:45+00:00",
      "summary": "The post Dicky Barrett Appears To Be Relaunching The Mighty Mighty Bosstones With New Bandmates appeared first on Stereogum .",
-     "score": 1.302
+     "score": 1.301
     },
     {
      "title": "yeule – “Lovepill”",
@@ -1706,7 +1707,7 @@
      ],
      "published": "2026-11-13T19:03:58+00:00",
      "summary": "The post yeule – “Lovepill” appeared first on Stereogum .",
-     "score": 1.291
+     "score": 1.29
     }
    ]
   },
@@ -1724,7 +1725,7 @@
      ],
      "published": "2026-11-13T16:25:25+00:00",
      "summary": "",
-     "score": 1.297
+     "score": 1.296
     },
     {
      "title": "Watch Queens Of The Stone Age’s NSFW ‘From The Cliff’ video, co-written by Josh Homme",
@@ -1735,7 +1736,7 @@
      ],
      "published": "2026-11-13T16:42:35+00:00",
      "summary": "The frontman stars in the bloody short film, the latest accompaniment to their chart-topping album 'Perfecth' The post Watch Queens Of The Stone Age’s NSFW ‘From The Cliff’ video, co-written by Josh Homme appeared first on NME .",
-     "score": 1.252
+     "score": 1.251
     },
     {
      "title": "9 Best Suno Music Video Generators in 2026",
@@ -1747,7 +1748,7 @@
      ],
      "published": "2026-11-13T10:21:01+00:00",
      "summary": "",
-     "score": 1.196
+     "score": 1.195
     },
     {
      "title": "Mauled Premiere New Music Video Video For Redux Version Of \"Dead Alseep\"",
@@ -1758,7 +1759,7 @@
      ],
      "published": "2026-11-14T07:19:00+00:00",
      "summary": "",
-     "score": 1.195
+     "score": 1.194
     },
     {
      "title": "Gustavo Cerati’s Children Slam Remastered Video Facing AI Backlash: “We Weren’t Consulted”",
@@ -1769,7 +1770,7 @@
      ],
      "published": "2026-11-13T11:25:11+00:00",
      "summary": "Lisa and Benito Cerati say they were unaware of the changes made to the “Me Quedo Aquí” video and weren't given an opportunity to review them before its release. Gustavo Cerati’s Children Slam Remastered Video Facing AI Backlash: “We Weren’t Consulted” Pedro Camacho",
-     "score": 1.164
+     "score": 1.163
     },
     {
      "title": "Neguse. Shares Please Excuse My Younger Brothers Cour 2 Anime Opening Song Collab Music Video",
@@ -1780,7 +1781,7 @@
      ],
      "published": "2026-11-14T04:55:00+00:00",
      "summary": "",
-     "score": 1.155
+     "score": 1.154
     },
     {
      "title": "Sizuk Releases The Iceblade Sorcerer Shall Rule the World II Anime Opening Song Music Video",
@@ -1791,7 +1792,7 @@
      ],
      "published": "2026-11-14T01:52:00+00:00",
      "summary": "",
-     "score": 1.105
+     "score": 1.103
     },
     {
      "title": "Chanmina releases 'History' music video",
@@ -1802,7 +1803,7 @@
      ],
      "published": "2026-11-14T00:52:07+00:00",
      "summary": "",
-     "score": 1.088
+     "score": 1.087
     },
     {
      "title": "AMPERS&ONE unveils music video teaser for powerful new title track “King’s Way”",
@@ -1813,18 +1814,7 @@
      ],
      "published": "2026-11-14T00:31:50+00:00",
      "summary": "",
-     "score": 1.082
-    },
-    {
-     "title": "Yngwie Malmsteen releases On The Battlefield music video from Hell Or High Water",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZENPc3NaNDZmSzgwVFIzbGZQWDBnRzJ1UTdGRklNaEtKcXUxT0JnVkhuRWlhR0VYVGc3dDlUY214RURheTBmN3lSYmJreTh6dUJNWkt4QkI3eWtjYlhGUUdvczd3ZGVxU3YxQWdGeHhVSTVIRE1DOVNxQW44NFFWYlRQZDZYZ21tem9ISldPbklNUjQ?oc=5",
-     "source": "Chaoszine",
-     "sources": [
-      "Chaoszine"
-     ],
-     "published": "2026-11-13T19:33:16+00:00",
-     "summary": "",
-     "score": 0.999
+     "score": 1.081
     },
     {
      "title": "Snoh Aalegra Shares the Official Video for ‘Supernova’",
@@ -1835,7 +1825,7 @@
      ],
      "published": "2026-11-13T18:28:22+00:00",
      "summary": "",
-     "score": 0.981
+     "score": 0.98
     },
     {
      "title": "Wolves At The Gate Premiere “Firewall” Music Video",
@@ -1846,7 +1836,7 @@
      ],
      "published": "2026-11-13T17:59:57+00:00",
      "summary": "",
-     "score": 0.973
+     "score": 0.972
     },
     {
      "title": "Honkai: Star Rail Gives Aha's Battle Theme \"Ex Nihilo\" Its Own Animated Music Video",
@@ -1857,7 +1847,7 @@
      ],
      "published": "2026-11-13T16:11:00+00:00",
      "summary": "",
-     "score": 0.943
+     "score": 0.942
     },
     {
      "title": "Mariah Deborah Announces Upcoming “Na Para Bang” Music Video",
@@ -1868,7 +1858,7 @@
      ],
      "published": "2026-11-13T16:02:07+00:00",
      "summary": "",
-     "score": 0.941
+     "score": 0.94
     },
     {
      "title": "From Ashes To New Unleash “After Death” Music Video Alongside ‘Reflections’ Deluxe Edition",
@@ -1879,7 +1869,7 @@
      ],
      "published": "2026-11-13T15:59:23+00:00",
      "summary": "",
-     "score": 0.94
+     "score": 0.939
     },
     {
      "title": "B2K Toast Their Own Legacy in the Futuristic Cosign Video",
@@ -1890,7 +1880,7 @@
      ],
      "published": "2026-11-13T15:21:31+00:00",
      "summary": "",
-     "score": 0.929
+     "score": 0.928
     },
     {
      "title": "Watch Peppa Pig Celebrate Baby Evie’s First Christmas With Merry Music Video From ‘Festive Fun’ Album",
@@ -1901,7 +1891,18 @@
      ],
      "published": "2026-11-13T14:04:13+00:00",
      "summary": "",
-     "score": 0.908
+     "score": 0.907
+    },
+    {
+     "title": "Turkish rappers Lvbel C5, Alizade face up to 5 years in prison over song lyrics",
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTDhUOGp3cHhZZDRldWJnRUJTejA1bVdxUF81WHhhNk5TWkZOTlRXeHJlZERISGd5SUdhd3hZWGRNUmNPdllQaWJRNl9mNWR4aUJldC0yelo3TzZ2c3dYdDRORTNrRzVuZE1LeDltcmM3YnJZdGM3cFZ1OUlmTTFHaGJBQnU5R1gzYTVqclVmQWhkRWliOGpQYl9iSWExXzhWaHRwdkdBZy1vNEVWZENzNl9PbnNSUEs3djc0cUFwQUQ?oc=5",
+     "source": "Türkiye Today",
+     "sources": [
+      "Türkiye Today"
+     ],
+     "published": "2026-11-13T13:30:37+00:00",
+     "summary": "",
+     "score": 0.897
     },
     {
      "title": "What blood sugar sex magik music video is and who it fits best",
@@ -1912,7 +1913,7 @@
      ],
      "published": "2026-11-13T13:20:42+00:00",
      "summary": "",
-     "score": 0.896
+     "score": 0.895
     },
     {
      "title": "Luong Nguyet Anh proudly features the green of the military uniform in her new music video.",
@@ -1923,7 +1924,7 @@
      ],
      "published": "2026-11-13T12:22:43+00:00",
      "summary": "",
-     "score": 0.88
+     "score": 0.879
     },
     {
      "title": "The Weeknd is set to release his first music video in 2026 as a surprise.",
@@ -1934,7 +1935,7 @@
      ],
      "published": "2026-11-13T11:24:21+00:00",
      "summary": "",
-     "score": 0.864
+     "score": 0.862
     },
     {
      "title": "IDK Releases New Song & Video ‘WELCOME’ Featuring Eminem, Produced by J Dilla",
@@ -1945,7 +1946,7 @@
      ],
      "published": "2026-11-13T10:42:11+00:00",
      "summary": "",
-     "score": 0.852
+     "score": 0.851
     },
     {
      "title": "Enjoy The New Hindi Music Video For 'Jogiya' By Bhavit Rathore",
@@ -1956,7 +1957,7 @@
      ],
      "published": "2026-11-13T10:20:12+00:00",
      "summary": "",
-     "score": 0.846
+     "score": 0.845
     },
     {
      "title": "Enjoy The New Hindi Music Video For 'Ishq Wala Taweez' By Altamash Faridi",
@@ -1967,7 +1968,7 @@
      ],
      "published": "2026-11-13T10:15:53+00:00",
      "summary": "",
-     "score": 0.845
+     "score": 0.843
     },
     {
      "title": "Morrissey Airs \"Zoom Zoom the Little Boy\" Music Video",
@@ -1978,7 +1979,7 @@
      ],
      "published": "2026-11-13T09:30:00+00:00",
      "summary": "",
-     "score": 0.832
+     "score": 0.831
     },
     {
      "title": "VVINK Unveil Music Video For First-Ever Rap Track “Mic Check Mic Check (Alam Mo Na Yan)” – Watch",
@@ -1989,7 +1990,7 @@
      ],
      "published": "2026-11-13T08:46:13+00:00",
      "summary": "",
-     "score": 0.82
+     "score": 0.818
     }
    ]
   },
@@ -2006,18 +2007,7 @@
      ],
      "published": "2026-11-14T05:00:00+00:00",
      "summary": "Inspired by a visit to the Pacific Northwest, this 1996 record was the final album-length work released during the composer’s lifetime; it offers a rare glimpse of his most playful side.",
-     "score": 1.757
-    },
-    {
-     "title": "Snakes & Ladders",
-     "link": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
-     "source": "Pitchfork — Album reviews",
-     "sources": [
-      "Pitchfork — Album reviews"
-     ],
-     "published": "2026-11-13T05:03:00+00:00",
-     "summary": "It’s a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they’ve cultivated.",
-     "score": 1.358
+     "score": 1.756
     },
     {
      "title": "Unfindable Ring",
@@ -2028,7 +2018,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "The Brooklyn group prizes playfulness over conformity on its latest album, plumbing country, folk, indie rock, art pop, and more for an album of giddy love songs and existential gender trouble.",
-     "score": 1.357
+     "score": 1.356
     },
     {
      "title": "Cherry Soda",
@@ -2039,7 +2029,7 @@
      ],
      "published": "2026-11-13T05:01:00+00:00",
      "summary": "Totally normal new Wavves album, why do you ask?",
-     "score": 1.357
+     "score": 1.356
     },
     {
      "title": "Secret Language",
@@ -2050,7 +2040,18 @@
      ],
      "published": "2026-11-13T05:02:00+00:00",
      "summary": "On its first album in over a decade, the DIY rock group returns with new perspective, new instrumental touches, and a new element of optimism within its self-reflexive songwriting.",
-     "score": 1.357
+     "score": 1.356
+    },
+    {
+     "title": "Snakes & Ladders",
+     "link": "https://pitchfork.com/reviews/albums/armand-hammer-snakes-and-ladders/",
+     "source": "Pitchfork — Album reviews",
+     "sources": [
+      "Pitchfork — Album reviews"
+     ],
+     "published": "2026-11-13T05:03:00+00:00",
+     "summary": "It’s a marathon and the New York duo keeps the faith, delivering another lyrical masterclass over engrossing beats from the indie rap all-stars whose work they’ve cultivated.",
+     "score": 1.356
     },
     {
      "title": "Album Review: Cro-Mags – Age Of Quarrel – 40 Years Of Quarrel",
@@ -2062,7 +2063,7 @@
      ],
      "published": "2026-11-13T12:18:55+00:00",
      "summary": "",
-     "score": 1.229
+     "score": 1.228
     },
     {
      "title": "Album Review: Cuttered Flesh – The Shapes of Hidden Malice",
@@ -2073,7 +2074,18 @@
      ],
      "published": "2026-11-14T06:30:18+00:00",
      "summary": "",
-     "score": 1.182
+     "score": 1.181
+    },
+    {
+     "title": "Distant // Into Despair // Album Review",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwbVZKcHBRajBBU0FYUy1sRlhZQVNmLXk0OUlXQW5uMjJwdU5ZcnFPUjZ5TTZxOFA4amY3aGVSS1B4OS10ZG9CY3VNMjgzMXdnTDE1Si00dTlxSHNtcmtYMDVSaG1kWXppc3U4?oc=5",
+     "source": "https://rocknloadmag.com/",
+     "sources": [
+      "https://rocknloadmag.com/"
+     ],
+     "published": "2026-11-14T06:09:20+00:00",
+     "summary": "",
+     "score": 1.175
     },
     {
      "title": "U2 – Carnaval de Luz: Album Review",
@@ -2084,28 +2096,6 @@
       "Extra.ie"
      ],
      "published": "2026-11-13T08:31:27+00:00",
-     "summary": "",
-     "score": 1.165
-    },
-    {
-     "title": "Album Review : Queens of the Stone Age : Perfecth",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUmVwQkttNE83NjFOelhHRnViQmZLTC0zOU82NHE4V3plQmxxVmItMDdrWnhoMEx6eXNHaHczZU9nTy0wVmRJTzYySjFsQ3RFWjVMUWU2YTdzcVUzZlNwOXVZOVR0NHp3TFFTa1dJV1dwUFpVTE5VY0o2NDNBTkljOURiSnRWcEZxR25R?oc=5",
-     "source": "Metal Planet Music",
-     "sources": [
-      "Metal Planet Music"
-     ],
-     "published": "2026-11-14T05:28:46+00:00",
-     "summary": "",
-     "score": 1.165
-    },
-    {
-     "title": "Distant // Into Despair // Album Review",
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwbVZKcHBRajBBU0FYUy1sRlhZQVNmLXk0OUlXQW5uMjJwdU5ZcnFPUjZ5TTZxOFA4amY3aGVSS1B4OS10ZG9CY3VNMjgzMXdnTDE1Si00dTlxSHNtcmtYMDVSaG1kWXppc3U4?oc=5",
-     "source": "https://rocknloadmag.com/",
-     "sources": [
-      "https://rocknloadmag.com/"
-     ],
-     "published": "2026-11-14T05:26:46+00:00",
      "summary": "",
      "score": 1.164
     },
@@ -2118,7 +2108,7 @@
      ],
      "published": "2026-11-14T05:00:00+00:00",
      "summary": "",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "Sheherazaad: Khudgarzi review | Ammar Kalia's global album of the month",
@@ -2129,7 +2119,7 @@
      ],
      "published": "2026-11-13T08:30:13+00:00",
      "summary": "(Erased Tapes) Dreamy, reverb-laden arrangements, virtuosic vocals and echoes of PJ Harvey and Massive Attack make this disarming debut a one-of-a-kind creation Continue reading...",
-     "score": 1.115
+     "score": 1.114
     },
     {
      "title": "Snoh Aalegra: Legendary Love review – raw R&B talent restrained by reverence for the greats",
@@ -2140,7 +2130,7 @@
      ],
      "published": "2026-11-13T08:00:13+00:00",
      "summary": "(Stem) Her truly remarkable, Sade-ish voice is hypnotic against some dizzyingly plush production, but a modern spin on 80s pastiche sometimes veers too close to tribute Continue reading...",
-     "score": 1.107
+     "score": 1.106
     },
     {
      "title": "Belly Gang Kushington – GOOD DOPE SELL ITSELF (Album Review)",
@@ -2151,7 +2141,7 @@
      ],
      "published": "2026-11-14T01:09:41+00:00",
      "summary": "",
-     "score": 1.093
+     "score": 1.092
     },
     {
      "title": "The War on Drugs: Slave Ambient Album Review",
@@ -2162,7 +2152,7 @@
      ],
      "published": "2026-11-14T00:49:03+00:00",
      "summary": "",
-     "score": 1.087
+     "score": 1.086
     },
     {
      "title": "Tara Cunningham – Warm Ground",
@@ -2173,18 +2163,18 @@
      ],
      "published": "2026-11-13T06:00:00+00:00",
      "summary": "Tara Cunningham Warm Ground Tara Cunningham’s latest mini-LP of small wonders proves a perfect counterpoint to our outsized era, says Bernie Brooks Warm Ground by Tara Cunningham We’re living through an era of apocalyptic sizing, of catastrophic scale. El Niño, high…",
-     "score": 1.073
+     "score": 1.072
     },
     {
-     "title": "Wraith // Descent Into Darkness // Album Review",
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1laHYwTElYaG9kbXRrMGs1Tmo5RG9XcXlSZ0JLaHZhN3JidHJJaEpCalhjUFktUU1NZ1M5TWlyekNkSFZIQWp3bEIyb2k3alBtVEtqbXdFWG0zMzJEbmZsa3cwV0ZJSWlhaUsxUmZ5Y0QtUlZtQXc?oc=5",
-     "source": "https://rocknloadmag.com/",
+     "title": "Album Review : Asia : Indigo",
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE45S0FQZHB4RFpkWFRYY3BvOUt0S3VJYklOUGpQdXlFTXpmOHh1QW5fSWthbXk4VDVMbnI1TmFoTjVwcXlyT0QyQTk5X29XV1UtMHlaWEZ4cVkzWHgtVGxBZmNoM3ExRGJSamlJN3RKNA?oc=5",
+     "source": "Metal Planet Music",
      "sources": [
-      "https://rocknloadmag.com/"
+      "Metal Planet Music"
      ],
-     "published": "2026-11-13T21:45:42+00:00",
+     "published": "2026-11-13T22:00:43+00:00",
      "summary": "",
-     "score": 1.036
+     "score": 1.039
     },
     {
      "title": "Archives: Articles",
@@ -2195,7 +2185,7 @@
      ],
      "published": "2026-11-13T21:05:25+00:00",
      "summary": "",
-     "score": 1.025
+     "score": 1.024
     },
     {
      "title": "Album Review: Obedient- Self Titled",
@@ -2206,7 +2196,7 @@
      ],
      "published": "2026-11-13T20:31:43+00:00",
      "summary": "",
-     "score": 1.016
+     "score": 1.014
     },
     {
      "title": "Offset – GMFU (Album Review)",
@@ -2217,7 +2207,7 @@
      ],
      "published": "2026-11-13T19:49:45+00:00",
      "summary": "",
-     "score": 1.004
+     "score": 1.003
     },
     {
      "title": "Album Review – Joe Ray McDonald’s “Harvester” -",
@@ -2228,7 +2218,7 @@
      ],
      "published": "2026-11-13T19:37:25+00:00",
      "summary": "",
-     "score": 1.0
+     "score": 0.999
     },
     {
      "title": "Album Review: HEELMATIC by Westside Gunn",
@@ -2239,7 +2229,7 @@
      ],
      "published": "2026-11-13T17:01:23+00:00",
      "summary": "",
-     "score": 0.957
+     "score": 0.956
     },
     {
      "title": "Album Review: Somn – Consecration",
@@ -2250,7 +2240,7 @@
      ],
      "published": "2026-11-13T16:45:29+00:00",
      "summary": "",
-     "score": 0.953
+     "score": 0.952
     },
     {
      "title": "Local Album Review // Les Brown // The One After That",
@@ -2261,7 +2251,7 @@
      ],
      "published": "2026-11-13T16:30:00+00:00",
      "summary": "",
-     "score": 0.948
+     "score": 0.947
     },
     {
      "title": "Darkest Hour – Suffer Divine | Album Review",
@@ -2272,7 +2262,18 @@
      ],
      "published": "2026-11-13T16:17:07+00:00",
      "summary": "",
-     "score": 0.945
+     "score": 0.944
+    },
+    {
+     "title": "U2 Gets On Its Boots for First All-New Full-Length Record in Nine Years, ‘Carnaval de Luz,’ With More Callbacks to Band’s ’90s Peaks Than ’80s Glories: Album Review",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaV9FejFfZE5zSk9ZZTRYX3FBR2F3U1ZLNzFJSXpGcDRLT0JDSmZZdlFEbkh5OWhiUm9PUkZkYWhFeFk5RW5xbXJLUXRnaVl1YzU3cUhWQWJ6TnRpUXpPVkp3SDhVcWpRUTZjZVNvZm9wTVBCQlBNLXF2em5ieWJ5SEktWUJMeTZlb3JVVDBKOGdmUQ?oc=5",
+     "source": "Variety",
+     "sources": [
+      "Variety"
+     ],
+     "published": "2026-11-13T16:01:00+00:00",
+     "summary": "",
+     "score": 0.939
     }
    ]
   },
@@ -2283,24 +2284,24 @@
     {
      "title": "Here’s what’s making us happy this week.",
      "link": "https://lithub.com/heres-whats-making-us-happy-this-week-111326/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T19:02:26+00:00",
      "summary": "Happy Friday, Lit Hub readers! This week, as the cold rolls in up East, we’re returning to gratitude. Your favorite masthead has been braving the weather and blessing the couch. Oliver Scialdone is looking forward to the Brooklyn Expo of",
-     "score": 1.291
+     "score": 1.29
     },
     {
      "title": "Alibris has made a deal to sell used books on Temu.",
      "link": "https://lithub.com/alibris-has-made-a-deal-to-sell-used-books-on-temu/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T17:42:52+00:00",
      "summary": "As Sam Spratford reports in Publisher’s Weekly, Alibris has inked a deal to make over a million books available on Temu’s massive digital marketplace. It’s not too shocking, as Alibris seems to be chasing a model of breadth and speed;",
-     "score": 1.269
+     "score": 1.268
     },
     {
      "title": "Nick Hornby Bets on the Beautiful Game",
@@ -2311,18 +2312,18 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "In his latest novel, the author explores soccer, sports betting, and what can really change a person’s life.",
-     "score": 1.257
+     "score": 1.256
     },
     {
      "title": "Put off Bolaño’s 2666 for too long? In 2027, tackle it with the Equator book club.",
      "link": "https://lithub.com/put-off-bolanos-2666-for-too-long-in-2027-tackle-it-with-the-equator-book-club/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T17:02:08+00:00",
      "summary": "The Equator reading group is back by popular demand. After a successful summer outing with Mike Davis’s Late Victorian Holocausts, the globally minded magazine is sponsoring another book club. This time, the subject is a literary doorstop—Roberto Bolaño’s 2666. Why",
-     "score": 1.257
+     "score": 1.256
     },
     {
      "title": "Small Lies, Big Trouble Gains International Exposure at the 2026 Frankfurt Book Fair",
@@ -2333,7 +2334,7 @@
      ],
      "published": "2026-11-14T06:10:04+00:00",
      "summary": "",
-     "score": 1.176
+     "score": 1.175
     },
     {
      "title": "7 Books About Mothers with Voracious Interior Lives",
@@ -2344,18 +2345,18 @@
      ],
      "published": "2026-11-13T12:05:00+00:00",
      "summary": "The political project constraining American women, the one that gave us Dobbs, rests on a picture of motherhood as a woman’s entirety. Instinctive, total, self-abnegating, and therefore requiring no compensation, no consent, and no interior life. A reader of feminist theory may…",
-     "score": 1.175
+     "score": 1.174
     },
     {
      "title": "Lit Hub Daily: November 13, 2026",
      "link": "https://lithub.com/lit-hub-daily-november-13-2026/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T11:30:10+00:00",
      "summary": "What being a Bills fan can teach you about writing (even when they lose). | Lit Hub Craft “True, the maze of indistinguishable cubicles was confusing, but was it not odd that the editor in chief didn’t know the way",
-     "score": 1.165
+     "score": 1.164
     },
     {
      "title": "A $19.5 million fine for book piracy: 13 publishers compensated for intellectual property rights violations",
@@ -2366,51 +2367,40 @@
      ],
      "published": "2026-11-14T05:21:40+00:00",
      "summary": "",
-     "score": 1.163
+     "score": 1.162
     },
     {
      "title": "The Most Read Books on Goodreads This Week",
      "link": "https://bookriot.com/most-read-books-on-goodreads-november-13-2026/",
-     "source": "Book Riot — New releases",
+     "source": "Book Riot — Horror",
      "sources": [
-      "Book Riot — New releases"
+      "Book Riot — Horror"
      ],
      "published": "2026-11-13T11:07:00+00:00",
      "summary": "The most read books on Goodreads this week include romantasy books, a dystopian novel, and a witchy thriller.",
-     "score": 1.159
+     "score": 1.158
     },
     {
      "title": "The Most Beautifully Illustrated Manga",
      "link": "https://bookriot.com/most-beautifully-illustrated-manga/",
-     "source": "Book Riot — New releases",
+     "source": "Book Riot — Horror",
      "sources": [
-      "Book Riot — New releases"
+      "Book Riot — Horror"
      ],
      "published": "2026-11-13T11:06:00+00:00",
      "summary": "If you're an art lover, don't miss the stunning beauty that is manga.",
-     "score": 1.158
-    },
-    {
-     "title": "3 Indigenous Horror Audiobooks",
-     "link": "https://bookriot.com/indigenous-horror-audiobooks/",
-     "source": "Book Riot — New releases",
-     "sources": [
-      "Book Riot — New releases"
-     ],
-     "published": "2026-11-13T11:00:00+00:00",
-     "summary": "These Indigenous horror audiobooks combine the supernatural with lived experience to tell chilling tales.",
      "score": 1.157
     },
     {
      "title": "📚 Booksellers are raving about…",
      "link": "https://bookriot.com/booksellers-are-raving-about/",
-     "source": "Book Riot — New releases",
+     "source": "Book Riot — Horror",
      "sources": [
-      "Book Riot — New releases"
+      "Book Riot — Horror"
      ],
      "published": "2026-11-13T10:30:00+00:00",
      "summary": "Barnes and Noble and Amazon both announced their picks for Best Books of 2026.",
-     "score": 1.148
+     "score": 1.147
     },
     {
      "title": "Libraries of lies: The Tamil Nadu scam involving fake authors, stolen ISBNs, and AI slop",
@@ -2421,40 +2411,40 @@
      ],
      "published": "2026-11-14T04:03:18+00:00",
      "summary": "",
-     "score": 1.141
+     "score": 1.14
     },
     {
      "title": "Maia Kobabe On Advocacy, Comics Censorship, and More: Book Censorship News, November 13, 2026",
      "link": "https://bookriot.com/maia-kobabe-interview/",
-     "source": "Book Riot — New releases",
+     "source": "Book Riot — Horror",
      "sources": [
-      "Book Riot — New releases"
+      "Book Riot — Horror"
      ],
      "published": "2026-11-13T10:00:00+00:00",
      "summary": "Maia Kobabe talks about literary advocacy, the targeted attacks on comics, editing a comics series, and more in this interview.",
-     "score": 1.14
+     "score": 1.139
     },
     {
      "title": "What is the Best Literary TV Adaptation of All Time? Day Five",
      "link": "https://lithub.com/what-is-the-best-literary-tv-adaptation-of-all-time-day-five/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T10:00:57+00:00",
      "summary": "Well, well, well, if it isn’t the semifinals, the thing I mix up with the quarterfinals every time we do one of these brackets. We’re down to four shows, in two match-ups—and these are not the four shows I expected.",
-     "score": 1.14
+     "score": 1.139
     },
     {
      "title": "There’s Always Next Year: What the Buffalo Bills Taught Me About Writing and Hope",
      "link": "https://lithub.com/theres-always-next-year-what-the-buffalo-bills-taught-me-about-writing-and-hope/",
-     "source": "Literary Hub — New books",
+     "source": "Literary Hub — Horror",
      "sources": [
-      "Literary Hub — New books"
+      "Literary Hub — Horror"
      ],
      "published": "2026-11-13T08:50:25+00:00",
      "summary": "There is nothing writers love more than talking about how hard it is to write. Stephen King described the writing process as “like crossing the Atlantic Ocean in a bathtub.” Sportswriter Red Smith, in a quote often erroneously attributed to",
-     "score": 1.121
+     "score": 1.12
     },
     {
      "title": "Court allows news publishers’ copyright lawsuit against OpenAI to go ahead",
@@ -2465,7 +2455,7 @@
      ],
      "published": "2026-11-13T22:18:00+00:00",
      "summary": "",
-     "score": 1.045
+     "score": 1.044
     },
     {
      "title": "A daughter’s memory inspires a literary journey",
@@ -2476,7 +2466,7 @@
      ],
      "published": "2026-11-13T22:03:29+00:00",
      "summary": "",
-     "score": 1.041
+     "score": 1.04
     },
     {
      "title": "Bloomsbury considers publishing and wider media candidates in search for new CEO",
@@ -2487,7 +2477,7 @@
      ],
      "published": "2026-11-13T21:55:37+00:00",
      "summary": "",
-     "score": 1.039
+     "score": 1.038
     },
     {
      "title": "New evaluation framework to safeguard research quality",
@@ -2498,7 +2488,7 @@
      ],
      "published": "2026-11-13T21:47:37+00:00",
      "summary": "",
-     "score": 1.037
+     "score": 1.036
     },
     {
      "title": "Yes, We Need to Track Antisemitism in the Arts",
@@ -2509,7 +2499,7 @@
      ],
      "published": "2026-11-13T20:42:43+00:00",
      "summary": "",
-     "score": 1.019
+     "score": 1.018
     },
     {
      "title": "Industry survey finds 40% of game devs use gen AI as studios slash jobs and publishers demand more",
@@ -2520,7 +2510,7 @@
      ],
      "published": "2026-11-13T17:30:44+00:00",
      "summary": "",
-     "score": 0.965
+     "score": 0.964
     },
     {
      "title": "Advantage Announces New Authors With Fresh Insights On Innovation, Leadership, and Challenging Life Experiences",
@@ -2531,7 +2521,7 @@
      ],
      "published": "2026-11-13T17:14:00+00:00",
      "summary": "",
-     "score": 0.961
+     "score": 0.96
     },
     {
      "title": "Half of International Air Accident Probes Lack Final Reports",
@@ -2542,7 +2532,7 @@
      ],
      "published": "2026-11-13T16:30:24+00:00",
      "summary": "",
-     "score": 0.949
+     "score": 0.947
     },
     {
      "title": "Onshur shares how to start and grow publishing firms at SIBF 2026",
@@ -2553,7 +2543,18 @@
      ],
      "published": "2026-11-13T15:42:27+00:00",
      "summary": "",
-     "score": 0.935
+     "score": 0.934
+    },
+    {
+     "title": "Writers explore publishing’s gender divide at SIBF 2026",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWUlrYmRxUkdQVVh2Y25BRDZwVU9HbWYzWm1KS21EOVdWYTFKRW9HYkVWVnR0cThvNkUwRnRGWWtOdjhxcG5OR3A4UjVRYnlBc0E2ckpYSThoSzgxR1Vzc1dKcDdKQ1FkMk4zcGZEWDN5a3NBZTlaenpEWmdLeXB6OFlSNklRV05NTzRvZ0gzdDFqYlB2a0o2MENMSHhkQQ?oc=5",
+     "source": "Sharjah24",
+     "sources": [
+      "Sharjah24"
+     ],
+     "published": "2026-11-13T11:14:54+00:00",
+     "summary": "",
+     "score": 0.86
     }
    ]
   },
@@ -2571,7 +2572,7 @@
      ],
      "published": "2026-11-14T02:13:00+00:00",
      "summary": "",
-     "score": 1.46
+     "score": 1.459
     },
     {
      "title": "Madison Reading Project book drive promotes buying from locally owned bookstores",
@@ -2579,11 +2580,22 @@
      "source": "WMTV 15 NEWS",
      "sources": [
       "WMTV 15 NEWS",
-      "WDBJ7"
+      "WOWT"
      ],
      "published": "2026-11-13T12:00:00+00:00",
      "summary": "",
-     "score": 1.223
+     "score": 1.222
+    },
+    {
+     "title": "Dhanush, Mammootty and Sai Pallavi bring action and drama to OM: Chapter 1 – Udhiram, trailer out now",
+     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOT0hGUGRTb1hKNkEwVEtTdndPaXFlVGxmZ3hpSHRUb3h1S1MzTzlXME1EYUhNemVPcDY3ZWZBTGdkcFB3OHFVck9kRjFPTXMtV3ZvZVRaX2FuZ0MzcnR3T0lJN3cyLW95RDBRbkZ5bTRHRGpIVGItczlTbTN3dEFheU9uTTI3cGFFSEVBeFNYUGp2YWM5U3M1OGhmekY3V0Focnd2NlVHR2lUQTVRYjYwQ2kzdkdUbklhWFpVa243R0FhS2xtZ1c0X1lhcW9uWTc1THJ1d3hOQUFpZzFQZWxwX1BGUEdaTE3SAecBQVVfeXFMTk9IRlBkU29YSjZBMFRLU3Z3T2lxZVRsZmd4aUh0VG94dUtTM085VzBNRGFITXplT3A2N2VmQUxnZHBQdzhxVXJPZEYxT01zLVd2b2VUWl9hbmdDM3J0d09JSTd3Mi1veUQwUW5GeW00R0RqSFRiLXM5U20zd3RBYXlPbk0yN3BhRUhFQXhTWFBqdmFjOVNzNThoZnpGN1dBaHJ3djZVR0dpVEE1UWI2MENpM3ZHVG5JYVhaVWtuN0dBYUtsbWdXNF9ZYXFvblk3NUxydXd4TkFBaWcxUGVscF9QRlBHWkxN?oc=5",
+     "source": "Bollywood Hungama",
+     "sources": [
+      "Bollywood Hungama"
+     ],
+     "published": "2026-11-14T05:28:47+00:00",
+     "summary": "",
+     "score": 1.164
     },
     {
      "title": "Free Queer Pirate Fantasy Novel The Sea is Our Stage Is Out Now!",
@@ -2594,29 +2606,29 @@
      ],
      "published": "2026-11-14T04:00:09+00:00",
      "summary": "",
-     "score": 1.14
+     "score": 1.139
     },
     {
      "title": "The best books to read in November and December: new paperbacks from Benjamin Myers, Jeanette Winterson and John Updike",
      "link": "https://www.theguardian.com/books/ng-interactive/2026/nov/13/the-best-books-to-read-in-november-and-december-new-paperbacks-from-benjamin-myers-jeanette-winterson-and-john-updike",
-     "source": "The Guardian — Books (new)",
+     "source": "The Guardian — Horror books",
      "sources": [
-      "The Guardian — Books (new)"
+      "The Guardian — Horror books"
      ],
      "published": "2026-11-13T09:30:14+00:00",
      "summary": "Looking for a new reading recommendation? Here are some must-read new paperbacks, from an experimental novel about a German actor to a study of how the arts can boost our health *** Continue reading...",
-     "score": 1.132
+     "score": 1.131
     },
     {
      "title": "The Best Psychological Thrillers of the Month: November 2026",
      "link": "https://crimereads.com/the-best-psychological-thrillers-of-the-month-november-2026/",
-     "source": "CrimeReads",
+     "source": "CrimeReads — Horror",
      "sources": [
-      "CrimeReads"
+      "CrimeReads — Horror"
      ],
      "published": "2026-11-13T09:10:28+00:00",
      "summary": "In these new psychological thrillers, editors are taken hostage, cat-sitters become amateur sleuths, several small towns are ripped apart by scandal, and long-buried crimes come rising to the surface. All blurbs are my own, unless otherwise stated. Enjoy! Stephanie Wrobel…",
-     "score": 1.126
+     "score": 1.125
     },
     {
      "title": "Noa Yedlin's acclaimed Israeli novel 'House Arrest' hits shelves in English",
@@ -2627,7 +2639,7 @@
      ],
      "published": "2026-11-14T02:15:37+00:00",
      "summary": "",
-     "score": 1.111
+     "score": 1.11
     },
     {
      "title": "In Comics, Crime Still Pays",
@@ -2638,7 +2650,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "Noir got even weirder this season, as the industry chases romantasy’s success with other genre mash-ups.",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "This Week’s Bestsellers: November 16, 2026",
@@ -2649,7 +2661,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "PW Talks with Armando Montes de Santiago",
@@ -2660,7 +2672,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "With the Guadalajara International Book Fair kicking off on November 28, Armando Montes De Santiago is busy. The fair’s director of exhibitors, the professionals’ program, and the rights center also oversees its fellowship program, which each year invites a select group of…",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "Must-See at FIL",
@@ -2671,7 +2683,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "From deep dives into the spanish publishing industry to the ongoing presence of ai, here’s our programming picks.",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "Guadalajara at 40",
@@ -2682,7 +2694,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "Director Marisol Schulz Manau says FIL is continuing to grow as the fair celebrates its anniversary with a robust program.",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "How ‘God AI’ by Toby Walsh Got Made",
@@ -2693,7 +2705,7 @@
      ],
      "published": "2026-11-13T05:00:00+00:00",
      "summary": "An inside look at the publication process for the computer scientist and author’s latest book.",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "Chesnara (LSE:CSN) Stock Looks Pricey On Its New Closed Book Deal",
@@ -2704,7 +2716,7 @@
      ],
      "published": "2026-11-13T22:13:36+00:00",
      "summary": "",
-     "score": 1.044
+     "score": 1.043
     },
     {
      "title": "November 2026 Issue",
@@ -2715,7 +2727,7 @@
      ],
      "published": "2026-11-13T21:31:07+00:00",
      "summary": "",
-     "score": 1.032
+     "score": 1.031
     },
     {
      "title": "New Jane Austen TV Franchise Confirmed After Record-Breaking Streaming Hit",
@@ -2726,7 +2738,7 @@
      ],
      "published": "2026-11-13T21:13:20+00:00",
      "summary": "",
-     "score": 1.027
+     "score": 1.026
     },
     {
      "title": "J-Novel Club Announces 13 New Digital Releases and Two New Print Releases",
@@ -2737,7 +2749,7 @@
      ],
      "published": "2026-11-13T20:00:00+00:00",
      "summary": "",
-     "score": 1.007
+     "score": 1.006
     },
     {
      "title": "Sofia Franklyn Spills On Alex Cooper Feud In New Memoir",
@@ -2748,7 +2760,7 @@
      ],
      "published": "2026-11-13T19:54:54+00:00",
      "summary": "",
-     "score": 1.005
+     "score": 1.004
     },
     {
      "title": "Harry Potter Officially Has 2 New Books Releasing In 2027",
@@ -2759,7 +2771,7 @@
      ],
      "published": "2026-11-13T19:30:20+00:00",
      "summary": "",
-     "score": 0.999
+     "score": 0.997
     },
     {
      "title": "November's new books are the best of the year - make room in your TBR pile for each one",
@@ -2770,7 +2782,7 @@
      ],
      "published": "2026-11-13T19:00:00+00:00",
      "summary": "",
-     "score": 0.99
+     "score": 0.989
     },
     {
      "title": "Michael Douglas Says Journalist Hadn’t Read His Memoir Before Lunch Interview",
@@ -2781,7 +2793,7 @@
      ],
      "published": "2026-11-13T18:55:17+00:00",
      "summary": "",
-     "score": 0.989
+     "score": 0.988
     },
     {
      "title": "Talking Heads 'Fear of Music' Expanded Super Deluxe Edition Out Now",
@@ -2792,7 +2804,7 @@
      ],
      "published": "2026-11-13T18:17:32+00:00",
      "summary": "",
-     "score": 0.978
+     "score": 0.977
     },
     {
      "title": "International: 30 bestselling books of the week for Nov. 7",
@@ -2803,7 +2815,7 @@
      ],
      "published": "2026-11-13T18:08:32+00:00",
      "summary": "",
-     "score": 0.976
+     "score": 0.975
     },
     {
      "title": "\"It Sold 1.7 Million Copies on Its First Day”: The 5 Best New Books to Cozy Up With This Winter 2026",
@@ -2814,7 +2826,7 @@
      ],
      "published": "2026-11-13T15:08:46+00:00",
      "summary": "",
-     "score": 0.926
+     "score": 0.925
     },
     {
      "title": "Read These 5 Thanksgiving Romance Books Goodreads Users Rave About",
@@ -2825,18 +2837,7 @@
      ],
      "published": "2026-11-13T15:00:42+00:00",
      "summary": "",
-     "score": 0.924
-    },
-    {
-     "title": "On the Radar: Legal eagles, case closed!",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUjNNU3BjT2VQU0JkYTFLZi1DRGxyR0JZX2ROQnhwU0lnNl9mX0NJRGU3SXBsMWpzNm45cWhOckFUYW8yeS01VERDaW5TNG5OMGFRRWFscFNlQ200MEg2bHhXVnRUZmRfRC1yUmNWQ1ZKWVZYZ0NIUS16R1E2Q2dnOE1n?oc=5",
-     "source": "Crime Fiction Lover",
-     "sources": [
-      "Crime Fiction Lover"
-     ],
-     "published": "2026-11-13T14:14:12+00:00",
-     "summary": "",
-     "score": 0.911
+     "score": 0.923
     }
    ]
   },
@@ -2888,73 +2889,7 @@
      ],
      "published": "2026-11-12T09:45:02+00:00",
      "summary": "Our quintet of quality reviews this week includes Hillary Kelly on M. John Harrison’s The End of Everything, Merve Emre on Tom Overton’s John Berger, Ed Park on Cleo Birdwell’s Amazons, Ryan Ruby on Emily Ogden’s Darkness Becomes Bright, and Josef Burton on Akbar Shahid Ahmed’s…",
-     "score": 1.564
-    },
-    {
-     "title": "GREEN",
-     "link": "https://www.kirkusreviews.com/book-reviews/chuck-legrande/green-6/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "Jamie is an American in Montreal just after Christmas in 1971. He’s eyeing a poster for an upcoming wrestling match when he’s offered admission in exchange for helping to set up. Soon, he begins refereeing and wrestling, mentored by a guy named Frenchie. Their plan is to head…",
-     "score": 1.5
-    },
-    {
-     "title": "BOOK BANS, DISINFORMATION, AND CULTURAL ERASURE",
-     "link": "https://www.kirkusreviews.com/book-reviews/paul-t-jaeger/book-bans-disinformation-and-cultural-erasure/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "Cultural “erasure” silences or disappears marginalized communities, writes Jaeger, a scholar at the University of Maryland and a lifelong disabled person and activist for disability rights. “At this moment,” he writes, groups are “seeking to limit the gains made in recent years…",
-     "score": 1.5
-    },
-    {
-     "title": "OUR PERIODS, OURSELVES",
-     "link": "https://www.kirkusreviews.com/book-reviews/mathangi-subramanian/our-periods-ourselves/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "In this straightforward nonfiction title, Subramanian offers a detailed guide to menstruation and stresses the importance of teen readers’ being informed—from learning the vocabulary to talk about their experiences to knowing how to care for themselves throughout their…",
-     "score": 1.5
-    },
-    {
-     "title": "SEVEN POUNDS OF TROUBLE",
-     "link": "https://www.kirkusreviews.com/book-reviews/chris-datta/seven-pounds-of-trouble/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "Scout, a 110-pound Golden Retriever, is king of his domain. He patrols the family house: monitoring the squirrels outside, inspecting the backyard, supervising the mail truck. Then Rex joins the family. Rex is a fearless 7-pound Himalayan kitten who claims Scout’s territory as…",
-     "score": 1.5
-    },
-    {
-     "title": "THE POLISH REFUGEE",
-     "link": "https://www.kirkusreviews.com/book-reviews/william-mcclain/the-polish-refugee/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "Sixty-six-year-old Alice Standfield is worried about the recent behavior of her petulant 16-year-old granddaughter Irene Standfield. Ever since the London blitz killed Irene’s parents, Alice has cared for her and her two older brothers, Martin and Leo, welcoming them into Elm…",
-     "score": 1.5
-    },
-    {
-     "title": "ALL ABOUT ANNE BAXTER",
-     "link": "https://www.kirkusreviews.com/book-reviews/lona-bailey/all-about-anne-baxter/",
-     "source": "Kirkus — Reviews",
-     "sources": [
-      "Kirkus — Reviews"
-     ],
-     "published": "2026-11-14T07:35:40.072015+00:00",
-     "summary": "All About Eve (1950) belonged to Bette Davis, who played aging Broadway great Margo Channing, but what about Eve? That was Anne Baxter (1923-1985), who may have been an Oscar winner for The Razor’s Edge (1946), but she never achieved Davis-like stature. Bailey, who has written…",
-     "score": 1.5
+     "score": 1.563
     },
     {
      "title": "Book Review: ‘The Absent Woman,’ by Eve Sneider",
@@ -2976,7 +2911,7 @@
      ],
      "published": "2026-11-13T13:17:36+00:00",
      "summary": "Take a peek at this year’s winners.",
-     "score": 1.446
+     "score": 1.445
     },
     {
      "title": "Moody, Chilling New Thrillers",
@@ -3120,6 +3055,28 @@
      "published": "2026-11-13T21:38:15+00:00",
      "summary": "",
      "score": 1.17
+    },
+    {
+     "title": "Book Review | ‘The Leveret’ by Anna Goldreich",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNN0IzZWp3NlNBaGJXSDhzWF9fTFlUYUxXMnpobmwtY1NPTGhLUzliLVQ4U1Fld0x1OXNiQmZoX21KZk5YQ3JBaFMtcy1jUDJQMEtOd0cySzdFay1VNWstQlNHMVpCMk0yRk1BV3JXcWNvOFlVTjJIVEJtZEJIdHVCTjlWUnFYOTk1?oc=5",
+     "source": "The Santa Barbara Independent",
+     "sources": [
+      "The Santa Barbara Independent"
+     ],
+     "published": "2026-11-13T18:30:02+00:00",
+     "summary": "",
+     "score": 1.161
+    },
+    {
+     "title": "Book review: Caitríona Moran's The Trial of Magdalena Overmorrow is a fearless, tender triumph",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYXdPRUFHNWVFX3RWVlJqRGJIT1NNVkdvUUFwSzdKUnRpNDNITnNhUTJPa1VfdVdaR3FNSmwzanJva0xMSGhfYzdmT2tRU3F3a3ZucldqZW5TQVlRa1NCMXZqdmg5dVphdHQ5VkxGSGVZRnByX2tfRFhlUi1KYy1SMkZHdEo5NlVYVXRnY1RWYjRXUQ?oc=5",
+     "source": "Winter is Coming",
+     "sources": [
+      "Winter is Coming"
+     ],
+     "published": "2026-11-13T15:25:20+00:00",
+     "summary": "",
+     "score": 1.152
     }
    ]
   },
@@ -3137,7 +3094,7 @@
      ],
      "published": "2026-11-13T23:16:01+00:00",
      "summary": "For years, people have told me that Seth Rogen and I are voice twins. Sitting across from him at the Middleburg Film Festival, deep in Virginia horse country, even Jeremy, the person recording our conversation, can confirm that the resemblance is very close. Even so, the year…",
-     "score": 1.911
+     "score": 1.91
     },
     {
      "title": "DC Studios To-Do List: Here’s What Incoming Boss Jeremy Latcham Will Sort Through From The Gunn-Safran Era",
@@ -3149,7 +3106,7 @@
      ],
      "published": "2026-11-14T02:45:41+00:00",
      "summary": "The news earlier this week of James Gunn and Peter Safran’s exit from DC shook the town like Suicide Squad‘s Starro stomping down Melrose Avenue. Now it’s up to incoming former Marvel executive and Dungeons & Dragons: Honor Among Thieves producer Jeremy Latcham to sort through…",
-     "score": 1.769
+     "score": 1.768
     },
     {
      "title": "Michael Mann Seeks to Reclaim Rights to Original ‘Heat’ Screenplay",
@@ -3160,7 +3117,7 @@
      ],
      "published": "2026-11-14T02:51:07+00:00",
      "summary": "Michael Mann, who is set to begin shooting the long-awaited “Heat 2” in January, is in a legal dispute with New Regency as he seeks to reclaim the copyright to his screenplay for the original film. New Regency produced “Heat,” released in 1995. The company filed a lawsuit on…",
-     "score": 1.621
+     "score": 1.62
     },
     {
      "title": "AFM Dealmakers, Talent Agents and Hollywood Stars Left Stranded by Nationwide Flight Stoppage",
@@ -3171,7 +3128,7 @@
      ],
      "published": "2026-11-14T01:38:17+00:00",
      "summary": "The Federal Aviation Administration issued a halt on all U.S. flights on Friday at around 1 p.m. PT and didn’t lift the order until approximately four hours later. With the American Film Market, the Governors Awards and numerous FYC panels scheduled over the next several days…",
-     "score": 1.601
+     "score": 1.6
     },
     {
      "title": "Jason Voorhees Makes His Animated Debut in New ‘Never Hike Alone’ Short",
@@ -3182,7 +3139,7 @@
      ],
      "published": "2026-11-13T23:45:40+00:00",
      "summary": "More than 46 years after his big-screen debut in the slasher classic “Friday the 13th,” hulking horror icon Jason Voorhees is about to prove that his machete cuts just as deep in animation. The hockey-masked killer returns in “Never Hike Alone: Ghosts in the Fog,” a new…",
-     "score": 1.569
+     "score": 1.568
     },
     {
      "title": "Amid Flight Halt, Trump Meets With Jon Voight to Talk U.S. Film Incentive: ‘Get This Done!’",
@@ -3193,18 +3150,18 @@
      ],
      "published": "2026-11-13T23:28:40+00:00",
      "summary": "As flights across the U.S. came to a halt Friday amid a rare nationwide ground stop, President Donald Trump was in a meeting with actor Jon Voight to talk about jumpstarting support for a federal film incentive. Voight and his team, Steven Paul and Scott Karol, were at the White…",
-     "score": 1.565
+     "score": 1.564
     },
     {
-     "title": "Gambit Gets Serious: Channing Tatum’s Superhero Is ‘Not All Laughs’ in ‘Avengers: Doomsday’ as Kevin Feige Promises Fans a ‘Fully-Rounded Character’",
-     "link": "https://variety.com/2026/film/news/gambit-avengers-doomsday-kevin-feige-not-laughs-1236947232/",
+     "title": "Hollywood Still Faces Weekend Disruptions After FAA Lifts Flight Ground Stop",
+     "link": "https://variety.com/2026/film/news/faa-flights-ground-stop-hollywood-weekend-disruptions-1236947370/",
      "source": "Variety — Reviews",
      "sources": [
       "Variety — Reviews"
      ],
-     "published": "2026-11-13T22:48:20+00:00",
-     "summary": "When Channing Tatum returns as Gambit in “Avengers: Doomsday,” he will be a “fully-rounded character” and not just a supporting player used for non-stop laughs and cool action scenes. That was mostly Gambit’s purpose during his Marvel Cinematic Universe debut in 2024’s “Deadpool…",
-     "score": 1.554
+     "published": "2026-11-13T22:51:29+00:00",
+     "summary": "UPDATED: In the wake of a four-hour long flight ground stop, Hollywood can still expect a weekend of disruptions after the Federal Aviation Administration lifted the shutdown Friday evening. Travel plans were thrown into question for talent, executives and buyers headed to and…",
+     "score": 1.553
     },
     {
      "title": "Modern Fairy Tale ‘Mo Amor’ Explores Identity, Transformation and Love in All Its Forms",
@@ -3215,7 +3172,7 @@
      ],
      "published": "2026-11-14T06:00:00+00:00",
      "summary": "Estonian director Eeva Mägi is back at the Tallinn Black Nights Film Fest with her tender new film about a photographer, Princess Niina and her three suitors: The Mentor, The Writer and The Stonemason.",
-     "score": 1.473
+     "score": 1.472
     },
     {
      "title": "‘Cookie Queens’ Director Says Girl Scout Cookies Were “A Delicious Way In” to a Larger Conversation (Video)",
@@ -3226,7 +3183,7 @@
      ],
      "published": "2026-11-14T05:36:12+00:00",
      "summary": "Alysa Nahmias recently spoke with The Hollywood Reporter about her life-affirming documentary, which premiered at Sundance, won the audience award at SXSW and is now the year's highest-grossing non-celebrity doc.",
-     "score": 1.467
+     "score": 1.466
     },
     {
      "title": "Russell Crowe’s Classic Thriller Is Still His Greatest Movie 27 Years Later",
@@ -3237,7 +3194,7 @@
      ],
      "published": "2026-11-14T05:22:12+00:00",
      "summary": "In the 1999 thriller The Insider, Russell Crowe earned an Oscar nomination for his role as a man fighting a corporate conspiracy.",
-     "score": 1.463
+     "score": 1.462
     },
     {
      "title": "This 106-Minute James Bond Thriller Is the Perfect Watch Before It’s Cut From Paramount+",
@@ -3248,7 +3205,7 @@
      ],
      "published": "2026-11-14T05:09:12+00:00",
      "summary": "Daniel Craig's second outing as James Bond, Marc Forster's Quantum of Solace, is leaving Paramount+ on November 19, and it's better than remembered.",
-     "score": 1.459
+     "score": 1.458
     },
     {
      "title": "Peacock Officially Replaces 'Suits' With a Legal Drama That Can't Be Beat",
@@ -3259,7 +3216,7 @@
      ],
      "published": "2026-11-14T04:42:12+00:00",
      "summary": "The Rainmaker is Peacock's exciting new legal drama that takes over the legal drama angle that Suits once held.",
-     "score": 1.452
+     "score": 1.451
     },
     {
      "title": "The Cosmere Explained: Everything To Know About Brandon Sanderson’s Shared Fantasy Universe",
@@ -3270,7 +3227,7 @@
      ],
      "published": "2026-11-14T04:09:12+00:00",
      "summary": "Brandon Sanderson's Cosmere is one of the most celebrated shared universes in fantasy literature, but what exactly is it? Learn more about it here.",
-     "score": 1.443
+     "score": 1.442
     },
     {
      "title": "Matt Damon’s WWII Masterpiece Is Still His Greatest Movie 28 Years Later",
@@ -3281,7 +3238,7 @@
      ],
      "published": "2026-11-14T04:03:12+00:00",
      "summary": "In 1998, Matt Damon became the centerpiece of Steven Spielberg's World War II classic Saving Private Ryan, now streaming free on Pluto TV.",
-     "score": 1.441
+     "score": 1.44
     },
     {
      "title": "DC’s R-Rated Batman Spin-Off Officially Removed From 1,000 Theaters",
@@ -3292,7 +3249,7 @@
      ],
      "published": "2026-11-14T03:00:22+00:00",
      "summary": "DC Studios' Clayface lost another chunk of its theaters amid a high-profile reshuffle at the company. Find out more.",
-     "score": 1.424
+     "score": 1.422
     },
     {
      "title": "5 Takeaways From China’s Golden Rooster and Hundred Flowers Film Festival",
@@ -3303,7 +3260,7 @@
      ],
      "published": "2026-11-14T02:19:05+00:00",
      "summary": "Beyond Tony Leung Ka Fai’s win and a big night for local hits, a week of seminars and workshops showed how China’s industry is thinking about AI, global audiences and young talent.",
-     "score": 1.412
+     "score": 1.411
     },
     {
      "title": "New Regency Sues Michael Mann to Retain Rights to ‘Heat’",
@@ -3314,7 +3271,7 @@
      ],
      "published": "2026-11-14T01:35:37+00:00",
      "summary": "The production company is challenging the director's attempts to reclaim rights to the screenplay.",
-     "score": 1.4
+     "score": 1.399
     },
     {
      "title": "Ben Stiller Gives Update on His New York Knicks Documentary: “The Pressure Is on”",
@@ -3325,7 +3282,7 @@
      ],
      "published": "2026-11-14T00:08:28+00:00",
      "summary": "The actor tells The Hollywood Reporter that the multi-part doc, in development with HBO and A24, will explore the team's history and championship run.",
-     "score": 1.376
+     "score": 1.375
     },
     {
      "title": "After ‘Bitter Christmas,’ Pedro Almodóvar Might Be Done with English-Language Movies",
@@ -3336,7 +3293,7 @@
      ],
      "published": "2026-11-13T23:42:00+00:00",
      "summary": "Stealing stories from your friends is part of the creative process, he said. \"There is not any law that creates the limits of the autofiction.\"",
-     "score": 1.368
+     "score": 1.367
     },
     {
      "title": "Producer Kevin J. Walsh Had Seen It All. Then ‘Being Heumann’ Came Along",
@@ -3347,29 +3304,29 @@
      ],
      "published": "2026-11-13T23:31:29+00:00",
      "summary": "The Oscar-nominated producer helped open doors for the disabled community on the set of Sian Heder's latest pic: \"I'm as proud of what we did behind the scenes to redefine access as I am of the quality of this movie.\"",
-     "score": 1.366
+     "score": 1.364
     },
     {
      "title": "Johnny Depp's Ebenezer Features One Character Most Adaptations Usually Cut",
      "link": "https://www.slashfilm.com/2316683/johnny-depp-ebenezer-character-adaptations-cut-scrooge-sister/",
-     "source": "/Film — Releases",
+     "source": "/Film — Horror",
      "sources": [
-      "/Film — Releases"
+      "/Film — Horror"
      ],
      "published": "2026-11-13T22:45:44+00:00",
      "summary": "Ebenzer includes a character from A Christmas Carol that you don't find in a lot of adaptations of Charles Dickens famous story.",
-     "score": 1.353
+     "score": 1.352
     },
     {
      "title": "Marvel Officially Confirms Sam Wilson's Avengers Roster In Doomsday",
      "link": "https://www.slashfilm.com/2316675/marvel-sam-wilson-avengers-roster-doomsday/",
-     "source": "/Film — Releases",
+     "source": "/Film — Horror",
      "sources": [
-      "/Film — Releases"
+      "/Film — Horror"
      ],
      "published": "2026-11-13T22:35:16+00:00",
      "summary": "Who is officially part of the Avengers roster in Doomsday? We finally know who will be under the leadership of Sam Wilson's Captain America.",
-     "score": 1.35
+     "score": 1.349
     },
     {
      "title": "Production Designer Ruth De Jong on How to Build (Ancient) Worlds for Auteurs",
@@ -3380,18 +3337,18 @@
      ],
      "published": "2026-11-13T22:00:00+00:00",
      "summary": "Ruth De Jong tells IndieWire about the odyssey behind \"The Odyssey,\" as well as projects for David Lynch, Paul Thomas Anderson, and Terrence Malick.",
-     "score": 1.34
+     "score": 1.339
     },
     {
      "title": "Ryan Phillippe's Two-Part Action Thrillers Have Been A Paramount+ Streaming Hit For Weeks",
      "link": "https://www.slashfilm.com/2316642/ryan-phillippe-two-part-action-thrillers-paramount-plus-streaming-hit-one-mile/",
-     "source": "/Film — Releases",
+     "source": "/Film — Horror",
      "sources": [
-      "/Film — Releases"
+      "/Film — Horror"
      ],
      "published": "2026-11-13T21:54:42+00:00",
      "summary": "Ryan Phillippe has been dominating the Paramount+ streaming charts with a two-part action thriller movie franchise that's basically his own Taken.",
-     "score": 1.339
+     "score": 1.338
     },
     {
      "title": "IndieWire Honors Film Celebration to Fête John Turturro, the ‘Artificial’ Cast, Los Javis, and More",
@@ -3402,7 +3359,7 @@
      ],
      "published": "2026-11-13T21:00:00+00:00",
      "summary": "IndieWire Honors will celebrate the year in film with awards given to John Turturro, Andrew Garfield, Yura Borisov, Monica Barbaro, Ike Barinholtz, James Gray, Adam Driver, Los Javis, and many more.",
-     "score": 1.323
+     "score": 1.322
     }
    ]
   },
@@ -3413,15 +3370,15 @@
     {
      "title": "5 Best New Movies And Shows To Stream This Weekend On Netflix, Prime Video, HBO Max, And More (Nov. 13-15)",
      "link": "https://www.slashfilm.com/2313651/best-movies-tv-shows-streaming-netflix-prime-video-hbo-max-november-13-15-weekend/",
-     "source": "/Film — Releases",
+     "source": "/Film — Horror",
      "sources": [
-      "/Film — Releases",
+      "/Film — Horror",
       "SlashFilm",
       "IMDb"
      ],
      "published": "2026-11-13T23:00:00+00:00",
      "summary": "It's mid-November, but there are plenty of new streaming options to choose from, including a wild dinosaur flick and the latest season of an epic fantasy show.",
-     "score": 2.057
+     "score": 2.056
     },
     {
      "title": "Avengers: Doomsday & Dune 3 Box Office Battle On Track For Historic Opening Weekend",
@@ -3433,7 +3390,7 @@
      ],
      "published": "2026-11-13T22:26:28+00:00",
      "summary": "",
-     "score": 1.397
+     "score": 1.396
     },
     {
      "title": "The 8 Best New Movies and Shows to Stream This Weekend on Netflix, Hulu and More",
@@ -3445,7 +3402,7 @@
      ],
      "published": "2026-11-13T19:10:19+00:00",
      "summary": "",
-     "score": 1.343
+     "score": 1.342
     },
     {
      "title": "What To Watch This Weekend (Nov. 13-15): New Movies And Shows On Netflix, Prime Video, Hulu And More",
@@ -3457,7 +3414,7 @@
      ],
      "published": "2026-11-13T18:01:36+00:00",
      "summary": "",
-     "score": 1.324
+     "score": 1.323
     },
     {
      "title": "Ramayana Box Office Collection - Day 9 - CineInfinity",
@@ -3469,7 +3426,7 @@
      ],
      "published": "2026-11-13T17:06:30+00:00",
      "summary": "",
-     "score": 1.309
+     "score": 1.307
     },
     {
      "title": "Disco Box Office Day 7: Opening Week Total Falls 50% Short Of Antony Varghese's Kattalan's Day 1",
@@ -3481,7 +3438,7 @@
      ],
      "published": "2026-11-13T10:25:08+00:00",
      "summary": "",
-     "score": 1.197
+     "score": 1.196
     },
     {
      "title": "Ramayana Box Office Collection Day 8: Registers 3rd Biggest Opening Week In India, Becomes Bollywood's 6th Highest-Grosser",
@@ -3493,7 +3450,7 @@
      ],
      "published": "2026-11-13T08:43:43+00:00",
      "summary": "",
-     "score": 1.169
+     "score": 1.168
     },
     {
      "title": "Weekend watch party: 5 best new movies to stream on Netflix, HBO Max, Apple TV and more (Nov. 14-15)",
@@ -3504,7 +3461,7 @@
      ],
      "published": "2026-11-14T05:30:00+00:00",
      "summary": "",
-     "score": 1.165
+     "score": 1.164
     },
     {
      "title": "Ranveer Singh’s Dhurandhar: The Revenge Maintains Box Office Dominance Through 2026",
@@ -3515,7 +3472,7 @@
      ],
      "published": "2026-11-14T05:09:13+00:00",
      "summary": "",
-     "score": 1.159
+     "score": 1.158
     },
     {
      "title": "Scene Box Office Collection Day 8: Suriya's Film Remains Steady, Will It Get Weekend Boost? Check Earnings",
@@ -3526,7 +3483,7 @@
      ],
      "published": "2026-11-14T02:00:14+00:00",
      "summary": "",
-     "score": 1.107
+     "score": 1.106
     },
     {
      "title": "Nollywood Films That Broke Box Office Records in 2026",
@@ -3537,7 +3494,7 @@
      ],
      "published": "2026-11-14T01:53:22+00:00",
      "summary": "",
-     "score": 1.105
+     "score": 1.104
     },
     {
      "title": "Johnny Depp Pic ‘Ebenezer’ Opening To Spirited $20M+ U.S. – Box Office Update",
@@ -3548,7 +3505,7 @@
      ],
      "published": "2026-11-13T23:02:00+00:00",
      "summary": "",
-     "score": 1.057
+     "score": 1.056
     },
     {
      "title": "New movies to watch this weekend: See Johnny Depp's 'Ebenezer' in theaters, rent or buy 'Heart of the Beast,' stream 'Heartland' on Netflix",
@@ -3559,7 +3516,7 @@
      ],
      "published": "2026-11-13T22:50:26+00:00",
      "summary": "",
-     "score": 1.054
+     "score": 1.053
     },
     {
      "title": "Avengers: Doomsday Eyes $340 Million Opening, Record Weekend With Dune: Part Three",
@@ -3570,7 +3527,7 @@
      ],
      "published": "2026-11-13T22:21:05+00:00",
      "summary": "",
-     "score": 1.046
+     "score": 1.045
     },
     {
      "title": "From 'Avengers Endgame' to 'End of Oak Street' 10 movies to stream now",
@@ -3581,7 +3538,7 @@
      ],
      "published": "2026-11-13T22:10:00+00:00",
      "summary": "",
-     "score": 1.043
+     "score": 1.042
     },
     {
      "title": "10 new movies to watch this weekend on Netflix, Prime Video, and HBO Max (November 13 - 15)",
@@ -3592,7 +3549,7 @@
      ],
      "published": "2026-11-13T22:00:18+00:00",
      "summary": "",
-     "score": 1.04
+     "score": 1.039
     },
     {
      "title": "Ramayana Box Office Vs Top 10 Opening Weekends Of All Time: Ranbir Kapoor Already Claims A Spot – Will Sunday Bring 95+ Crore To Hit Top 3?",
@@ -3603,7 +3560,7 @@
      ],
      "published": "2026-11-13T21:33:36+00:00",
      "summary": "",
-     "score": 1.033
+     "score": 1.032
     },
     {
      "title": "'Avengers: Doomsday' Box Office Tracking Eyes a Record-Breaking Debut, and 'Dune: Part Three' Could Make It Historic",
@@ -3614,7 +3571,7 @@
      ],
      "published": "2026-11-13T21:18:55+00:00",
      "summary": "",
-     "score": 1.029
+     "score": 1.028
     },
     {
      "title": "Weekend Watchlist: What’s new in theaters, on streaming",
@@ -3625,7 +3582,7 @@
      ],
      "published": "2026-11-13T20:57:46+00:00",
      "summary": "",
-     "score": 1.023
+     "score": 1.022
     },
     {
      "title": "The 12 Best Movies and TV Shows to Watch This Weekend",
@@ -3636,7 +3593,7 @@
      ],
      "published": "2026-11-13T20:54:55+00:00",
      "summary": "",
-     "score": 1.022
+     "score": 1.021
     },
     {
      "title": "3 Best Movies Streaming For Free This Weekend (#1 Is A $347 Million Dystopian Sci-Fi)",
@@ -3647,7 +3604,7 @@
      ],
      "published": "2026-11-13T19:21:36+00:00",
      "summary": "",
-     "score": 0.996
+     "score": 0.995
     },
     {
      "title": "Ramayana Box Office Collection: Ranbir Kapoor's Film Crosse…",
@@ -3658,7 +3615,7 @@
      ],
      "published": "2026-11-13T18:31:42+00:00",
      "summary": "",
-     "score": 0.982
+     "score": 0.981
     },
     {
      "title": "‘Dunesday’ Scenarios: AVENGERS: DOOMSDAY ($340-369M+) and DUNE: PART THREE ($91-100M+) Tracking for Potential Record $440M+ Box Office Weekend",
@@ -3669,7 +3626,7 @@
      ],
      "published": "2026-11-13T18:16:13+00:00",
      "summary": "",
-     "score": 0.978
+     "score": 0.977
     },
     {
      "title": "3 new HBO Max movies to watch this weekend — including Anne Hathaway's otherworldly new sci-fi thriller and Marvel's $100m box office bomb that's 'so bad, it's good' (Nov. 13-15)",
@@ -3680,7 +3637,7 @@
      ],
      "published": "2026-11-13T18:00:00+00:00",
      "summary": "",
-     "score": 0.973
+     "score": 0.972
     },
     {
      "title": "Sony Pictures’ Spider-Man: Brand New Day Delivers Biggest Opening Weekend at Australian Box Office Since 2019, Grossing $30.4m Over 4 Days",
@@ -3691,7 +3648,7 @@
      ],
      "published": "2026-11-13T17:54:35+00:00",
      "summary": "",
-     "score": 0.972
+     "score": 0.971
     }
    ]
   },
@@ -3712,7 +3669,7 @@
      ],
      "published": "2026-11-13T15:55:59+00:00",
      "summary": "",
-     "score": 2.339
+     "score": 2.338
     },
     {
      "title": "Film Review - Ebenezer",
@@ -3725,7 +3682,7 @@
      ],
      "published": "2026-11-13T17:22:39+00:00",
      "summary": "",
-     "score": 1.663
+     "score": 1.662
     },
     {
      "title": "EBENEZER - Movie Review",
@@ -3738,40 +3695,40 @@
      ],
      "published": "2026-11-13T12:26:50+00:00",
      "summary": "",
-     "score": 1.581
+     "score": 1.58
     },
     {
      "title": "San Diego Asian Film Festival 2026: The Seoul Guardians, Tycoon, Genevieve’s Garden",
      "link": "https://www.rogerebert.com/festivals/san-diego-asian-film-festival-2026-the-seoul-guardians-tycoon-genevieves-garden",
-     "source": "RogerEbert.com",
+     "source": "RogerEbert.com — Horror",
      "sources": [
-      "RogerEbert.com"
+      "RogerEbert.com — Horror"
      ],
      "published": "2026-11-13T14:58:18+00:00",
      "summary": "A report on three films from a cool event on the West Coast.",
-     "score": 1.423
+     "score": 1.422
     },
     {
      "title": "Legendary Game Returns in Remake of Nintendo’s “The Legend of Zelda: Ocarina of Time”",
      "link": "https://www.rogerebert.com/video-games/legendary-game-returns-in-remake-of-nintendos-the-legend-of-zelda-ocarina-of-time",
-     "source": "RogerEbert.com",
+     "source": "RogerEbert.com — Horror",
      "sources": [
-      "RogerEbert.com"
+      "RogerEbert.com — Horror"
      ],
      "published": "2026-11-13T14:52:07+00:00",
      "summary": "“Ocarina of Time” on Nintendo Switch 2 is a beautiful adventure that feels retro, while also avoiding feeling dated.",
-     "score": 1.421
+     "score": 1.42
     },
     {
      "title": "A Special Kind of Tough Guy: Stacy Keach (1941-2026)",
      "link": "https://www.rogerebert.com/tributes/a-special-kind-of-tough-guy-stacy-keach-1941-2026",
-     "source": "RogerEbert.com",
+     "source": "RogerEbert.com — Horror",
      "sources": [
-      "RogerEbert.com"
+      "RogerEbert.com — Horror"
      ],
      "published": "2026-11-13T14:45:02+00:00",
      "summary": "A special tribute to a special actor.",
-     "score": 1.419
+     "score": 1.418
     },
     {
      "title": "Bill Simmons cuts ties with ChatGPT after fans gave his AI Roger Ebert reviews two thumbs down",
@@ -3782,7 +3739,7 @@
      ],
      "published": "2026-11-13T20:03:03+00:00",
      "summary": "After partnering with OpenAI, Bill Simmons began integrating ChatGPT into podcast segments, much to his audience's chagrin.",
-     "score": 1.308
+     "score": 1.307
     },
     {
      "title": "Heartland – Movie Review | Netflix (3/5)",
@@ -3794,7 +3751,7 @@
      ],
      "published": "2026-11-13T14:06:14+00:00",
      "summary": "",
-     "score": 1.258
+     "score": 1.257
     },
     {
      "title": "’12 12 12′ Review: Anthony Mackie and Jamie Dornan’s Ticking-Clock Heist Thriller Runs on Broken Time",
@@ -3805,7 +3762,7 @@
      ],
      "published": "2026-11-13T14:30:00+00:00",
      "summary": "An FBI agent out for revenge. A thief planning one last score. You know the story, but in Dudi Appleton and Jim Keeble's convoluted Apple series, you can watch it unfold across three non-chronological timelines.",
-     "score": 1.215
+     "score": 1.214
     },
     {
      "title": "‘I Play Rocky’ movie review: Anthony Ippolito makes this underdog story sing",
@@ -3816,18 +3773,18 @@
      ],
      "published": "2026-11-14T06:46:33+00:00",
      "summary": "",
-     "score": 1.186
+     "score": 1.185
     },
     {
-     "title": "‘Gondhal’ movie review: Santosh Davakar’s illuminating one-night tragedy",
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObFQ1M2xLMEJfdHIyVjk3MlB3a1hNY0JKMDcxUFh1REpOUjVIdUc4N2dUOTJzRGpLZFZ0OFNyMkdwWjBwOVJEeGxodTBIQjdLaTNUTmQyZ0NrMGNUTUM0R1JBQll6RlhyQWJKUmtTYVVMakMzRlpPclZUVTRiSlJsNkZvQXJYaldTMXFpYjNsTkh2dGI4QmZMajdhQXcxanpFbVlRd3FxUm9EbkdDa2pBZl8ydkd5ak52Vk92R0dVTUdLUXFYNlVZaTQwcWp1Y3fSAdYBQVVfeXFMTUFQOXZBbzZjRmxFUHJPRVVWbHpuV3ZlZ19kaWV2a2NUUkxFdFVxamxPSENKaExfOUxXQ3NHWjlWUVZwNzkwX256ZllhTjh5YUN5NnE3eVE5RjV0WGt3S2dxdlh2d0RvdGwxSnFVZFE5dEpaN2lsMGtjNFVPYkhqd0tqT1pIT215WFZhOEtodVZ2b1hUTkJXcXlhYUhIM1hvS2JGd2ZGblo5RnBiRjdnaloxdFNrWWE1Rkk0ZVdzVTlIZ3hUOHhiM1RQcG5xZ2dPaFhEY05kQQ?oc=5",
+     "title": "‘Lambodhara 2.0’ movie review: Suni’s ambitious experiment lacks emotional heft",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPU1lYR1VraXpLeVVuMzRRYllmcWUyOFpKdDF3MDZXYUlXSkZzc0JlazVseEpMbHROYVBPVi1hem9PQjNobU5TVU43cUJ6SE1EN3V3Szdvb3BtUXhYdlZmWkl6XzFEZHpfNEdmVFlKbHkyYllkYlByQVRBTTJYeG0wWmZ4NkZqUjhpSWYzQWUyeVdzcXl3Z29vcHhPREhyQ0ZCTnltZVRNaDRFX216Z09LdEtpOUVYUmx3d2ZwMGhDdlo5MWRlY2F5QkxYbURHTnZod3lFUl9DTFFJVDJYS3J2Uk1ZcVpiQdIB7AFBVV95cUxQd2NndHFURUl4V2dQNWR5cHpLUkRNcExnNlM2a3RBWmtCQ3FKOG8tTlYtaUViUTd0UUhDYS1OSF84Q3Zmc1ZUTzU2cFZoNG1KYVREV2JXX0xMMHhNQXoxbDk5T1hKTklmOTl4dVRuaFlxMDk3WnZDeGx1S3ZBMWtJbWZlVG9YcER2LTItcWFqeUo0anlwNkx2SDIyU0ZlV2ZJaUg1MVF0cm9mbVNBeHd1Nzk3a0QzM1dqX2V5RHQ3UHBQeWcwMThZNkYyZ21sYUlPM2dYODJZaWI1N3J5d1BuZzJ2Y2ROLVd5bExJeA?oc=5",
      "source": "The Hindu",
      "sources": [
       "The Hindu"
      ],
-     "published": "2026-11-14T06:18:27+00:00",
+     "published": "2026-11-14T06:18:54+00:00",
      "summary": "",
-     "score": 1.179
+     "score": 1.178
     },
     {
      "title": "Gondhal movie review: Ishita Deshmukh, Yogesh Sohoni's film is baffling - Mid-Day",
@@ -3838,7 +3795,7 @@
      ],
      "published": "2026-11-14T05:14:00+00:00",
      "summary": "",
-     "score": 1.161
+     "score": 1.16
     },
     {
      "title": "Movie Review: James Gray delivers a milestone crime drama in ‘Paper Tiger’",
@@ -3849,7 +3806,7 @@
      ],
      "published": "2026-11-14T05:15:00+00:00",
      "summary": "",
-     "score": 1.161
+     "score": 1.16
     },
     {
      "title": "John Doe Movie Review: This otherwise competent no-frills thriller stumbles at the finish line",
@@ -3860,7 +3817,7 @@
      ],
      "published": "2026-11-14T05:10:17+00:00",
      "summary": "",
-     "score": 1.16
+     "score": 1.159
     },
     {
      "title": "Parivarik ManuRanjan Movie Review: Fantastic performances mask a few familiar familial problems",
@@ -3871,7 +3828,7 @@
      ],
      "published": "2026-11-14T05:11:17+00:00",
      "summary": "",
-     "score": 1.16
+     "score": 1.159
     },
     {
      "title": "MOVIE REVIEW: PARKWAY DRIVE: HOME",
@@ -3882,7 +3839,7 @@
      ],
      "published": "2026-11-14T05:04:44+00:00",
      "summary": "",
-     "score": 1.158
+     "score": 1.157
     },
     {
      "title": "Nee Nanga Allava Movie Review: A slow and sensitive thriller",
@@ -3893,7 +3850,7 @@
      ],
      "published": "2026-11-14T05:01:41+00:00",
      "summary": "",
-     "score": 1.157
+     "score": 1.156
     },
     {
      "title": "Lambodhara 2.0 Movie Review: A heavily coded wobbly experiment",
@@ -3904,7 +3861,7 @@
      ],
      "published": "2026-11-14T04:54:27+00:00",
      "summary": "",
-     "score": 1.155
+     "score": 1.154
     },
     {
      "title": "Film Review: ‘Paper Tiger’ has the cast of a crime thriller but not the claws to match",
@@ -3915,7 +3872,7 @@
      ],
      "published": "2026-11-14T03:41:00+00:00",
      "summary": "",
-     "score": 1.135
+     "score": 1.134
     },
     {
      "title": "Movie Review - Ghost Soldier",
@@ -3926,7 +3883,7 @@
      ],
      "published": "2026-11-14T03:20:42+00:00",
      "summary": "",
-     "score": 1.129
+     "score": 1.128
     },
     {
      "title": "Movie Review: Rockwell and Malkovich, from Easter Island with (CIA) Love — “Wild Horse Nine”",
@@ -3937,7 +3894,7 @@
      ],
      "published": "2026-11-14T02:59:35+00:00",
      "summary": "",
-     "score": 1.123
+     "score": 1.122
     },
     {
      "title": "Heartland review – Jessica Chastain’s Netflix country music thriller is more miss than hit",
@@ -3948,7 +3905,7 @@
      ],
      "published": "2026-11-13T08:01:12+00:00",
      "summary": "The Oscar winner plays a singer turned detective searching for her niece in an overly generic Nashville-based mystery that fails to find its footing Continue reading...",
-     "score": 1.107
+     "score": 1.106
     },
     {
      "title": "Jessica Chastain breezes through a pulpy, country-fried Taken in Heartland",
@@ -3959,7 +3916,7 @@
      ],
      "published": "2026-11-13T08:01:20+00:00",
      "summary": "Skip the singing in Heartland, but enjoy Jessica Chastain's bratty performance as the avenging aunt of a missing country star.",
-     "score": 1.107
+     "score": 1.106
     },
     {
      "title": "Movie Review: Johnny Depp’s dour ‘Ebenezer’ is a horror-tinged holiday slog",
@@ -3970,7 +3927,7 @@
      ],
      "published": "2026-11-13T21:56:21+00:00",
      "summary": "",
-     "score": 1.039
+     "score": 1.038
     },
     {
      "title": "Movie Review – Big Girls Don’t Cry (2026)",
@@ -3981,13 +3938,517 @@
      ],
      "published": "2026-11-13T21:05:25+00:00",
      "summary": "",
-     "score": 1.025
+     "score": 1.024
+    }
+   ]
+  },
+  {
+   "slug": "horror",
+   "title": "Horror",
+   "items": [
+    {
+     "title": "Every New Horror Movie Arriving This Winter 2026",
+     "link": "https://www.dreadcentral.com/news/597397/every-new-horror-movie-arriving-this-winter-2026/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics",
+      "Dread Central",
+      "IMDb"
+     ],
+     "published": "2026-11-13T17:00:00+00:00",
+     "summary": "From Gothic ghosts to savage werewolves, discover the most anticipated horror movies arriving this winter 2026!",
+     "score": 1.956,
+     "group": "Movies"
+    },
+    {
+     "title": "Folk Horror, A Walk Within The Queen's Wood, Debuts at Thought Bubble",
+     "link": "https://bleedingcool.com/comics/folk-horror-a-walk-within-the-queens-wood-debuts-at-thought-bubble/",
+     "source": "Bleeding Cool — Horror comics",
+     "sources": [
+      "Bleeding Cool — Horror comics",
+      "Bleeding Cool News"
+     ],
+     "published": "2026-11-13T15:23:09+00:00",
+     "summary": "Folk horror comic, A Walk Within The Queen's Wood by Asa Wheatley, Daniel Coloma and JP Jordan debuts at Thought Bubble tomorrow",
+     "score": 1.579,
+     "group": "Comics"
+    },
+    {
+     "title": "‘Dexter: Resurrection’ Finally Explains Claudette’s Grisly History With the New York Ripper",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQX0wyaVJNUTVFcHYzc0dMUXdsN2RUc3dGYVRncUJsVEdiNlFTS1pYeXlCcURXeG9aaVc5X0R0U3dWUC1pZlRDR05hRTNtampNYjQwbm5NLUJaZzlUcTRvWTh1VkJYeDVuSkt6X0VPOWhnWlJxLVUxUWo3SUtMUjRpUG1NUWxieGlsSkd1Q09HM3AyREd5MUZ6cGNNRGwwakhHd1hWVHpDMTdUdk9zQk9LSV9ySDhLZFlXbWFvQUUwbw?oc=5",
+     "source": "TV Insider",
+     "sources": [
+      "TV Insider",
+      "IMDb"
+     ],
+     "published": "2026-11-13T17:33:52+00:00",
+     "summary": "",
+     "score": 1.315,
+     "group": "Dark History"
+    },
+    {
+     "title": "‘The Suicide Squad’s Joel Kinnaman to Star in Creature Feature ‘The Cell’",
+     "link": "https://bloody-disgusting.com/movie/3975754/the-cell-movie-joel-kinnaman-creature-feature/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books",
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-14T00:40:31+00:00",
+     "summary": "Actor Joel Kinnaman has the rare distinction of getting to play the same character in multiple iterations of the DC Universe. He first played Rick Flag Jr. in 2016’s Suicide Squad, which existed in Zack Snyder‘s universe of DC characters, while also having the opportunity to…",
+     "score": 1.934,
+     "group": "Movies"
+    },
+    {
+     "title": "Cosmic Lighthouse Announces Court Of Lore At Thought Bubble",
+     "link": "https://bleedingcool.com/comics/cosmic-lighthouse-announces-court-of-lore-at-thought-bubble/",
+     "source": "Bleeding Cool — Horror comics",
+     "sources": [
+      "Bleeding Cool — Horror comics"
+     ],
+     "published": "2026-11-14T01:27:18+00:00",
+     "summary": "Cosmic Lighthouse announces new graphic novel Court Of Lore about fairy lawyers by Adrian Tchaikovsky and Sophia McDougall at Thought Bubble",
+     "score": 1.397,
+     "group": "Comics"
+    },
+    {
+     "title": "Where was Hocus Pocus filmed?",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA5dXdNaFNzMWFaX0ZOUDlOQ2VnUjBQSTZBc3JBV0dQSFZ0SnJGVWRSekNDZGJjSGIzdERlRExMNS00TGlqTU9pbUd5eTAxbm9QSjhKUjUxWFZBMXc3NmY3RG93?oc=5",
+     "source": "The Worldwide Guide To Movie Locations",
+     "sources": [
+      "The Worldwide Guide To Movie Locations"
+     ],
+     "published": "2026-11-14T04:44:01+00:00",
+     "summary": "",
+     "score": 1.151,
+     "group": "Dark History"
+    },
+    {
+     "title": "Varun Dhawan to star in Yash Raj Films first-ever horror film, set to release on March 31, 2028",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNbThOOVI0UXVjQk5Yb3J3aWU1aU0wejlaUTFaUVM3SjNWZFJhMTg3TTRscDcyT0NGTWxrOUVKM3YybjRzekxlR0NEemFaY2ttaU5XMlZBNV9faUlyQmdqT0h1ZUdXOVZBb1dhSmNaZFhFRnl1SVJ6dlN6RkxEbjZ5REtlMFBUdXNlTUJKaXYwMVNvYzVYOTI4Y3VqOTZWODlRb0lGYUxaelZqZ3RuZlRoZ3pNWGNFaVlLWDBfZzBITzJ5U2tjZ3FLZjI5UV9OOUVJRDljWjdnaEs1QdIB3wFBVV95cUxNclNmZFNHWFBZTFlrWUJyVHlWSmc5VDUzYzlFdFVNMDIwM3dtZ24yTjdNeTcydHFWRXExZjdHT2pyZHk2akphM3c4VmhRSXBGbG8zZ2hQM1JESng5ZmE2ZjFZUEhNRjJhZUM4V0pmdTRrSkt3eVdYUEVieUp0cEhkaWRlbzZqcTdpZ3ljMTM0Z1JIU01kd2VJOExkNklPWTQ1S2JRcE5LdzBCTkVtNldxYnN2Zjh6TFo3b2hZYktCSV96Z21fd1kwTjFxc2JOc1ZwbEJTQXhpQjdSbVNSb2Rr?oc=5",
+     "source": "Bollywood Hungama",
+     "sources": [
+      "Bollywood Hungama",
+      "The News Mill",
+      "News18"
+     ],
+     "published": "2026-11-14T05:03:03+00:00",
+     "summary": "",
+     "score": 1.857,
+     "group": "Movies"
+    },
+    {
+     "title": "Tyler Crook & Emily Schnall: The Father The Son & The Holy Ghost Mine",
+     "link": "https://bleedingcool.com/comics/tyler-crook-emily-schnall-the-father-the-son-the-holy-ghost-mine/",
+     "source": "Bleeding Cool — Horror comics",
+     "sources": [
+      "Bleeding Cool — Horror comics"
+     ],
+     "published": "2026-11-13T15:57:10+00:00",
+     "summary": "Tyler Crook and Emily Schnall create The Father, The Son And The Holy Ghost Mine, a new horror western comic from Oni in February 2027",
+     "score": 1.238,
+     "group": "Comics"
+    },
+    {
+     "title": "3 Indigenous Horror Audiobooks",
+     "link": "https://bookriot.com/indigenous-horror-audiobooks/",
+     "source": "Book Riot — Horror",
+     "sources": [
+      "Book Riot — Horror"
+     ],
+     "published": "2026-11-13T11:00:00+00:00",
+     "summary": "These Indigenous horror audiobooks combine the supernatural with lived experience to tell chilling tales.",
+     "score": 1.156,
+     "group": "Books"
+    },
+    {
+     "title": "Jackson Barracks Military Museum hosts inaugural Haunted History tour",
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdDN6aFI2bjRRc0tOX2J2eWlfOHJQUkU1bnVFYW9JLW9TZjFlUVgzOVpYQk9CbGJLSTg3NFRqRDJBbEpmWENpTFVEQmRYb20zRndwQ3F5X2lNVV9hdm9BNWdGVGdha0UwRmV6bnFrNnl3REZsR0RFeUdPMVJEbEUyMGxWUEcxXzd5OElWSEJtNTFMOC1KZlZSTFg3a1NZYjRrOF8yYm01bkU3YVU?oc=5",
+     "source": "Louisiana National Guard (.gov)",
+     "sources": [
+      "Louisiana National Guard (.gov)"
+     ],
+     "published": "2026-11-14T02:01:12+00:00",
+     "summary": "",
+     "score": 1.106,
+     "group": "Dark History"
+    },
+    {
+     "title": "PS1-Inspired Sci-fi Horror FPS ‘DERELIKT’ Now Available on PC, Consoles [Trailer]",
+     "link": "https://bloody-disgusting.com/video-games/3975691/ps1-inspired-sci-fi-horror-fps-derelikt-now-available-on-pc-consoles-trailer/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books",
+      "Bloody Disgusting"
+     ],
+     "published": "2026-11-13T19:30:51+00:00",
+     "summary": "Right on time, developer Visuwyg and Hyperstrange’s DERELIKT is out today on Steam, bringing claustrophobic sci-fi action to space with PS1-inspired graphics. The game is also available on the PlayStation 5 and Xbox Series. Philipp Jensen of Visuwyg explains that DERELIKT is…",
+     "score": 1.848,
+     "group": "Movies"
+    },
+    {
+     "title": "Azmodanus Gets A Demonic Debut Spinoff From Dark Cloud",
+     "link": "https://bleedingcool.com/comics/azmodanus-gets-a-demonic-debut-spinoff-from-dark-cloud/",
+     "source": "Bleeding Cool — Horror comics",
+     "sources": [
+      "Bleeding Cool — Horror comics"
+     ],
+     "published": "2026-11-13T10:57:09+00:00",
+     "summary": "Azmodanus gets a Demonic Debut Spinoff from Dark Cloud by Dan Chadwick and Anthony Cook at Thought Bubble tomorrow",
+     "score": 1.155,
+     "group": "Comics"
+    },
+    {
+     "title": "Failed Writer’s Journey: Every Writer Builds Worlds",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTkhVLVlkZ20xSTREQ1NFSDRPZ2JEVWp2RnpqMU9Nck5idkNfenlBLTltMno5RjdiYUM3TDc2bkp1UHdVUEdfSDJncjlNSW9BaDRIMGVsLW5yT2lfQ3NiRkt0Tm9LRFVRS1hmajh4aHNockdqZXpUVGI2Q0JnSVMxWUZtZ1lsSHZEd2ZfX0dYNzUtMlZqUlpMSlJuM3U3N01nQ2xZY19jR2VEY3ZqSkRJa2swSEw?oc=5",
+     "source": "Daily Kos",
+     "sources": [
+      "Daily Kos"
+     ],
+     "published": "2026-11-13T16:35:44+00:00",
+     "summary": "",
+     "score": 0.949,
+     "group": "Books"
+    },
+    {
+     "title": "Netflix's Smash Hit Series Officially Makes Streaming History With Early Season 9 Renewal",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1kSVlrR0cwLThYb3lYUjFwTGM1UVhaZFJ1YnZoZGxzenBlSXlPay1LdmdIdUtwUmh4djdNZ0JqRDNuNm80bE4yMG5vY2N2MGZ2OHFVenhB?oc=5",
+     "source": "MovieWeb",
+     "sources": [
+      "MovieWeb"
+     ],
+     "published": "2026-11-13T18:23:46+00:00",
+     "summary": "",
+     "score": 0.979,
+     "group": "Dark History"
+    },
+    {
+     "title": "Multiplayer Horror Party Game ‘Death Dealer’ Now in Early Access [Trailer]",
+     "link": "https://bloody-disgusting.com/video-games/3975646/multiplayer-horror-party-game-death-dealer-now-in-early-access-trailer/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books",
+      "Bloody Disgusting"
+     ],
+     "published": "2026-11-13T18:28:13+00:00",
+     "summary": "Following up last month’s Steam Nest Fest demo, two-person UK indie team Psychotronic has launched their six-player multiplayer horror party game Death Dealer into Early Access on Steam. In addition to the launch, Death Dealer has a time-limited 38% launch discount until…",
+     "score": 1.83,
+     "group": "Movies"
+    },
+    {
+     "title": "DC's Best Current Comic Series Doesn't Even Feature Superheroes",
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4ybTJLUDZtaTFsQkFkOW1FdC1IMzRtZTI4YVM0WDg3R2s1cGpDZ3NzUE9wUzhNMFVuN1F0YTBORTlnSEM3TXZFTGlodnZCMlpCSGZ1WXg5bkVnQlhBSXpiZndHNktjdXpXaEs5d2xDaWVFWUk1bE1YbE8xdm8?oc=5",
+     "source": "Comic Book Resources",
+     "sources": [
+      "Comic Book Resources"
+     ],
+     "published": "2026-11-14T00:00:12+00:00",
+     "summary": "",
+     "score": 1.072,
+     "group": "Comics"
+    },
+    {
+     "title": "Stephen King Threw ‘Carrie’ in the Trash. Then It Changed Everything",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONnJfVGZXNWpnYmRzZ1YteUZWb29EU3ZicGRwRTRBQmM2UjNIVURtVDZMX0lmemRQYktZNUU3UGVNTzR3TUd4d0pab2E0NjMzcEI0VzZCZjc3b3lDVVh1dmhmenVJR3hrOGM1VnZDQzVuVTBHQ2RvQzdTMXRFWmUyNkt5U0JxVWNhUkRzMUZMREZVV0FQeWxoOFhod0lHWWRyYjh5Wk9BY0VlZ21sRS1N?oc=5",
+     "source": "The Hollywood Reporter",
+     "sources": [
+      "The Hollywood Reporter"
+     ],
+     "published": "2026-11-13T16:30:57+00:00",
+     "summary": "",
+     "score": 0.948,
+     "group": "Books"
+    },
+    {
+     "title": "GRIMMING Announce Debut Album \"Jagatod\" For March 26, 2027!",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVXprYmltdi15X1RTWHN4aGxKaGp5Qlhyc09yUExZUUliSE1VZmkzNXAzZmhON0w1bHdGVkNNRWlTeVJyWFFndzl1TW1fQ3ROdDhtckdYVjVXT0J1SWJuNnhURkhLVGlZMHN4Q1N0T1RsdWV4WFJocTRiaU5vNGRoX1NR?oc=5",
+     "source": "Metalheads Forever Magazine",
+     "sources": [
+      "Metalheads Forever Magazine"
+     ],
+     "published": "2026-11-13T10:37:49+00:00",
+     "summary": "",
+     "score": 0.849,
+     "group": "Dark History"
+    },
+    {
+     "title": "Freya Allan Set To Lead ‘System’ From ‘Tron: Ares’ Director Joachim Rønning",
+     "link": "https://bloody-disgusting.com/news/3975678/freya-allan-set-to-lead-system-from-tron-ares-director-joachim-ronning/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books",
+      "Bloody Disgusting"
+     ],
+     "published": "2026-11-13T16:39:23+00:00",
+     "summary": "Production is underway on System, the mysterious new horror movie from Tron: Ares director Joachim Rønning, and Variety reports that The Witcher actor Freya Allan will star in the film. Plot details are under wraps, but production is currently filming on location in the old…",
+     "score": 1.8,
+     "group": "Movies"
+    },
+    {
+     "title": "‘Hellboy’ Creator’s Dark Fantasy Universe Officially Expands With New Series",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTU43Ym45ZXNhZFJ4WjJQbFpiYzhTbGh5YU5LZFl4US1Kdi1YdW1CV2h1aGlkLURNNFZ6cTRMd09PLVh6VE9lVWdZUDZBcXlIcURTUHQwZThMVmUyOGlQR3V3a0dlMmFvX1p0Y0pINkhzRlduNGdFR2lQQUx3WnVUSmpaSXk0RFdR?oc=5",
+     "source": "Collider",
+     "sources": [
+      "Collider"
+     ],
+     "published": "2026-11-13T15:01:19+00:00",
+     "summary": "",
+     "score": 0.923,
+     "group": "Comics"
+    },
+    {
+     "title": "How Netflix’s Dead-End Job Turns South Korea’s Youth Unemployment Crisis into Pure Horror",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2RwYnFXS0xSRS14a05lWEZfM1IwR1VqNzl4TmxvVG5VSnNmOTNMR1BSQVU0eWJSMXJDbEtvZXFFMFA4aUFRUGJfbW1LSGkzZVROOVQxR3JSU0hCemdpTTBKQjFjcEZFRldfYVU2YWxlRHNEZlRONldpbHBKTkZSbU10NDBVcmttWExWQzV0ZHBySktzU0xUNkQxRnltUm5GWkE?oc=5",
+     "source": "Lifestyle Asia Hong Kong",
+     "sources": [
+      "Lifestyle Asia Hong Kong"
+     ],
+     "published": "2026-11-13T08:40:00+00:00",
+     "summary": "",
+     "score": 0.817,
+     "group": "Books"
+    },
+    {
+     "title": "Dark history behind Friday the 13th and why it's deemed so unlucky",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHIyUXdhVnFHZV9PNmstNE5WMHB5dzR6REhoSkNUNFZyeF9EcVBtdkJPR3hhYmozYXZKbDZyejJid2ZUWGJkQmlHM01ndFg2RVZocVFMd1RadVI2cjZIcXNTUlZ4dmhjSmhRS2xTX0lFV0JCR1RrSWh1aTVXSkRsZHhwT0lncW9W0gGOAUFVX3lxTE03R2piNm5nOFhJZlhhR19NZUpUNXlsQ0xtNzdpeWtNNjZGNlJLenRzU0VKTGRBdVZZblFQUTBEaWZxbWpxamtnUW1TMzZMV0hKNmlyenp4aDNDM2w2aldMT1MwT05xeDZjSWN2cDNGekt1NG1UVlhFUXE3RERwNUg0VGxqRldqdlloRzZPUlE?oc=5",
+     "source": "The Mirror",
+     "sources": [
+      "The Mirror"
+     ],
+     "published": "2026-11-13T08:27:00+00:00",
+     "summary": "",
+     "score": 0.813,
+     "group": "Dark History"
+    },
+    {
+     "title": "Producer Ektaa Kapoor unveils horror film 'Hero Ki Horrorine' first-look poster",
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUEJCclNEbkYzcHRLdWJzbVpZcDc3YW8zVTFicXpKVFExbXU4a1JDWEhGb3p1bnFqWUE3b3QxQ2Z5NzRRZzlWaTZvX3U5elF0TE0yS2dHOF9HYnlnWlAxRG1Tems3VHBzbElRNG1Ta1g4TFF5YlNHdVVqWEJKME1Bck5FcDN3Vm80LUpnUXBacVhLbjBkM1BHb0l4Wnd4bzlwTHB6MUdNcGw2bXFXWlJiWWtFbVcwU3VfM2czTVAydzUwc1pDbnV3MGtHelhqeklsakQzanJUOHctdzA?oc=5",
+     "source": "ANI News",
+     "sources": [
+      "ANI News",
+      "The News Mill",
+      "Asianet Newsable"
+     ],
+     "published": "2026-11-13T15:29:00+00:00",
+     "summary": "",
+     "score": 1.63,
+     "group": "Movies"
+    },
+    {
+     "title": "\"Star Wars\" Record: Darth Vader's lightsaber sold at auction for nearly $5 million",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPd2VJV2d4aVBLeUtYd093TlJjQjNSWXRwN3RPUGIwYkk3Mi1mT29IVjRaNk9COFVFQjFDWDBNTDdIQ2pCb19paXVEMFJrTHNfRXNFd2YyOXRiY1AtN0x2NnJqdzl4b1Q0dnQ4ek9LUkt2R0FVaUhFUE5oRm1HLXNvWWdWUm13VkY0MnQ0TE1sX3ZjTDVUdU1lNWg2M05qWUtSMmRmaW9Oc3NfeHB0d0VtY0tJSnRMeVJyUGh30gG7AUFVX3lxTE93ZUlXZ3hpUEt5S1h3T3dOUmNCM1JZdHA3dE9QYjBiSTcyLWZPb0hWNFo2T0I4VUVCMUNYME1MN0hDakJvX2lpdUQwUmtMc19Fc0V3ZjI5dGJjUC03THY2cmp3OXhvVDR2dDh6T0tSS3ZHQVVpSEVQTmhGbUctc29ZZ1ZSbXdWRjQydDRMTWxfdmNMNVR1TWU1aDYzTmpZS1IyZGZpb05zc194cHR3RW1jS0lKdEx5UnJQaHc?oc=5",
+     "source": "LIGA.net",
+     "sources": [
+      "LIGA.net"
+     ],
+     "published": "2026-11-13T08:02:31+00:00",
+     "summary": "",
+     "score": 0.806,
+     "group": "Books"
+    },
+    {
+     "title": "‘Yellowjackets’ Creators Finally Explain the Status of the Announced Bonus Episode",
+     "link": "https://bloody-disgusting.com/movie/3975747/yellowjackets-extra-episode-missing-canceled-explained/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books"
+     ],
+     "published": "2026-11-13T23:22:08+00:00",
+     "summary": "The pop-culture juggernaut Stranger Things finally concluded just under a year ago. Longtime fans who didn’t enjoy the way the series wrapped up started concocting a variety of wild theories, which included speculation that the series finale wasn’t, in fact, a series finale, and…",
+     "score": 1.562,
+     "group": "Movies"
+    },
+    {
+     "title": "NECA Reveals Limited Edition 1:1 Scale Replica Baby Jason Doll From ‘Crystal Lake’ Series",
+     "link": "https://bloody-disgusting.com/toys/3975740/neca-reveals-limited-edition-11-scale-replica-baby-jason-doll-from-crystal-lake-series/",
+     "source": "Bloody Disgusting — Books",
+     "sources": [
+      "Bloody Disgusting — Books"
+     ],
+     "published": "2026-11-13T22:43:47+00:00",
+     "summary": "A special delivery has arrived this Friday the 13th. NECA has unveiled a 1:1 scale replica doll of baby Jason Voorhees from Peacock’s Crystal Lake, and it’s available for pre-order now. Baby Jason is currently available to pre-order on NECA’s site for $129.99, but the price will…",
+     "score": 1.551,
+     "group": "Movies"
+    },
+    {
+     "title": "Rana Daggubati Unveils New Horror Film Scary Picture With Kangana Ranaut",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORWQ1bkptVDJQQmVTNnFIcmpWR2c1NGNnMjNuZFFEaGdKZEN6UGZNOXlpZUpHTlM3UUdvZlB6b2tHLTF2aTlnYThodDVHU2w3eVZzaFlDaVlGM0hEYTlPczV1cUJQd1gxY04yWE83SFRQX2twYUNPSTdUbHpXYnNaQ081UjI3UnFoWi1DUnpwdk1oMHI5eXU1ZG5zdmxlZ2xqRzVCYTl1X2J0V0F1dXdfZnZwY09JU05yX2IwNGNhV0M0d2JCVlpsVy1PdE5nN29hZmkxMlBB0gHbAUFVX3lxTE1yV2xuSHVRVFd2V1RoM2pXYmliQ25LWHRmSzlTZ2hJU2VZZVF2VUpNVnNZU2JKak1BS2VJNU5NMko2S2NBcElwcUI4NFozSWtiYmdNdnFSbUNpVC14cHVLQkZ5b241XzFPLTlPdFJETE44NE05UDF0SlBRQmtucm5VakdGUFF6dTRUb3lnR3JfMHdZcGJiWDNfUUdITFdTR0c2NmQwUXhXeUNvQ0N3WVVVcm9FVEkzWXprWE5DNXowY29sNlJOcnJtbnlaMVlUWmtGQU9YdjJEZ2t6NA?oc=5",
+     "source": "Asianet Newsable",
+     "sources": [
+      "Asianet Newsable",
+      "Lokmat Times",
+      "BizAsiaLive"
+     ],
+     "published": "2026-11-13T09:30:07+00:00",
+     "summary": "",
+     "score": 1.531,
+     "group": "Movies"
+    },
+    {
+     "title": "Jason Takes Animation In ‘Never Hike Alone: Ghosts in the Fog’; Watch the New Short Now!",
+     "link": "https://www.dreadcentral.com/news/597762/jason-takes-animation-in-never-hike-alone-ghosts-in-the-fog-watch-the-new-short-now/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-14T01:03:46+00:00",
+     "summary": "Womp Stomp Films has released their latest Jason Voorhees flick, 'Never Hike Alone: Ghosts in the Fog'. Watch it now!",
+     "score": 1.39,
+     "group": "Movies"
+    },
+    {
+     "title": "NECA Announces Jason Baby Prop Replica Based on ‘Crystal Lake’…No, Really",
+     "link": "https://www.dreadcentral.com/toys-collectibles/597730/neca-announces-jason-baby-prop-replica-based-on-crystal-lake-no-really/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-13T22:25:30+00:00",
+     "summary": "NECA has announced a prop replica of baby Jason based on 'Crystal Lake' on this Friday the 13th...and I'm not a fan.",
+     "score": 1.346,
+     "group": "Movies"
+    },
+    {
+     "title": "‘Hell House’ Is Open for Overnight Stays at $666 a Night",
+     "link": "https://ihorror.com/hell-house-seymour-connecticut-matt-rife-overnight-stays/",
+     "source": "iHorror",
+     "sources": [
+      "iHorror"
+     ],
+     "published": "2026-11-13T21:17:06+00:00",
+     "summary": "The Connecticut house from the series premiere of 'A Haunting' has new owners, a seance room in the basement, and a waiver that mentions possession. The post ‘Hell House’ Is Open for Overnight Stays at $666 a Night appeared first on iHorror .",
+     "score": 1.327,
+     "group": "Movies"
+    },
+    {
+     "title": "‘Constantine 2’ Gets Renewed Hope After DC’s Shakeup",
+     "link": "https://ihorror.com/constantine-2-francis-lawrence-renewed-hope-dc-shakeup/",
+     "source": "iHorror",
+     "sources": [
+      "iHorror"
+     ],
+     "published": "2026-11-13T21:12:48+00:00",
+     "summary": "Francis Lawrence says the former DC leadership was \"an impediment\" to the Keanu Reeves sequel, and that a script has been ready for years. The post ‘Constantine 2’ Gets Renewed Hope After DC’s Shakeup appeared first on iHorror .",
+     "score": 1.326,
+     "group": "Movies"
+    },
+    {
+     "title": "Vera Farmiga to star in supernatural horror movie Inferno, about Scotland Yard’s secret occult division",
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9XR1ExZGRXY0p1M1RseWR4ZkdPTmZ2Yk1Edk04Tm9BYUFmWWtneVEtY0ROTE0yNlRkcTBJT0JkNzV6d3JibmVNTGtDOVF4TEk5M29SdVZn0gFbQVVfeXFMUGM3UE4zdlozbE1Ud0M3Q3I5NnotV1RvS2Y5Z20walRRc0hzOGp5SENQVU5yR3VFN3p6ZUNrQzVjaXBaZ3JjZmtPb0NTclh6RVByTVJRSnRsV1VPZw?oc=5",
+     "source": "JoBlo",
+     "sources": [
+      "JoBlo",
+      "IMDb"
+     ],
+     "published": "2026-11-13T17:54:49+00:00",
+     "summary": "",
+     "score": 1.321,
+     "group": "Movies"
+    },
+    {
+     "title": "Jessica Marie Garcia to Star in Vampire Comedy ‘Randy Mandy and the Curse of the Plaza Theatre’",
+     "link": "https://www.dreadcentral.com/news/597718/jessica-marie-garcia-to-star-in-vampire-comedy-randy-mandy-and-the-curse-of-the-plaza-theatre/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-13T20:39:24+00:00",
+     "summary": "Jessica Marie Garcia is set to star in the vampire comedy 'Randy Mandy and the Curse of the Plaza Theatre'.",
+     "score": 1.317,
+     "group": "Movies"
+    },
+    {
+     "title": "The Ghosts have the most life in “EBENEZER”",
+     "link": "https://rue-morgue.com/movie-review-the-ghosts-have-the-most-life-in-ebenezer/",
+     "source": "Rue Morgue",
+     "sources": [
+      "Rue Morgue"
+     ],
+     "published": "2026-11-13T20:30:43+00:00",
+     "summary": "One comes away from EBENEZER with the feeling of admiring it from a bit of a distance, rather than being truly captivated by it.",
+     "score": 1.314,
+     "group": "Movies"
+    },
+    {
+     "title": "Psychedelic survival thriller “GAME” is coming to theaters next month; trailer & poster",
+     "link": "https://rue-morgue.com/psychedelic-survival-thriller-game-is-coming-to-theaters-next-month-trailer-poster/",
+     "source": "Rue Morgue",
+     "sources": [
+      "Rue Morgue"
+     ],
+     "published": "2026-11-13T20:15:00+00:00",
+     "summary": "A couple of celebrated British musicians have key roles in this production.",
+     "score": 1.31,
+     "group": "Movies"
+    },
+    {
+     "title": "MAGIC: THE GATHERING Brings Aquatic Horror To The Trading Card Game With Nauctis: The Sunken Realm",
+     "link": "https://www.fangoria.com/magic-the-gathering-aquatic-horror-nauctis-the-sunken-realm/",
+     "source": "Fangoria",
+     "sources": [
+      "Fangoria"
+     ],
+     "published": "2026-11-13T20:16:56+00:00",
+     "summary": "Get ready for aquatic horror. MAGIC: THE GATHERING has introduced its first entirely underwater setting with Nauctis: The Sunken Realm.",
+     "score": 1.31,
+     "group": "Movies"
+    },
+    {
+     "title": "‘Wynter Waxeth,’ Ethel Cain’s Song for ‘Werwulf,’ Is Here",
+     "link": "https://www.dreadcentral.com/news/597648/wynter-waxeth-ethel-cains-song-for-werwulf-is-here/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-13T20:00:00+00:00",
+     "summary": "Ethel Cain co-wrote “Wynter Waxeth” with “Werwulf” director Robert Eggers and frequent collaborator Robin Carolan.",
+     "score": 1.306,
+     "group": "Movies"
+    },
+    {
+     "title": "HAPPY HAPPY HALLOWEEN: DIRECTOR JASON EISENER CHATS ABOUT HIS NEW “HALLOWEEN 3” FAN FILM, “PROJECT SHAMROCK”",
+     "link": "https://rue-morgue.com/happy-happy-halloween-director-jason-eisener-chats-about-his-new-halloween-3-fan-film-project-shamrock/",
+     "source": "Rue Morgue",
+     "sources": [
+      "Rue Morgue"
+     ],
+     "published": "2026-11-13T20:00:00+00:00",
+     "summary": "The HOBO WITH A SHOTGUN director fulfills his passion project- finally connecting Halloween 3 to the rest of the series.",
+     "score": 1.306,
+     "group": "Movies"
+    },
+    {
+     "title": "Netflix Unveils First Look at ‘Magic: The Gathering’ Animated Series, ‘Planeswalker’! [Watch]",
+     "link": "https://www.dreadcentral.com/trailer/597681/netflix-unveils-first-look-at-magic-the-gathering-animated-series-planeswalker-watch/",
+     "source": "Dread Central — Comics",
+     "sources": [
+      "Dread Central — Comics"
+     ],
+     "published": "2026-11-13T19:39:56+00:00",
+     "summary": "Netflix has unveiled the first look at the 'Magic: The Gathering' animated series, 'Planeswalker'. It's really happening.",
+     "score": 1.3,
+     "group": "Movies"
+    },
+    {
+     "title": "Female Revenge: A History in Cinema",
+     "link": "https://ihorror.com/female-revenge-movies-a-history-in-cinema/",
+     "source": "iHorror",
+     "sources": [
+      "iHorror"
+     ],
+     "published": "2026-11-13T19:20:25+00:00",
+     "summary": "Female revenge movies are a subgenre of horror that lives in the dark underbelly of the industry. The monsters in these movies are not zombies, vampires, ghosts, or werewolves. Instead, the focus is on the evil acts men do and the innocent women they prey upon. This category is…",
+     "score": 1.295,
+     "group": "Movies"
     }
    ]
   }
  ],
  "status": {
   "feed: https://abduzeedo.com/rss.xml": "ok: 50 entries",
+  "feed: https://allthatsinteresting.com/feed": "ok: 100 entries",
+  "feed: https://bleedingcool.com/comics/feed/": "ok: 30 entries",
+  "feed: https://bloody-disgusting.com/feed/": "ok: 50 entries",
   "feed: https://bookmarks.reviews/feed/": "ok: 10 entries",
   "feed: https://bookriot.com/feed/": "ok: 10 entries",
   "feed: https://changelog.com/feed": "ok: 50 entries",
@@ -3995,6 +4456,7 @@
   "feed: https://consequence.net/category/reviews/feed/": "ok: 15 entries",
   "feed: https://consequence.net/feed/": "ok: 15 entries",
   "feed: https://crimereads.com/feed/": "ok: 10 entries",
+  "feed: https://daily.jstor.org/feed/": "ok: 10 entries",
   "feed: https://deadline.com/feed/": "ok: 12 entries",
   "feed: https://design-milk.com/feed/": "ok: 12 entries",
   "feed: https://dev.to/feed": "ok: 12 entries",
@@ -4017,26 +4479,35 @@
   "feed: https://pudding.cool/feed/index.xml": "ok: 20 entries",
   "feed: https://realpython.com/atom.xml": "ok: 50 entries",
   "feed: https://rss.nytimes.com/services/xml/rss/nyt/Books.xml": "ok: 35 entries",
+  "feed: https://rue-morgue.com/feed/": "ok: 10 entries",
   "feed: https://stackoverflow.blog/feed/": "ok: 40 entries",
   "feed: https://techcrunch.com/feed/": "ok: 20 entries",
   "feed: https://thedieline.com/feed/": "ok: 10 entries",
   "feed: https://thequietus.com/feed": "ok: 32 entries",
+  "feed: https://tornightfire.com/feed/": "error: ValueError: not a feed (<unknown>:2:0: syntax error)",
   "feed: https://towardsdatascience.com/feed": "ok: 20 entries",
   "feed: https://variety.com/v/film/feed/": "ok: 10 entries",
   "feed: https://www.analyticsvidhya.com/feed/": "ok: 10 entries",
+  "feed: https://www.ancient-origins.net/rss.xml": "ok: 10 entries",
+  "feed: https://www.atlasobscura.com/feeds/latest": "ok: 27 entries",
   "feed: https://www.avclub.com/rss": "ok: 71 entries",
   "feed: https://www.billboard.com/feed/": "ok: 10 entries",
   "feed: https://www.brooklynvegan.com/feed/": "ok: 15 entries",
+  "feed: https://www.cbr.com/feed/": "ok: 10 entries",
   "feed: https://www.creativebloq.com/feeds/all": "ok: 25 entries",
   "feed: https://www.datawrapper.de/blog/feed/": "ok: 1091 entries",
   "feed: https://www.designboom.com/design/feed/": "ok: 10 entries",
   "feed: https://www.dezeen.com/design/feed/": "ok: 50 entries",
   "feed: https://www.dezeen.com/feed/": "ok: 50 entries",
+  "feed: https://www.dreadcentral.com/feed/": "ok: 10 entries",
+  "feed: https://www.fangoria.com/feed/": "ok: 25 entries",
   "feed: https://www.freecodecamp.org/news/rss/": "ok: 10 entries",
   "feed: https://www.hollywoodreporter.com/c/movies/feed/": "ok: 10 entries",
+  "feed: https://www.ihorror.com/feed/": "ok: 10 entries",
   "feed: https://www.indiewire.com/feed/": "ok: 12 entries",
   "feed: https://www.kdnuggets.com/feed": "ok: 10 entries",
-  "feed: https://www.kirkusreviews.com/feeds/rss/": "ok: 20 entries",
+  "feed: https://www.kirkusreviews.com/feeds/rss/": "error: ReadTimeout: HTTPSConnectionPool(host='www.kirkusreviews.com', port=443): Read timed out. (read timeout=25)",
+  "feed: https://www.mentalfloss.com/rss.xml": "ok: 77 entries",
   "feed: https://www.nme.com/news/music/feed": "ok: 10 entries",
   "feed: https://www.publishersweekly.com/pw/feeds/recent/index.xml": "ok: 104 entries",
   "feed: https://www.r-bloggers.com/feed/": "ok: 25 entries",
@@ -4045,6 +4516,7 @@
   "feed: https://www.slantmagazine.com/category/film/feed/": "ok: 20 entries",
   "feed: https://www.slashfilm.com/feed/": "ok: 20 entries",
   "feed: https://www.smashingmagazine.com/feed/": "ok: 40 entries",
+  "feed: https://www.smithsonianmag.com/rss/history/": "ok: 16 entries",
   "feed: https://www.stereogum.com/category/reviews/album-of-the-week/feed/": "ok: 40 entries",
   "feed: https://www.stereogum.com/feed/": "ok: 40 entries",
   "feed: https://www.storytellingwithdata.com/blog?format=rss": "ok: 20 entries",
@@ -4057,13 +4529,17 @@
   "feed: https://www.underconsideration.com/brandnew/feed/": "ok: 87 entries (configured URL failed: HTTPError: 500 Server Error: Internal Server Error for url: https://www.underconsideration.com/brandnew/feed; found https://www.underconsideration.com/brandnew/feed/thefollowup)",
   "feed: https://www.wallpaper.com/feeds/all": "ok: 50 entries",
   "feed: https://www.yankodesign.com/feed/": "ok: 16 entries",
-  "gn: \"album review\" OR \"record review\"": "ok: 40 entries",
+  "gn: \"album review\" OR \"record review\"": "ok: 39 entries",
   "gn: \"book deal\" OR \"announces new novel\" OR \"forthcoming novel\"": "ok: 4 entries",
   "gn: \"book review\" novel OR memoir": "ok: 9 entries",
   "gn: \"box office\" weekend opening": "ok: 35 entries",
+  "gn: \"dark history\" OR \"macabre history\" OR \"grisly history\"": "ok: 3 entries",
   "gn: \"data science\" OR \"data scientist\" OR \"machine learning\" analytics": "ok: 29 entries",
   "gn: \"data visualization\" OR \"data viz\" OR infographic OR dataviz": "ok: 20 entries",
-  "gn: \"graphic design\" OR typography OR rebrand OR \"brand identity\"": "ok: 34 entries",
+  "gn: \"graphic design\" OR typography OR rebrand OR \"brand identity\"": "ok: 35 entries",
+  "gn: \"horror comic\" OR \"horror comics\" OR \"horror graphic novel\"": "ok: 3 entries",
+  "gn: \"horror movie\" OR \"horror film\"": "ok: 58 entries",
+  "gn: \"horror novel\" OR \"horror book\" OR \"horror fiction\"": "ok: 6 entries",
   "gn: \"industrial design\" OR \"product design\" OR \"furniture design\"": "ok: 27 entries",
   "gn: \"most anticipated books\" OR \"book release\" OR \"out today\" novel": "ok: 1 entries",
   "gn: \"movie review\" OR \"film review\"": "ok: 100 entries",
@@ -4072,9 +4548,11 @@
   "gn: \"new books\" OR \"new releases\" books this week": "ok: 13 entries",
   "gn: \"new movies\" this weekend OR \"in theaters\" OR \"streaming this week\"": "ok: 18 entries",
   "gn: \"programming language\" OR \"developer tools\" OR \"open source\" release": "ok: 21 entries",
-  "gn: memoir OR novel \"out now\" OR \"released this week\" OR \"hits shelves\"": "ok: 8 entries",
+  "gn: \"witch trials\" OR \"haunted history\" OR \"historic murder\" OR \"unsolved mystery\" history": "ok: 6 entries",
+  "gn: horror trailer OR \"horror sequel\" OR \"horror franchise\"": "ok: 28 entries",
+  "gn: memoir OR novel \"out now\" OR \"released this week\" OR \"hits shelves\"": "ok: 9 entries",
   "gn: movie news film studio OR casting OR trailer": "ok: 31 entries",
-  "gn: music news album announced OR tour OR single": "ok: 58 entries",
+  "gn: music news album announced OR tour OR single": "ok: 57 entries",
   "gn: publishing industry OR \"book publishing\" OR booksellers OR authors news": "ok: 20 entries",
   "gn: site:creativereview.co.uk OR site:designweek.co.uk OR site:itsnicethat.com": "ok: 3 entries",
   "gn: site:pastemagazine.com review album OR site:thelineofbestfit.com review": "ok: 38 entries",
