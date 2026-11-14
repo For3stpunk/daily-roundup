@@ -1,0 +1,214 @@
+# Daily Roundup — sources
+#
+# Each topic gets up to `per_topic` articles a day (default below).
+# Sources:
+#   feeds:   RSS/Atom feeds. `weight` (0.5–1.5) nudges ranking; `max` caps how many
+#            items one source may contribute to the topic per day (default 6).
+#            `require` / `exclude` are case-insensitive regexes tested on title + link.
+#   google_news: search queries run through Google News RSS (last 24 h). Good for volume.
+#   hn:      Hacker News front page via the Algolia API (programming only).
+#
+# Broken feeds are listed in docs/status.json after every run — fix or remove them here.
+
+publication:
+  title: "The Daily Roundup"
+  tagline: "Design, code, data, music, books and film — the day's best reading, 25 per beat."
+  # Set this after GitHub Pages is on, e.g. https://<user>.github.io/daily-roundup
+  site_url: "https://for3stpunk.github.io/daily-roundup"
+  timezone: "America/Los_Angeles"
+  language: "en-us"
+
+defaults:
+  per_topic: 25
+  per_source_max: 6
+  window_hours: 30          # articles published in the last N hours
+  fallback_window_hours: 168  # widen to a week for slow topics that come up short
+  google_news_weight: 0.7
+
+topics:
+  - slug: graphic-design
+    title: Graphic Design
+    feeds:
+      - {name: Dezeen — Graphic design, url: "https://www.dezeen.com/design/graphic-design/feed/"}
+      - {name: Creative Bloq, url: "https://www.creativebloq.com/feeds/all"}
+      - {name: Creative Review, url: "https://www.creativereview.co.uk/feed/"}
+      - {name: AIGA Eye on Design, url: "https://eyeondesign.aiga.org/feed/", weight: 1.2}
+      - {name: It's Nice That, url: "https://www.itsnicethat.com/rss/articles"}
+      - {name: Design Week, url: "https://www.designweek.co.uk/feed/"}
+      - {name: Brand New (UnderConsideration), url: "https://www.underconsideration.com/brandnew/index.xml", weight: 1.2}
+      - {name: Abduzeedo, url: "https://abduzeedo.com/rss.xml"}
+      - {name: Smashing Magazine, url: "https://www.smashingmagazine.com/feed/", weight: 0.8}
+      - {name: The Dieline, url: "https://thedieline.com/feed/"}
+    google_news:
+      - '"graphic design" OR typography OR rebrand OR "brand identity"'
+
+  - slug: industrial-design
+    title: Industrial Design
+    feeds:
+      - {name: Core77, url: "https://feeds.feedburner.com/core77/blog", weight: 1.2}
+      - {name: Dezeen — Design, url: "https://www.dezeen.com/design/feed/"}
+      - {name: designboom — Design, url: "https://www.designboom.com/design/feed/"}
+      - {name: Yanko Design, url: "https://www.yankodesign.com/feed/"}
+      - {name: Design Milk, url: "https://design-milk.com/feed/"}
+      - {name: Wallpaper* — Design, url: "https://www.wallpaper.com/design/rss"}
+    google_news:
+      - '"industrial design" OR "product design" OR "furniture design"'
+
+  - slug: programming
+    title: Programming
+    # Tutorials, new tools, new libraries and the business of software.
+    hn: {min_points: 40, weight: 1.3, max: 8}
+    feeds:
+      - {name: Lobsters, url: "https://lobste.rs/hottest.rss", weight: 1.1}
+      - {name: GitHub Blog, url: "https://github.blog/feed/"}
+      - {name: The Changelog, url: "https://changelog.com/feed"}
+      - {name: InfoQ, url: "https://feed.infoq.com/"}
+      - {name: Stack Overflow Blog, url: "https://stackoverflow.blog/feed/"}
+      - {name: The Register — Software, url: "https://www.theregister.com/software/headlines.atom"}
+      - {name: freeCodeCamp (tutorials), url: "https://www.freecodecamp.org/news/rss/"}
+      - {name: Real Python (tutorials), url: "https://realpython.com/atom.xml"}
+      - {name: DEV Community — top, url: "https://dev.to/feed/top/day"}
+      - {name: TechCrunch — Developer, url: "https://techcrunch.com/category/developer/feed/"}
+    google_news:
+      - '"programming language" OR "developer tools" OR "open source" release'
+      - 'software developers OR "coding assistant" OR GitHub business'
+
+  - slug: data-science
+    title: Data Science
+    feeds:
+      - {name: KDnuggets, url: "https://www.kdnuggets.com/feed"}
+      - {name: Towards Data Science, url: "https://towardsdatascience.com/feed"}
+      - {name: Analytics Vidhya, url: "https://www.analyticsvidhya.com/feed/"}
+      - {name: R-bloggers, url: "https://www.r-bloggers.com/feed/"}
+      - {name: Simply Statistics, url: "https://simplystatistics.org/index.xml"}
+      - {name: Machine Learning Mastery, url: "https://machinelearningmastery.com/feed/"}
+      - {name: Hugging Face Blog, url: "https://huggingface.co/blog/feed.xml"}
+    google_news:
+      - '"data science" OR "data scientist" OR "machine learning" analytics'
+
+  - slug: data-visualization
+    title: Data Visualization
+    feeds:
+      - {name: FlowingData, url: "https://flowingdata.com/feed", weight: 1.3}
+      - {name: Nightingale (DVS), url: "https://nightingaledvs.com/feed/", weight: 1.2}
+      - {name: Datawrapper Blog, url: "https://www.datawrapper.de/blog/rss.xml"}
+      - {name: Storytelling with Data, url: "https://www.storytellingwithdata.com/blog?format=rss"}
+      - {name: Junk Charts, url: "https://junkcharts.typepad.com/junk_charts/atom.xml"}
+      - {name: The Pudding, url: "https://pudding.cool/feed/index.xml"}
+      - {name: Observable Blog, url: "https://observablehq.com/blog/feed.xml"}
+      - {name: Information is Beautiful, url: "https://informationisbeautiful.net/feed/"}
+    google_news:
+      - '"data visualization" OR "data viz" OR infographic OR dataviz'
+
+  - slug: music-news
+    title: Music News
+    feeds:
+      - {name: Pitchfork — News, url: "https://pitchfork.com/feed/feed-news/rss", weight: 1.2}
+      - {name: Stereogum, url: "https://www.stereogum.com/feed/", exclude: "review"}
+      - {name: Consequence, url: "https://consequence.net/feed/", exclude: "review"}
+      - {name: NME — Music, url: "https://www.nme.com/news/music/feed"}
+      - {name: Rolling Stone — Music, url: "https://www.rollingstone.com/music/music-news/feed/"}
+      - {name: Billboard, url: "https://www.billboard.com/feed/"}
+      - {name: BrooklynVegan, url: "https://www.brooklynvegan.com/feed/"}
+      - {name: Exclaim!, url: "https://exclaim.ca/feeds/music"}
+    google_news:
+      - 'music news album announced OR tour OR single'
+
+  - slug: music-videos
+    title: Music Videos
+    # New and premiered music videos. Sources that mix news and videos are filtered to video posts.
+    feeds:
+      - {name: Stereogum — Videos, url: "https://www.stereogum.com/category/video/feed/", weight: 1.2}
+      - {name: Stereogum, url: "https://www.stereogum.com/feed/", require: "video"}
+      - {name: Consequence, url: "https://consequence.net/feed/", require: "video"}
+      - {name: BrooklynVegan, url: "https://www.brooklynvegan.com/feed/", require: "video"}
+      - {name: Pitchfork — News, url: "https://pitchfork.com/feed/feed-news/rss", require: "video"}
+      - {name: NME — Music, url: "https://www.nme.com/news/music/feed", require: "video"}
+      - {name: Rolling Stone — Music, url: "https://www.rollingstone.com/music/music-news/feed/", require: "video"}
+      - {name: Exclaim!, url: "https://exclaim.ca/feeds/music", require: "video"}
+      - {name: Billboard, url: "https://www.billboard.com/feed/", require: "music video|official video"}
+    google_news:
+      - '"music video" OR "official video" OR "video premiere" song'
+
+  - slug: music-reviews
+    title: Music Reviews
+    feeds:
+      - {name: Pitchfork — Album reviews, url: "https://pitchfork.com/feed/feed-album-reviews/rss", weight: 1.3}
+      - {name: The Quietus, url: "https://thequietus.com/feed", require: "review"}
+      - {name: Consequence — Reviews, url: "https://consequence.net/category/reviews/feed/"}
+      - {name: Stereogum — Album of the Week, url: "https://www.stereogum.com/category/reviews/album-of-the-week/feed/"}
+      - {name: The Line of Best Fit — Reviews, url: "https://www.thelineofbestfit.com/reviews/feed", require: "review"}
+      - {name: Paste — Music reviews, url: "https://www.pastemagazine.com/music/reviews/rss"}
+      - {name: The Guardian — Album reviews, url: "https://www.theguardian.com/music/series/album-reviews/rss"}
+    google_news:
+      - '"album review" OR "record review"'
+
+  - slug: book-news
+    title: Book News
+    feeds:
+      - {name: Publishers Weekly, url: "https://www.publishersweekly.com/pw/feeds/recent/index.xml", weight: 1.2}
+      - {name: Literary Hub, url: "https://lithub.com/feed/"}
+      - {name: Book Riot, url: "https://bookriot.com/feed/", exclude: "new releases|review"}
+      - {name: The Guardian — Books, url: "https://www.theguardian.com/books/rss", exclude: "review"}
+      - {name: The Bookseller, url: "https://www.thebookseller.com/rss"}
+      - {name: Electric Literature, url: "https://electricliterature.com/feed/"}
+    google_news:
+      - 'publishing industry OR "book publishing" OR booksellers OR authors news'
+
+  - slug: book-releases
+    title: Book Releases
+    feeds:
+      - {name: Book Riot — New releases, url: "https://bookriot.com/feed/", require: "new (book )?releases|out this week|new books"}
+      - {name: Literary Hub — New books, url: "https://lithub.com/feed/", require: "new books|best books|out this week|most anticipated"}
+      - {name: Publishers Weekly — Announcements, url: "https://www.publishersweekly.com/pw/feeds/recent/index.xml", require: "announcements|forecast|new releases"}
+      - {name: CrimeReads, url: "https://crimereads.com/feed/", require: "new|best|releases"}
+    google_news:
+      - '"new books" OR "new releases" books this week'
+      - '"most anticipated books" OR "book release" OR "out today" novel'
+
+  - slug: book-reviews
+    title: Book Reviews
+    feeds:
+      - {name: Book Marks, url: "https://bookmarks.reviews/feed/", weight: 1.2}
+      - {name: The Guardian — Book reviews, url: "https://www.theguardian.com/books/books+tone/reviews/rss"}
+      - {name: NYT — Books, url: "https://rss.nytimes.com/services/xml/rss/nyt/Books.xml", require: "review"}
+      - {name: Los Angeles Review of Books, url: "https://lareviewofbooks.org/feed/"}
+      - {name: NPR — Book reviews, url: "https://feeds.npr.org/1032/rss.xml", require: "review"}
+      - {name: Kirkus — Reviews, url: "https://www.kirkusreviews.com/feeds/rss/"}
+    google_news:
+      - '"book review" novel OR memoir'
+
+  - slug: movie-news
+    title: Movie News
+    feeds:
+      - {name: Variety — Film, url: "https://variety.com/v/film/feed/", exclude: "review", weight: 1.2}
+      - {name: Deadline, url: "https://deadline.com/feed/", require: "movie|film|box office|studio|director|cast|trailer", exclude: "review"}
+      - {name: The Hollywood Reporter — Movies, url: "https://www.hollywoodreporter.com/c/movies/feed/", exclude: "review"}
+      - {name: IndieWire, url: "https://www.indiewire.com/feed/", exclude: "review"}
+      - {name: /Film, url: "https://www.slashfilm.com/feed/", exclude: "review"}
+      - {name: Collider, url: "https://collider.com/feed/", exclude: "review"}
+    google_news:
+      - 'movie news film studio OR casting OR trailer'
+
+  - slug: movie-releases
+    title: Movie Releases
+    feeds:
+      - {name: Collider — Releases, url: "https://collider.com/feed/", require: "new (movies|releases)|this weekend|in theaters|streaming this week|release date|box office"}
+      - {name: /Film — Releases, url: "https://www.slashfilm.com/feed/", require: "new (movies|releases)|this weekend|in theaters|release date|box office"}
+      - {name: Deadline — Box office, url: "https://deadline.com/feed/", require: "box office|opening weekend|release"}
+      - {name: Variety — Box office, url: "https://variety.com/v/film/feed/", require: "box office|release|opening"}
+    google_news:
+      - '"new movies" this weekend OR "in theaters" OR "streaming this week"'
+      - '"box office" weekend opening'
+
+  - slug: movie-reviews
+    title: Movie Reviews
+    feeds:
+      - {name: RogerEbert.com, url: "https://www.rogerebert.com/feed", weight: 1.2}
+      - {name: The Guardian — Film reviews, url: "https://www.theguardian.com/film+tone/reviews/rss"}
+      - {name: Variety — Reviews, url: "https://variety.com/v/film/feed/", require: "review"}
+      - {name: IndieWire — Reviews, url: "https://www.indiewire.com/feed/", require: "review"}
+      - {name: Slant — Film, url: "https://www.slantmagazine.com/category/film/feed/", require: "review"}
+      - {name: The A.V. Club — Film, url: "https://www.avclub.com/rss", require: "review"}
+    google_news:
+      - '"movie review" OR "film review"'

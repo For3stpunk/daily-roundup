@@ -1,0 +1,52 @@
+name: Daily roundup
+
+on:
+  schedule:
+    - cron: "17 13 * * *"   # 13:17 UTC = 5:17 AM PST / 6:17 AM PDT
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Issue date (YYYY-MM-DD). Leave blank for today."
+        required: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: daily-roundup
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Collect today's issue and build the site
+        run: python roundup.py ${{ github.event.inputs.date && format('--date {0}', github.event.inputs.date) || '' }}
+      - name: Save the issue to the repo
+        run: |
+          git config user.name "daily-roundup-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data docs
+          git commit -m "Issue $(date -u +%F)" || echo "Nothing to commit"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
