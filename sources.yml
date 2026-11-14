@@ -7,12 +7,15 @@
 #            `require` / `exclude` are case-insensitive regexes tested on title + link.
 #   google_news: search queries run through Google News RSS (last 24 h). Good for volume.
 #   hn:      Hacker News front page via the Algolia API (programming only).
+#   groups:  optional sub-sections (e.g. Horror). Tag feeds with `group:` and write
+#            google_news entries as {q: "...", group: "..."}; picks alternate between
+#            groups so each gets a fair share. `per_topic` on a topic overrides the default.
 #
 # Broken feeds are listed in docs/status.json after every run — fix or remove them here.
 
 publication:
   title: "The Daily Roundup"
-  tagline: "Design, code, data, music, books and film — the day's best reading, 25 per beat."
+  tagline: "Design, code, data, music, books, film and horror — the day's best reading, 25 per beat."
   # Set this after GitHub Pages is on, e.g. https://<user>.github.io/daily-roundup
   site_url: "https://for3stpunk.github.io/daily-roundup"
   timezone: "America/Los_Angeles"
@@ -209,3 +212,43 @@ topics:
       - {name: The A.V. Club — Film, url: "https://www.avclub.com/rss", require: "review"}
     google_news:
       - '"movie review" OR "film review"'
+
+  - slug: horror
+    title: Horror
+    per_topic: 40
+    groups: [Movies, Comics, Books, Dark History]
+    feeds:
+      # Movies
+      - {name: Bloody Disgusting, url: "https://bloody-disgusting.com/feed/", group: Movies, exclude: "comic|book|novel", weight: 1.2}
+      - {name: Dread Central, url: "https://www.dreadcentral.com/feed/", group: Movies, exclude: "comic|novel"}
+      - {name: Rue Morgue, url: "https://rue-morgue.com/feed/", group: Movies, exclude: "comic|novel"}
+      - {name: iHorror, url: "https://www.ihorror.com/feed/", group: Movies}
+      - {name: Fangoria, url: "https://www.fangoria.com/feed/", group: Movies}
+      - {name: /Film — Horror, url: "https://www.slashfilm.com/feed/", group: Movies, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: RogerEbert.com — Horror, url: "https://www.rogerebert.com/feed", group: Movies, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      # Comics
+      - {name: Bloody Disgusting — Comics, url: "https://bloody-disgusting.com/feed/", group: Comics, require: "comic|graphic novel"}
+      - {name: Bleeding Cool — Horror comics, url: "https://bleedingcool.com/comics/feed/", group: Comics, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: CBR — Horror comics, url: "https://www.cbr.com/feed/", group: Comics, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king).*comic|comic.*(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: Dread Central — Comics, url: "https://www.dreadcentral.com/feed/", group: Comics, require: "comic"}
+      # Books
+      - {name: Bloody Disgusting — Books, url: "https://bloody-disgusting.com/feed/", group: Books, require: "book|novel|author"}
+      - {name: Tor Nightfire, url: "https://tornightfire.com/feed/", home: "https://tornightfire.com/", group: Books, weight: 1.2}
+      - {name: Book Riot — Horror, url: "https://bookriot.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: CrimeReads — Horror, url: "https://crimereads.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: Literary Hub — Horror, url: "https://lithub.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      - {name: The Guardian — Horror books, url: "https://www.theguardian.com/books/rss", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
+      # Dark history
+      - {name: Atlas Obscura, url: "https://www.atlasobscura.com/feeds/latest", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: Smithsonian — History, url: "https://www.smithsonianmag.com/rss/history/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: JSTOR Daily, url: "https://daily.jstor.org/feed/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: Mental Floss, url: "https://www.mentalfloss.com/rss.xml", home: "https://www.mentalfloss.com/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: All That's Interesting, url: "https://allthatsinteresting.com/feed", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: Ancient Origins, url: "https://www.ancient-origins.net/rss.xml", home: "https://www.ancient-origins.net/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+    google_news:
+      - {q: '"horror movie" OR "horror film"', group: Movies}
+      - {q: 'horror trailer OR "horror sequel" OR "horror franchise"', group: Movies}
+      - {q: '"horror comic" OR "horror comics" OR "horror graphic novel"', group: Comics}
+      - {q: '"horror novel" OR "horror book" OR "horror fiction"', group: Books}
+      - {q: '"dark history" OR "macabre history" OR "grisly history"', group: Dark History}
+      - {q: '"witch trials" OR "haunted history" OR "historic murder" OR "unsolved mystery" history', group: Dark History}

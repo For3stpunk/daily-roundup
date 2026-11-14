@@ -165,7 +165,7 @@ def gather(cfg: dict) -> tuple[dict[str, list[dict]], dict]:
         for f in t.get("feeds", []):
             jobs[("feed", f["url"])] = f
         for q in t.get("google_news", []):
-            jobs[("gn", q)] = q
+            jobs[("gn", gn_query(q))] = gn_query(q)
         if t.get("hn"):
             jobs[("hn", "front")] = t["hn"]
     results = {}
@@ -185,12 +185,18 @@ def gather(cfg: dict) -> tuple[dict[str, list[dict]], dict]:
             status[f"{key[0]}: {key[1]}"] = st
     return results, status
 
+def gn_query(q) -> str:
+    return q["q"] if isinstance(q, dict) else q
+
+def per_topic(t: dict, d: dict) -> int:
+    return t.get("per_topic", d["per_topic"])
+
 # ---------------------------------------------------------------- ranking
 
 def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
     cutoff = NOW - dt.timedelta(hours=window_h)
     pool = []
-    def take(items, weight, cap, require=None, exclude=None, specific=False):
+    def take(items, weight, cap, require=None, exclude=None, specific=False, group=None):
         for it in items:
             hay = (it["title"] + " " + it["link"]).lower()
             if require and not re.search(require, hay, re.I):
@@ -200,12 +206,13 @@ def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
             pub = dt.datetime.fromisoformat(it["published"].replace("Z", "+00:00"))
             if pub < cutoff or pub > NOW + dt.timedelta(hours=6):
                 continue
-            pool.append({**it, "weight": weight, "cap": cap, "specific": specific, "pub": pub})
+            pool.append({**it, "weight": weight, "cap": cap, "specific": specific, "pub": pub, "group": group})
     for f in t.get("feeds", []):
         take(results.get(("feed", f["url"]), []), f.get("weight", 1.0), f.get("max", d["per_source_max"]),
-             f.get("require"), f.get("exclude"), bool(f.get("require")))
+             f.get("require"), f.get("exclude"), bool(f.get("require")), f.get("group"))
     for q in t.get("google_news", []):
-        take(results.get(("gn", q), []), d["google_news_weight"], 2)
+        take(results.get(("gn", gn_query(q)), []), d["google_news_weight"], 2,
+             group=q.get("group") if isinstance(q, dict) else None)
     if t.get("hn"):
         take(results.get(("hn", "front"), []), t["hn"].get("weight", 1.2), t["hn"].get("max", 8))
 
@@ -230,15 +237,24 @@ def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
         pts = min(1.0, (m.get("points") or 0) / 500)
         m["score"] = round(m["weight"] + 0.5 * recency + 0.35 * (len(m["sources"]) - 1) + pts, 3)
 
-    picked, per_src = [], {}
+    n = per_topic(t, d) * 2  # extra candidates survive cross-topic dedupe
+    ranked, per_src = [], {}
     for m in sorted(merged, key=lambda x: -x["score"]):
         key = m["source"].split(" (")[0]
         if per_src.get(key, 0) >= m["cap"]:
             continue
         per_src[key] = per_src.get(key, 0) + 1
-        picked.append(m)
-        if len(picked) >= d["per_topic"] * 2:  # extra candidates survive cross-topic dedupe
-            break
+        ranked.append(m)
+    groups = t.get("groups")
+    if not groups:
+        return ranked[:n]
+    # topics with sub-sections: take the best of each group in turn so no group is crowded out
+    queues = {g: [m for m in ranked if m.get("group") == g] for g in groups}
+    picked = []
+    while len(picked) < n and any(queues.values()):
+        for g in groups:
+            if queues[g] and len(picked) < n:
+                picked.append(queues[g].pop(0))
     return picked
 
 def make_issue(cfg: dict, date_label: str) -> dict:
@@ -247,7 +263,7 @@ def make_issue(cfg: dict, date_label: str) -> dict:
     issue, seen = {"date": date_label, "generated": NOW.isoformat(), "topics": []}, {}
     for t in cfg["topics"]:
         picks = build_topic(t, results, d, d["window_hours"])
-        if len(picks) < d["per_topic"]:
+        if len(picks) < per_topic(t, d):
             picks = build_topic(t, results, d, d["fallback_window_hours"])
         issue["topics"].append({"slug": t["slug"], "title": t["title"], "items": picks})
 
@@ -259,10 +275,10 @@ def make_issue(cfg: dict, date_label: str) -> dict:
                 seen[it["curl"]] = (ti, it)
     for ti, t in enumerate(issue["topics"]):
         t["items"] = [
-            {k: it[k] for k in ("title", "link", "source", "sources", "published", "summary", "score") if k in it}
+            {k: it[k] for k in ("title", "link", "source", "sources", "published", "summary", "score", "group") if it.get(k) is not None}
             | ({"discussion": it["discussion"]} if it.get("discussion") else {})
             for it in t["items"] if seen[it["curl"]][0] == ti
-        ][: cfg["defaults"]["per_topic"]]
+        ][: per_topic(cfg["topics"][ti], cfg["defaults"])]
     issue["status"] = dict(sorted(status.items()))
     return issue
 
@@ -298,6 +314,7 @@ ol.items{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:r
 ol.items li{padding:12px 0;border-bottom:1px solid var(--rule);display:grid;grid-template-columns:28px 1fr;gap:8px}
 .n{font:12px/1.9 var(--mono);color:var(--accent)}.t{font-weight:600;line-height:1.35;text-decoration:none}
 .s{font:12px var(--mono);color:var(--muted);margin-top:3px}.s .multi{color:var(--accent)}
+.grp{color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
 .sum{font-size:14px;color:var(--muted);margin:4px 0 0}
 .archive li{padding:6px 0;border-bottom:1px solid var(--rule);list-style:none}.archive{padding:0}
 footer{margin-top:40px;font:12px var(--mono);color:var(--muted)}
@@ -327,8 +344,9 @@ def issue_html(issue: dict, pub: dict, rel: str = "") -> str:
             extra = f' <span class="multi">+{len(srcs)-1} more</span>' if len(srcs) > 1 else ""
             disc = f' · <a href="{esc(it["discussion"])}">discussion</a>' if it.get("discussion") else ""
             sm = f'<p class="sum">{esc(it["summary"])}</p>' if it.get("summary") else ""
+            grp = f'<span class="grp">{esc(it["group"])}</span> · ' if it.get("group") else ""
             lis.append(f'<li><span class="n">{i:02d}</span><div><a class="t" href="{esc(it["link"])}">{esc(it["title"])}</a>'
-                       f'<div class="s">{esc(srcs[0])}{extra}{disc}</div>{sm}</div></li>')
+                       f'<div class="s">{grp}{esc(srcs[0])}{extra}{disc}</div>{sm}</div></li>')
         secs.append(f'<section id="{t["slug"]}"><h2>{esc(t["title"])} <small>{len(t["items"])} · <a href="{rel}topics/{t["slug"]}.xml">RSS</a></small></h2>'
                     f'<ol class="items">{"".join(lis) or "<li>No articles found today.</li>"}</ol></section>')
     return masthead(pub, issue["date"], rel) + f'<nav class="topics" aria-label="Topics">{nav}</nav>' + "".join(secs) + \
@@ -348,7 +366,9 @@ def article_item(it: dict, topic: dict, issue_date: str) -> str:
     desc = esc(it.get("summary") or "") + (f" (Also covered by {esc(', '.join(srcs[1:]))}.)" if len(srcs) > 1 else "")
     return (f"<item><title>{esc(it['title'])}</title><link>{esc(it['link'])}</link>"
             f"<guid isPermaLink=\"false\">{esc(canon_url(it['link']))}</guid><pubDate>{rfc822(it['published'])}</pubDate>"
-            f"<category>{esc(topic['title'])}</category><dc:creator>{esc(srcs[0])}</dc:creator>"
+            f"<category>{esc(topic['title'])}</category>"
+            + (f"<category>{esc(topic['title'])}: {esc(it['group'])}</category>" if it.get("group") else "")
+            + f"<dc:creator>{esc(srcs[0])}</dc:creator>"
             f"<description>{desc}</description></item>")
 
 def build_site(cfg: dict) -> None:
