@@ -233,13 +233,13 @@ topics:
       - {name: Dread Central — Comics, url: "https://www.dreadcentral.com/feed/", group: Comics, require: "comic"}
       # Books
       - {name: Bloody Disgusting — Books, url: "https://bloody-disgusting.com/feed/", group: Books, require: "book|novel|author"}
-      - {name: Tor Nightfire, url: "https://tornightfire.com/feed/", home: "https://tornightfire.com/", group: Books, weight: 1.2}
       - {name: Book Riot — Horror, url: "https://bookriot.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
       - {name: CrimeReads — Horror, url: "https://crimereads.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
       - {name: Literary Hub — Horror, url: "https://lithub.com/feed/", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
       - {name: The Guardian — Horror books, url: "https://www.theguardian.com/books/rss", group: Books, require: "(horror|haunt|slasher|zombie|vampire|werewolf|ghost|demon|possess|exorcis|creepy|terrif|scream|nightmare|occult|gothic|cosmic|lovecraft|stephen king)"}
       # Dark history
       - {name: Atlas Obscura, url: "https://www.atlasobscura.com/feeds/latest", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
+      - {name: Smithsonian — Smart News, url: "https://www.smithsonianmag.com/rss/smart-news/", group: Dark History, require: "(murder|plague|grave|skeleton|burial|execution|witch|corpse|mummy|massacre|haunted|cursed|shipwreck|torture)"}
       - {name: Smithsonian — History, url: "https://www.smithsonianmag.com/rss/history/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
       - {name: JSTOR Daily, url: "https://daily.jstor.org/feed/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
       - {name: Mental Floss, url: "https://www.mentalfloss.com/rss.xml", home: "https://www.mentalfloss.com/", group: Dark History, require: "(murder|killer|execution|plague|haunted|witch|grave|cemetery|crypt|catacomb|corpse|mummy|macabre|morbid|occult|serial|massacre|asylum|ghost|curse|torture|death|dead|bones|skull|shipwreck|disaster|unsolved)"}
@@ -250,5 +250,10 @@ topics:
       - {q: 'horror trailer OR "horror sequel" OR "horror franchise"', group: Movies}
       - {q: '"horror comic" OR "horror comics" OR "horror graphic novel"', group: Comics}
       - {q: '"horror novel" OR "horror book" OR "horror fiction"', group: Books}
-      - {q: '"dark history" OR "macabre history" OR "grisly history"', group: Dark History}
-      - {q: '"witch trials" OR "haunted history" OR "historic murder" OR "unsolved mystery" history', group: Dark History}
+      - {q: '"horror author" OR "Stephen King" new book OR "Bram Stoker Award" OR "horror anthology"', group: Books}
+      - {q: 'horror novel review OR "horror debut" OR "gothic novel"', group: Books}
+      - {q: 'horror comic series announced OR "first issue" horror OR "Dark Horse" horror OR "Image Comics" horror', group: Comics}
+      - {q: '"dark history" OR "macabre history" OR "grisly history" -season -episode -trailer', group: Dark History}
+      - {q: '"witch trials" OR "historic murder" OR "unsolved" "19th century" OR "18th century" murder', group: Dark History}
+      - {q: 'archaeologists skeleton OR burial OR "mass grave" OR "plague victims"', group: Dark History}
+      - {q: 'execution OR asylum OR "body snatchers" OR "serial killer" historians history', group: Dark History}

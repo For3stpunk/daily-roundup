@@ -193,11 +193,13 @@ def per_topic(t: dict, d: dict) -> int:
 
 # ---------------------------------------------------------------- ranking
 
-def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
+def build_topic(t: dict, results: dict, d: dict, window_h: int, raw: bool = False) -> list[dict]:
     cutoff = NOW - dt.timedelta(hours=window_h)
     pool = []
-    def take(items, weight, cap, require=None, exclude=None, specific=False, group=None):
+    def take(items, weight, cap, require=None, exclude=None, specific=False, group=None, name=None):
         for it in items:
+            if name:
+                it = {**it, "source": name}
             hay = (it["title"] + " " + it["link"]).lower()
             if require and not re.search(require, hay, re.I):
                 continue
@@ -209,7 +211,7 @@ def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
             pool.append({**it, "weight": weight, "cap": cap, "specific": specific, "pub": pub, "group": group})
     for f in t.get("feeds", []):
         take(results.get(("feed", f["url"]), []), f.get("weight", 1.0), f.get("max", d["per_source_max"]),
-             f.get("require"), f.get("exclude"), bool(f.get("require")), f.get("group"))
+             f.get("require"), f.get("exclude"), bool(f.get("require")), f.get("group"), f["name"])
     for q in t.get("google_news", []):
         take(results.get(("gn", gn_query(q)), []), d["google_news_weight"], 2,
              group=q.get("group") if isinstance(q, dict) else None)
@@ -246,8 +248,8 @@ def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
         per_src[key] = per_src.get(key, 0) + 1
         ranked.append(m)
     groups = t.get("groups")
-    if not groups:
-        return ranked[:n]
+    if raw or not groups:
+        return ranked if raw else ranked[:n]
     # topics with sub-sections: take the best of each group in turn so no group is crowded out
     queues = {g: [m for m in ranked if m.get("group") == g] for g in groups}
     picked = []
@@ -257,14 +259,38 @@ def build_topic(t: dict, results: dict, d: dict, window_h: int) -> list[dict]:
                 picked.append(queues[g].pop(0))
     return picked
 
+def build_grouped(t: dict, results: dict, d: dict) -> list[dict]:
+    """Sub-sectioned topic: each group gets an equal share. A group that is thin
+    in the normal window tops up from the fallback window (fresh items first)."""
+    groups, n = t["groups"], per_topic(t, d) * 2
+    narrow = build_topic(t, results, d, d["window_hours"], raw=True)
+    wide = build_topic(t, results, d, d["fallback_window_hours"], raw=True)
+    queues = {}
+    for g in groups:
+        q = [m for m in narrow if m.get("group") == g]
+        have = {m["curl"] for m in q}
+        q += [m for m in wide if m.get("group") == g and m["curl"] not in have]
+        queues[g] = q
+    picked, used = [], set()
+    while len(picked) < n and any(queues.values()):
+        for g in groups:
+            while queues[g] and queues[g][0]["curl"] in used:
+                queues[g].pop(0)
+            if queues[g] and len(picked) < n:
+                m = queues[g].pop(0); used.add(m["curl"]); picked.append(m)
+    return picked
+
 def make_issue(cfg: dict, date_label: str) -> dict:
     d = cfg["defaults"]
     results, status = gather(cfg)
     issue, seen = {"date": date_label, "generated": NOW.isoformat(), "topics": []}, {}
     for t in cfg["topics"]:
-        picks = build_topic(t, results, d, d["window_hours"])
-        if len(picks) < per_topic(t, d):
-            picks = build_topic(t, results, d, d["fallback_window_hours"])
+        if t.get("groups"):
+            picks = build_grouped(t, results, d)
+        else:
+            picks = build_topic(t, results, d, d["window_hours"])
+            if len(picks) < per_topic(t, d):
+                picks = build_topic(t, results, d, d["fallback_window_hours"])
         issue["topics"].append({"slug": t["slug"], "title": t["title"], "items": picks})
 
     # an article appears under one topic only: the one whose source filter matched it specifically
