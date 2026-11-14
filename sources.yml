@@ -31,10 +31,7 @@ topics:
     feeds:
       - {name: Dezeen — Graphic design, url: "https://www.dezeen.com/feed/", require: "graphic|brand|logo|typeface|typography|identity|poster|visual identity"}
       - {name: Creative Bloq, url: "https://www.creativebloq.com/feeds/all"}
-      - {name: Creative Review, url: "https://www.creativereview.co.uk/feed/", home: "https://www.creativereview.co.uk/"}
-      - {name: AIGA Eye on Design, url: "https://eyeondesign.aiga.org/feed/", home: "https://eyeondesign.aiga.org/", weight: 1.2}
-      - {name: It's Nice That, url: "https://www.itsnicethat.com/rss/articles", home: "https://www.itsnicethat.com/"}
-      - {name: Design Week, url: "https://www.designweek.co.uk/feed/", home: "https://www.designweek.co.uk/"}
+      - {name: It's Nice That, url: "https://feeds2.feedburner.com/itsnicethat/SlXC"}
       - {name: Brand New (UnderConsideration), url: "https://www.underconsideration.com/brandnew/feed/", home: "https://www.underconsideration.com/brandnew/", weight: 1.2}
       - {name: Abduzeedo, url: "https://abduzeedo.com/rss.xml"}
       - {name: Smashing Magazine, url: "https://www.smashingmagazine.com/feed/", weight: 0.8}
@@ -60,7 +57,7 @@ topics:
     # Tutorials, new tools, new libraries and the business of software.
     hn: {min_points: 40, weight: 1.3, max: 8}
     feeds:
-      - {name: Lobsters, url: "https://lobste.rs/hottest.rss", weight: 1.1}
+      - {name: Lobsters, url: "https://lobste.rs/rss", weight: 1.1}
       - {name: GitHub Blog, url: "https://github.blog/feed/"}
       - {name: The Changelog, url: "https://changelog.com/feed"}
       - {name: InfoQ, url: "https://feed.infoq.com/"}
@@ -91,7 +88,7 @@ topics:
     feeds:
       - {name: FlowingData, url: "https://flowingdata.com/feed", weight: 1.3}
       - {name: Nightingale (DVS), url: "https://nightingaledvs.com/feed/", weight: 1.2}
-      - {name: Datawrapper Blog, url: "https://www.datawrapper.de/blog/rss.xml", home: "https://www.datawrapper.de/blog/"}
+      - {name: Datawrapper Blog, url: "https://www.datawrapper.de/blog/feed/"}
       - {name: Storytelling with Data, url: "https://www.storytellingwithdata.com/blog?format=rss"}
       - {name: The Pudding, url: "https://pudding.cool/feed/index.xml"}
       - {name: Observable Blog, url: "https://observablehq.com/blog/feed.xml"}
@@ -109,7 +106,6 @@ topics:
       - {name: Rolling Stone — Music, url: "https://www.rollingstone.com/music/music-news/feed/"}
       - {name: Billboard, url: "https://www.billboard.com/feed/"}
       - {name: BrooklynVegan, url: "https://www.brooklynvegan.com/feed/"}
-      - {name: Exclaim!, url: "https://exclaim.ca/feeds/music", home: "https://exclaim.ca/music"}
     google_news:
       - 'music news album announced OR tour OR single'
 
@@ -117,14 +113,12 @@ topics:
     title: Music Videos
     # New and premiered music videos. Sources that mix news and videos are filtered to video posts.
     feeds:
-      - {name: Stereogum — Videos, url: "https://www.stereogum.com/category/videos/feed/", home: "https://www.stereogum.com/category/videos/", weight: 1.2}
       - {name: Stereogum, url: "https://www.stereogum.com/feed/", require: "video"}
       - {name: Consequence, url: "https://consequence.net/feed/", require: "video"}
       - {name: BrooklynVegan, url: "https://www.brooklynvegan.com/feed/", require: "video"}
       - {name: Pitchfork — News, url: "https://pitchfork.com/feed/feed-news/rss", require: "video"}
       - {name: NME — Music, url: "https://www.nme.com/news/music/feed", require: "video"}
       - {name: Rolling Stone — Music, url: "https://www.rollingstone.com/music/music-news/feed/", require: "video"}
-      - {name: Exclaim!, url: "https://exclaim.ca/feeds/music", home: "https://exclaim.ca/music", require: "video"}
       - {name: Billboard, url: "https://www.billboard.com/feed/", require: "music video|official video"}
     google_news:
       - '"music video" OR "official video" OR "video premiere" song'
@@ -136,7 +130,7 @@ topics:
       - {name: The Quietus, url: "https://thequietus.com/feed", require: "review"}
       - {name: Consequence — Reviews, url: "https://consequence.net/category/reviews/feed/"}
       - {name: Stereogum — Album of the Week, url: "https://www.stereogum.com/category/reviews/album-of-the-week/feed/"}
-      - {name: The Line of Best Fit — Reviews, url: "https://www.thelineofbestfit.com/reviews/feed", home: "https://www.thelineofbestfit.com/", require: "review"}
+      - {name: The Line of Best Fit — Reviews, url: "https://www.thelineofbestfit.com/feed/", require: "review"}
       - {name: The Guardian — Album reviews, url: "https://www.theguardian.com/music+tone/albumreview/rss"}
     google_news:
       - '"album review" OR "record review"'
@@ -149,7 +143,6 @@ topics:
       - {name: Literary Hub, url: "https://lithub.com/feed/"}
       - {name: Book Riot, url: "https://bookriot.com/feed/", exclude: "new releases|review"}
       - {name: The Guardian — Books, url: "https://www.theguardian.com/books/rss", exclude: "review"}
-      - {name: The Bookseller, url: "https://www.thebookseller.com/rss", home: "https://www.thebookseller.com/"}
       - {name: Electric Literature, url: "https://electricliterature.com/feed/"}
     google_news:
       - 'publishing industry OR "book publishing" OR booksellers OR authors news'
@@ -177,7 +170,6 @@ topics:
       - {name: Book Marks, url: "https://bookmarks.reviews/feed/", weight: 1.2}
       - {name: The Guardian — Book reviews, url: "https://www.theguardian.com/books/books+tone/reviews/rss"}
       - {name: NYT — Books, url: "https://rss.nytimes.com/services/xml/rss/nyt/Books.xml", require: "review"}
-      - {name: Los Angeles Review of Books, url: "https://lareviewofbooks.org/feed/", home: "https://lareviewofbooks.org/"}
       - {name: NPR — Book reviews, url: "https://feeds.npr.org/1032/rss.xml", require: "review"}
       - {name: Kirkus — Reviews, url: "https://www.kirkusreviews.com/feeds/rss/"}
     google_news:
