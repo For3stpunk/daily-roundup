@@ -61,13 +61,59 @@ def fetch(url: str) -> bytes:
 
 # ---------------------------------------------------------------- collection
 
-def collect_feed(src: dict) -> tuple[list[dict], str]:
-    try:
-        parsed = feedparser.parse(fetch(src["url"]))
-    except Exception as ex:  # network / HTTP error
-        return [], f"error: {type(ex).__name__}: {str(ex)[:120]}"
+FEED_LINK = re.compile(r"<link\b[^>]*>", re.I)
+COMMON_FEED_PATHS = ("feed/", "feed", "rss", "rss.xml", "atom.xml", "index.xml", "feeds/all")
+
+def _parse(url: str):
+    parsed = feedparser.parse(fetch(url))
     if parsed.bozo and not parsed.entries:
-        return [], f"error: not a feed ({str(parsed.get('bozo_exception',''))[:80]})"
+        raise ValueError(f"not a feed ({str(parsed.get('bozo_exception',''))[:80]})")
+    return parsed
+
+def discover_feeds(src: dict) -> list[str]:
+    """Candidate feed URLs when the configured one fails: <link rel=alternate>
+    tags on the site's page (src['home'] or the feed URL's origin), then the
+    usual WordPress/Ghost/Hugo feed paths."""
+    p = urlsplit(src["url"])
+    origin = f"{p.scheme}://{p.netloc}/"
+    home = src.get("home") or origin
+    cands = []
+    try:
+        page = fetch(home).decode("utf-8", "replace")
+        for tag in FEED_LINK.findall(page):
+            if re.search(r"rss|atom", tag, re.I) and re.search(r"alternate", tag, re.I) and not re.search(r"comment", tag, re.I):
+                m = re.search(r'href=["\']([^"\']+)', tag)
+                if m:
+                    cands.append(requests.compat.urljoin(home, html.unescape(m.group(1))))
+    except Exception:
+        pass
+    base = home if home.endswith("/") else home + "/"
+    cands += [base + x for x in COMMON_FEED_PATHS] + [origin + x for x in COMMON_FEED_PATHS]
+    seen, out = {src["url"]}, []
+    for c in cands:
+        if c not in seen:
+            seen.add(c); out.append(c)
+    return out[:12]
+
+def collect_feed(src: dict, discover: bool = True) -> tuple[list[dict], str]:
+    used, note = src["url"], ""
+    try:
+        parsed = _parse(used)
+    except Exception as ex:
+        first = f"{type(ex).__name__}: {str(ex)[:100]}"
+        parsed = None
+        if discover:
+            for cand in discover_feeds(src):
+                try:
+                    parsed = _parse(cand)
+                    if parsed.entries:
+                        used, note = cand, f" (configured URL failed: {first}; found {cand})"
+                        break
+                    parsed = None
+                except Exception:
+                    continue
+        if parsed is None:
+            return [], f"error: {first}"
     out = []
     for e in parsed.entries:
         title, link = clean_text(e.get("title", ""), 220), e.get("link", "")
@@ -78,11 +124,11 @@ def collect_feed(src: dict) -> tuple[list[dict], str]:
             "published": (entry_time(e) or NOW).isoformat(), "dated": entry_time(e) is not None,
             "summary": clean_text(e.get("summary", "") or e.get("description", "")),
         })
-    return out, f"ok: {len(out)} entries"
+    return out, f"ok: {len(out)} entries{note}"
 
 def collect_google_news(query: str) -> tuple[list[dict], str]:
     url = f"https://news.google.com/rss/search?q={quote_plus(query + ' when:1d')}&hl=en-US&gl=US&ceid=US:en"
-    items, status = collect_feed({"name": "Google News", "url": url})
+    items, status = collect_feed({"name": "Google News", "url": url}, discover=False)
     for it in items:
         # "Headline - Outlet" → headline + outlet as the source name
         m = re.match(r"^(.*)\s+-\s+([^-]{2,60})$", it["title"])
