@@ -310,6 +310,10 @@ def make_issue(cfg: dict, date_label: str) -> dict:
 
 # ---------------------------------------------------------------- output
 
+SAVED_BODY = '<h2>Saved stories <small class="saved-total"></small></h2>\n<p class="note">Saved in this browser only. Use Export to back them up or move them to another device, then Import there.</p>\n<div class="tools"><input type="search" id="q" placeholder="Filter saved stories" aria-label="Filter saved stories">\n<button type="button" id="md">Copy as Markdown</button><button type="button" id="exp">Export</button>\n<label>Import<input type="file" id="imp" accept="application/json" hidden></label><button type="button" id="clr">Remove all</button></div>\n<p class="note" id="msg" role="status"></p><div id="saved"></div>'
+SAVE_JS = '(() => {\n  const KEY = "daily-roundup-saved";\n  let mem = [];\n  const load = () => { try { return JSON.parse(localStorage.getItem(KEY) || "[]"); } catch { return mem; } };\n  const store = list => { mem = list; try { localStorage.setItem(KEY, JSON.stringify(list)); } catch {} };\n  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",\'"\':"&quot;"}[c]));\n  const has = (list, link) => list.some(x => x.link === link);\n\n  function counts() {\n    const n = load().length;\n    document.querySelectorAll(".saved-count").forEach(b => b.textContent = n ? n : "");\n  }\n  function syncButtons() {\n    const list = load();\n    document.querySelectorAll("li[data-link] button.save").forEach(b => {\n      const on = has(list, b.closest("li").dataset.link);\n      b.setAttribute("aria-pressed", on); b.textContent = on ? "Saved ✓" : "Save";\n    });\n    counts();\n  }\n  document.addEventListener("click", e => {\n    const b = e.target.closest("button.save"); if (!b) return;\n    const li = b.closest("li"), d = li.dataset; let list = load();\n    if (has(list, d.link)) list = list.filter(x => x.link !== d.link);\n    else list.unshift({title: d.title, link: d.link, source: d.source, topic: d.topic, date: d.date, summary: d.summary, saved: new Date().toISOString()});\n    store(list); syncButtons(); if (box) render();\n  });\n  window.addEventListener("storage", e => { if (e.key === KEY) { syncButtons(); if (box) render(); } });\n\n  // Saved page\n  const box = document.getElementById("saved");\n  const msg = t => { const m = document.getElementById("msg"); if (m) { m.textContent = t; setTimeout(() => m.textContent = "", 4000); } };\n  function render() {\n    const q = (document.getElementById("q")?.value || "").toLowerCase();\n    const all = load(), list = all.filter(x => !q || (x.title + " " + x.source + " " + x.topic).toLowerCase().includes(q));\n    document.querySelector(".saved-total").textContent = all.length ? `${all.length}` : "";\n    if (!all.length) { box.innerHTML = \'<p>No saved stories yet. Hit <b>Save</b> next to any headline.</p>\'; return; }\n    const byTopic = {};\n    list.forEach(x => (byTopic[x.topic || "Other"] ||= []).push(x));\n    box.innerHTML = Object.keys(byTopic).sort().map(t => `<section><h2>${esc(t)} <small>${byTopic[t].length}</small></h2><ol class="items">` +\n      byTopic[t].map((x, i) => `<li data-link="${esc(x.link)}"><span class="n">${String(i + 1).padStart(2, "0")}</span><div>\n        <a class="t" href="${esc(x.link)}">${esc(x.title)}</a>\n        <div class="s">${esc(x.source)} · from ${esc(x.date)} issue · <button type="button" class="remove">Remove</button></div>\n        ${x.summary ? `<p class="sum">${esc(x.summary)}</p>` : ""}</div></li>`).join("") + "</ol></section>").join("") || "<p>No matches.</p>";\n  }\n  if (box) {\n    box.addEventListener("click", e => {\n      const b = e.target.closest("button.remove"); if (!b) return;\n      e.stopPropagation(); store(load().filter(x => x.link !== b.closest("li").dataset.link)); render(); counts();\n    }, true);\n    document.getElementById("q").addEventListener("input", render);\n    document.getElementById("md").addEventListener("click", async () => {\n      const md = load().map(x => `- [${x.title}](${x.link}) — ${x.source} (${x.topic}, ${x.date})`).join("\\n");\n      try { await navigator.clipboard.writeText(md); msg("Copied " + load().length + " stories as Markdown."); }\n      catch { msg("Couldn\'t reach the clipboard in this browser."); }\n    });\n    document.getElementById("exp").addEventListener("click", () => {\n      const a = document.createElement("a");\n      a.href = URL.createObjectURL(new Blob([JSON.stringify(load(), null, 1)], {type: "application/json"}));\n      a.download = `daily-roundup-saved-${new Date().toISOString().slice(0, 10)}.json`; a.click();\n    });\n    document.getElementById("imp").addEventListener("change", async e => {\n      try {\n        const incoming = JSON.parse(await e.target.files[0].text());\n        const list = load(); let added = 0;\n        incoming.forEach(x => { if (x && x.link && !has(list, x.link)) { list.push(x); added++; } });\n        store(list); render(); counts(); msg(`Imported ${added} new stories.`);\n      } catch { msg("That file isn\'t a Daily Roundup export."); }\n      e.target.value = "";\n    });\n    document.getElementById("clr").addEventListener("click", () => {\n      const b = document.getElementById("clr");\n      if (b.dataset.armed) { store([]); render(); counts(); b.textContent = "Remove all"; delete b.dataset.armed; }\n      else { b.dataset.armed = 1; b.textContent = "Click again to remove all"; setTimeout(() => { b.textContent = "Remove all"; delete b.dataset.armed; }, 4000); }\n    });\n    render();\n  }\n  syncButtons();\n})();\n'
+
+
 def rfc822(iso: str) -> str:
     return email.utils.format_datetime(dt.datetime.fromisoformat(iso.replace("Z", "+00:00")))
 
@@ -341,6 +345,12 @@ ol.items li{padding:12px 0;border-bottom:1px solid var(--rule);display:grid;grid
 .n{font:12px/1.9 var(--mono);color:var(--accent)}.t{font-weight:600;line-height:1.35;text-decoration:none}
 .s{font:12px var(--mono);color:var(--muted);margin-top:3px}.s .multi{color:var(--accent)}
 .grp{color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
+button.save,button.remove{font:inherit;color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+button.save:hover,button.remove:hover{color:var(--accent)}button.save[aria-pressed=true]{color:var(--accent);text-decoration:none;font-weight:600}
+.saved-count{color:var(--accent);font-weight:500}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}.tools button,.tools label{font:12px var(--mono);border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:6px 10px;border-radius:999px;cursor:pointer}
+.tools button:hover,.tools label:hover{border-color:var(--accent)}.tools input[type=search]{font:14px inherit;flex:1 1 220px;padding:6px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--ink)}
+.note{font:12px var(--mono);color:var(--muted)}
 .sum{font-size:14px;color:var(--muted);margin:4px 0 0}
 .archive li{padding:6px 0;border-bottom:1px solid var(--rule);list-style:none}.archive{padding:0}
 footer{margin-top:40px;font:12px var(--mono);color:var(--muted)}
@@ -352,12 +362,13 @@ def page(title: str, body: str, pub: dict, rel: str = "") -> str:
 <title>{esc(title)}</title>{FONTS}<link rel="stylesheet" href="{rel}style.css">
 <link rel="alternate" type="application/rss+xml" title="{esc(pub['title'])} — all articles" href="{rel}feed.xml">
 <link rel="alternate" type="application/rss+xml" title="{esc(pub['title'])} — daily issues" href="{rel}issues.xml"></head>
-<body><div class="wrap">{body}<footer>Built automatically every morning from public RSS feeds, Google News and Hacker News. Headlines link to the original publishers.</footer></div></body></html>"""
+<body><div class="wrap">{body}<footer>Built automatically every morning from public RSS feeds, Google News and Hacker News. Headlines link to the original publishers.</footer></div>
+<script src="{rel}save.js" defer></script></body></html>"""
 
 def masthead(pub: dict, issue_date: str | None, rel: str = "") -> str:
     when = f"<div>{esc(pretty_date(issue_date))}</div>" if issue_date else ""
     return f"""<header class="mast"><div><h1><a href="{rel}index.html">{esc(pub['title'])}</a></h1><p class="tag">{esc(pub['tagline'])}</p></div>
-<div class="meta">{when}<div><a href="{rel}archive.html">Archive</a><a href="{rel}feeds.html">RSS feeds</a></div></div></header>"""
+<div class="meta">{when}<div><a href="{rel}saved.html">Saved <b class="saved-count"></b></a><a href="{rel}archive.html">Archive</a><a href="{rel}feeds.html">RSS feeds</a></div></div></header>"""
 
 def issue_html(issue: dict, pub: dict, rel: str = "") -> str:
     total = sum(len(t["items"]) for t in issue["topics"])
@@ -371,8 +382,11 @@ def issue_html(issue: dict, pub: dict, rel: str = "") -> str:
             disc = f' · <a href="{esc(it["discussion"])}">discussion</a>' if it.get("discussion") else ""
             sm = f'<p class="sum">{esc(it["summary"])}</p>' if it.get("summary") else ""
             grp = f'<span class="grp">{esc(it["group"])}</span> · ' if it.get("group") else ""
-            lis.append(f'<li><span class="n">{i:02d}</span><div><a class="t" href="{esc(it["link"])}">{esc(it["title"])}</a>'
-                       f'<div class="s">{grp}{esc(srcs[0])}{extra}{disc}</div>{sm}</div></li>')
+            data = (f' data-title="{esc(it["title"])}" data-link="{esc(it["link"])}" data-source="{esc(srcs[0])}"'
+                    f' data-topic="{esc(t["title"] + (": " + it["group"] if it.get("group") else ""))}" data-date="{esc(issue["date"])}"'
+                    f' data-summary="{esc(it.get("summary") or "")}"')
+            lis.append(f'<li{data}><span class="n">{i:02d}</span><div><a class="t" href="{esc(it["link"])}">{esc(it["title"])}</a>'
+                       f'<div class="s">{grp}{esc(srcs[0])}{extra}{disc} · <button type="button" class="save" aria-pressed="false">Save</button></div>{sm}</div></li>')
         secs.append(f'<section id="{t["slug"]}"><h2>{esc(t["title"])} <small>{len(t["items"])} · <a href="{rel}topics/{t["slug"]}.xml">RSS</a></small></h2>'
                     f'<ol class="items">{"".join(lis) or "<li>No articles found today.</li>"}</ol></section>')
     return masthead(pub, issue["date"], rel) + f'<nav class="topics" aria-label="Topics">{nav}</nav>' + "".join(secs) + \
@@ -409,6 +423,8 @@ def build_site(cfg: dict) -> None:
     for iss in issues[:120]:
         (DOCS / "issues" / f"{iss['date']}.html").write_text(page(f"{pub['title']} — {pretty_date(iss['date'])}", issue_html(iss, pub, "../"), pub, "../"))
     arch = "".join(f'<li><a href="issues/{i["date"]}.html">{esc(pretty_date(i["date"]))}</a> <span class="s">· {sum(len(t["items"]) for t in i["topics"])} articles</span></li>' for i in issues[:120])
+    (DOCS / "save.js").write_text(SAVE_JS)
+    (DOCS / "saved.html").write_text(page(f"{pub['title']} — Saved stories", masthead(pub, None) + SAVED_BODY, pub))
     (DOCS / "archive.html").write_text(page(f"{pub['title']} — Archive", masthead(pub, None) + f'<h2>Archive</h2><ul class="archive">{arch}</ul>', pub))
 
     # all-articles feed: the latest 2 issues (Feedly dedupes on guid)
