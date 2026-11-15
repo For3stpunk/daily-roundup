@@ -19,6 +19,12 @@ ol.items li{padding:12px 0;border-bottom:1px solid var(--rule);display:grid;grid
 .n{font:12px/1.9 var(--mono);color:var(--accent)}.t{font-weight:600;line-height:1.35;text-decoration:none}
 .s{font:12px var(--mono);color:var(--muted);margin-top:3px}.s .multi{color:var(--accent)}
 .grp{color:var(--accent);text-transform:uppercase;letter-spacing:.04em}
+button.save,button.remove{font:inherit;color:var(--muted);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:2px}
+button.save:hover,button.remove:hover{color:var(--accent)}button.save[aria-pressed=true]{color:var(--accent);text-decoration:none;font-weight:600}
+.saved-count{color:var(--accent);font-weight:500}
+.tools{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 6px}.tools button,.tools label{font:12px var(--mono);border:1px solid var(--rule);background:var(--card);color:var(--ink);padding:6px 10px;border-radius:999px;cursor:pointer}
+.tools button:hover,.tools label:hover{border-color:var(--accent)}.tools input[type=search]{font:14px inherit;flex:1 1 220px;padding:6px 10px;border:1px solid var(--rule);border-radius:999px;background:var(--card);color:var(--ink)}
+.note{font:12px var(--mono);color:var(--muted)}
 .sum{font-size:14px;color:var(--muted);margin:4px 0 0}
 .archive li{padding:6px 0;border-bottom:1px solid var(--rule);list-style:none}.archive{padding:0}
 footer{margin-top:40px;font:12px var(--mono);color:var(--muted)}
